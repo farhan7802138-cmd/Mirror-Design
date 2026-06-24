@@ -246,19 +246,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // === Mock Newsletter subscription ===
-  const newsletterForm = document.getElementById('newsletter-form');
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const email = document.getElementById('newsletter-email').value.trim();
-      if (email) {
-        showToast('Thank you for subscribing to our updates!', 'success');
-        newsletterForm.reset();
-      }
-    });
-  }
-
   // === Toast Message System ===
   function showToast(message, type = 'success') {
     const existing = document.querySelector('.toast');
@@ -350,4 +337,37 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initial Checkups
   handleScroll();
   updateActiveNav();
+
+  // === Newsletter Form — Formspree AJAX Submission ===
+  const newsletterForm = document.querySelector('#newsletter-form');
+  if (newsletterForm) {
+    newsletterForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const form = this;
+      const btn = form.querySelector('button[type="submit"]');
+      btn.textContent = 'Subscribing...';
+      btn.disabled = true;
+
+      fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+      .then(response => {
+        if (response.ok) {
+          form.innerHTML = '<p style="color:#C9A24B; font-size:15px; font-weight:600;">✓ Subscribed! Thank you for joining us.</p>';
+        } else {
+          btn.textContent = 'SUBSCRIBE';
+          btn.disabled = false;
+          alert('Something went wrong. Please try again.');
+        }
+      })
+      .catch(() => {
+        btn.textContent = 'SUBSCRIBE';
+        btn.disabled = false;
+        alert('Something went wrong. Please try again.');
+      });
+    });
+  }
 });
