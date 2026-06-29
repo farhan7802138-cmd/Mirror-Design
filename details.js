@@ -45,12 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const detailContainer = document.getElementById('product-detail-container');
     const relatedContainer = document.getElementById('related-products-container');
     const breadcrumbContainer = document.getElementById('breadcrumb-container');
-    
+
     if (!detailContainer) return;
 
     // Get current product slug from URL hash
     let slug = window.location.hash.substring(1);
-    
+
     // Fallback if no hash: load the first product
     if (!slug && typeof productsData !== 'undefined' && productsData.length > 0) {
       slug = productsData[0].slug;
@@ -281,3 +281,24 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('hashchange', renderProduct);
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
