@@ -851,6 +851,9 @@ foreach ($prod in $products) {
     $mainImg = $prod.MainImage
     $desc = $prod.Description
     $id = $prod.Id
+    $seoKeyword = if ($category -eq 'mirrors') { 'Mirror Design Sialkot' } else { 'Aluminium Glass Sialkot' }
+    $aluminiumActive = if ($category -eq 'aluminium') { 'active' } else { '' }
+    $mirrorsActive = if ($category -ne 'aluminium') { 'active' } else { '' }
 
     # Create specs table rows
     $specsRows = ""
@@ -943,8 +946,8 @@ foreach ($prod in $products) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$title — Rahman Aluminium & Glass Works</title>
-  <meta name="description" content="$($desc.Substring(0, [Math]::Min(155, $desc.Length)))">
+  <title>$title | $seoKeyword | Rahman</title>
+  <meta name="description" content="$title - Premium quality $seoKeyword. $($desc.Substring(0, [Math]::Min(120, $desc.Length)))">
   <meta name="author" content="Rahman Aluminium & Glass Works">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../details.css">
@@ -988,8 +991,8 @@ foreach ($prod in $products) {
       <a href="../index.html#home" class="logo" id="logo"><span>Rahman</span></a>
       <nav class="main-nav" id="main-nav">
         <a href="../index.html#home">Home</a>
-        <a href="../index.html#aluminium-work" class="$((if ($category -eq 'aluminium') { "active" } else { "" }))">Aluminium Work</a>
-        <a href="../index.html#mirrors-glass" class="$((if ($category -ne 'aluminium') { "active" } else { "" }))">Mirrors & Glass</a>
+        <a href="../index.html#aluminium-work" class="$aluminiumActive">Aluminium Work</a>
+        <a href="../index.html#mirrors-glass" class="$mirrorsActive">Mirrors & Glass</a>
         <a href="../index.html#our-best-work">Gallery</a>
         <a href="../index.html#contact">Contact</a>
       </nav>
@@ -1064,7 +1067,7 @@ foreach ($prod in $products) {
               </div>
               <div class="features-item">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span>Expert Installation Sialkot</span>
+                <span>$seoKeyword</span>
               </div>
             </div>
           </div>
