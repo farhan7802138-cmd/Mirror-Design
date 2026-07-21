@@ -72,11 +72,13 @@
   }
   </script>
 
-  <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="styles.css"></noscript>
   <link rel="icon" type="image/svg+xml"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
   <meta name="google-site-verification" content="SwVkdnYhHj5xYkLyAYFgBQKo6TxUQbaDgxP86fOBs-s" />
-
+  <link rel="preload" as="image" href="images/bathroom-mirrors.png" fetchpriority="high">
 </head>
 
 <body>
@@ -189,7 +191,7 @@
   <!-- ==================== 4. HERO BANNER SECTION ==================== -->
   <section class="hero" id="home">
     <div class="hero-bg">
-      <img src="images/bathroom-mirrors.png" alt="Premium aluminium and glass craftsmanship by Rahman" loading="eager">
+      <img src="images/bathroom-mirrors.png" alt="Premium aluminium and glass craftsmanship by Rahman" width="1024" height="1024" loading="eager" fetchpriority="high">
     </div>
     <div class="container hero-content">
       <div class="hero-label">
@@ -233,8 +235,7 @@
         <!-- Card 4: Arched Backlit Vanity Mirrors with Cabinets -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.55%20PM.jpeg"
-              alt="Arched Backlit Vanity Mirrors with Cabinets" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.55%20PM.jpeg" alt="Arched Backlit Vanity Mirrors with Cabinets" width="1200" height="1600" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Arched Backlit Vanity Mirrors with Cabinets</h3>
@@ -255,8 +256,7 @@
         <!-- Card 1: Wavy Royal Blue Velvet Floor Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.29.16%20PM%20(1).jpeg"
-              alt="Wavy Royal Blue Velvet Floor Mirror" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.29.16%20PM%20(1).jpeg" alt="Wavy Royal Blue Velvet Floor Mirror" width="679" height="849" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Wavy Royal Blue Velvet Floor Mirror</h3>
@@ -277,7 +277,7 @@
         <!-- Card 2: Octagonal Dual-Tone LED Smart Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/mirror%202.jpeg" alt="Octagonal Dual-Tone LED Smart Mirror" loading="lazy">
+            <img src="images%202/mirror%202.jpeg" alt="Octagonal Dual-Tone LED Smart Mirror" width="720" height="960" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Octagonal Dual-Tone LED Smart Mirror</h3>
@@ -298,8 +298,7 @@
         <!-- Card 3: Wavy Backlit Velvet Floor Mirrors (Showroom Trio) -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.55%20PM%20(1).jpeg"
-              alt="Wavy Backlit Velvet Floor Mirrors (Showroom Trio)" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.55%20PM%20(1).jpeg" alt="Wavy Backlit Velvet Floor Mirrors (Showroom Trio)" width="1200" height="1600" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Wavy Backlit Velvet Floor Mirrors (Showroom Trio)</h3>
@@ -319,8 +318,7 @@
         <!-- Card 5: Organic Velvet Pebble Wall Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.58%20PM%20(1).jpeg"
-              alt="Organic Velvet Pebble Wall Mirror" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.58%20PM%20(1).jpeg" alt="Organic Velvet Pebble Wall Mirror" width="932" height="1000" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Organic Velvet Pebble Wall Mirror</h3>
@@ -341,8 +339,7 @@
         <!-- Card 6: Custom Wavy LED Floor Mirrors (Pentad Showcase) -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.58%20PM.jpeg"
-              alt="Custom Wavy LED Floor Mirrors (Pentad Showcase)" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.30.58%20PM.jpeg" alt="Custom Wavy LED Floor Mirrors (Pentad Showcase)" width="1600" height="1200" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Custom Wavy LED Floor Mirrors (Pentad Showcase)</h3>
@@ -363,8 +360,7 @@
         <!-- Card 7: Spiral Frosted LED Smart Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.01%20PM%20(2).jpeg"
-              alt="Spiral Frosted LED Smart Mirror" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.01%20PM%20(2).jpeg" alt="Spiral Frosted LED Smart Mirror" width="522" height="387" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Spiral Frosted LED Smart Mirror</h3>
@@ -384,8 +380,7 @@
         <!-- Card 8: Greek Key Backlit Smart Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.01%20PM%20(3).jpeg"
-              alt="Greek Key Backlit Smart Mirror" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.01%20PM%20(3).jpeg" alt="Greek Key Backlit Smart Mirror" width="917" height="980" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Greek Key Backlit Smart Mirror</h3>
@@ -405,8 +400,7 @@
         <!-- Card 9: RGB Neon Arched Floor Mirrors -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.01%20PM.jpeg"
-              alt="RGB Neon Arched Floor Mirrors" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.01%20PM.jpeg" alt="RGB Neon Arched Floor Mirrors" width="1200" height="1600" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>RGB Neon Arched Floor Mirrors</h3>
@@ -426,8 +420,7 @@
         <!-- Card 10: Oval Sunburst Backlit Smart Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.02%20PM.jpeg"
-              alt="Oval Sunburst Backlit Smart Mirror" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.02%20PM.jpeg" alt="Oval Sunburst Backlit Smart Mirror" width="445" height="638" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Oval Sunburst Backlit Smart Mirror</h3>
@@ -448,8 +441,7 @@
         <!-- Card 11: Ornate Floral Neon Wavy Floor Mirror (Magenta Edition) -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.03%20PM%20(3).jpeg"
-              alt="Ornate Floral Neon Wavy Floor Mirror (Magenta Edition)" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.03%20PM%20(3).jpeg" alt="Ornate Floral Neon Wavy Floor Mirror (Magenta Edition)" width="1200" height="1599" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Ornate Floral Neon Wavy Floor Mirror (Magenta Edition)</h3>
@@ -470,8 +462,7 @@
         <!-- Card 12: Braided Rope LED Round Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.03%20PM.jpeg"
-              alt="Braided Rope LED Round Mirror" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.03%20PM.jpeg" alt="Braided Rope LED Round Mirror" width="606" height="1280" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Braided Rope LED Round Mirror</h3>
@@ -491,8 +482,7 @@
         <!-- Card 13: Ornate Floral Neon Wavy Floor Mirror (Cyan Edition) -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.04%20PM.jpeg"
-              alt="Ornate Floral Neon Wavy Floor Mirror (Cyan Edition)" loading="lazy">
+            <img src="images%202/WhatsApp%20Image%202026-06-23%20at%207.31.04%20PM.jpeg" alt="Ornate Floral Neon Wavy Floor Mirror (Cyan Edition)" width="1200" height="1599" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Ornate Floral Neon Wavy Floor Mirror (Cyan Edition)</h3>
@@ -513,7 +503,7 @@
         <!-- Card 1: Organic Wavy Backlit Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/wavy-led-mirror.png" alt="Organic Wavy Backlit Mirror" loading="lazy">
+            <img src="images/wavy-led-mirror.png" alt="Organic Wavy Backlit Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Organic Wavy Backlit Mirror</h3>
@@ -533,7 +523,7 @@
         <!-- Card 2: Arched Metal Frame Floor Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/arched-floor-mirror.png" alt="Arched Metal Frame Floor Mirror" loading="lazy">
+            <img src="images/arched-floor-mirror.png" alt="Arched Metal Frame Floor Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Arched Metal Frame Floor Mirror</h3>
@@ -553,7 +543,7 @@
         <!-- Card 3: Pebble Backlit Accent Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/pebble-backlit-mirror.png" alt="Pebble Backlit Accent Mirror" loading="lazy">
+            <img src="images/pebble-backlit-mirror.png" alt="Pebble Backlit Accent Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Pebble Backlit Accent Mirror</h3>
@@ -573,7 +563,7 @@
         <!-- Card 4: Vines Decorated Round Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/vines-round-mirror.png" alt="Vines Decorated Round Mirror" loading="lazy">
+            <img src="images/vines-round-mirror.png" alt="Vines Decorated Round Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Vines Decorated Round Mirror</h3>
@@ -593,7 +583,7 @@
         <!-- Card 5: Capsule LED Bathroom Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/capsule-led-mirror.png" alt="Capsule LED Bathroom Mirror" loading="lazy">
+            <img src="images/capsule-led-mirror.png" alt="Capsule LED Bathroom Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Capsule LED Bathroom Mirror</h3>
@@ -613,7 +603,7 @@
         <!-- Card 6: Smart Backlit Bathroom Vanity Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/bathroom-mirrors.png" alt="Smart Backlit Bathroom Vanity Mirror" loading="lazy">
+            <img src="images/bathroom-mirrors.png" alt="Smart Backlit Bathroom Vanity Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Smart Backlit Bathroom Vanity Mirror</h3>
@@ -634,7 +624,7 @@
         <!-- Card 7: Gilded Baroque Mansion Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/decorative-mirrors.png" alt="Gilded Baroque Mansion Mirror" loading="lazy">
+            <img src="images/decorative-mirrors.png" alt="Gilded Baroque Mansion Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Gilded Baroque Mansion Mirror</h3>
@@ -654,7 +644,7 @@
         <!-- Card 8: Minimalist Anodized Hexagon Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/hexagon-mirror.png" alt="Minimalist Anodized Hexagon Mirror" loading="lazy">
+            <img src="images/hexagon-mirror.png" alt="Minimalist Anodized Hexagon Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Minimalist Anodized Hexagon Mirror</h3>
@@ -675,8 +665,7 @@
         <!-- Card 9: Round Anodized Bronze Trim Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80"
-              alt="Round Anodized Bronze Trim Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=400&q=70" alt="Round Anodized Bronze Trim Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Round Anodized Bronze Trim Mirror</h3>
@@ -697,8 +686,7 @@
         <!-- Card 10: Rectangular Frameless Beveled Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=600&q=80"
-              alt="Rectangular Frameless Beveled Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=400&q=70" alt="Rectangular Frameless Beveled Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Rectangular Frameless Beveled Mirror</h3>
@@ -719,8 +707,7 @@
         <!-- Card 11: Arched Entryway Console Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=600&q=80"
-              alt="Arched Entryway Console Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=400&q=70" alt="Arched Entryway Console Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Arched Entryway Console Mirror</h3>
@@ -740,7 +727,7 @@
         <!-- Card 12: Hollywood Bulb Dressing Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/hollywood-bulb-mirror.png" alt="Hollywood Bulb Dressing Mirror" loading="lazy">
+            <img src="images/hollywood-bulb-mirror.png" alt="Hollywood Bulb Dressing Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Hollywood Bulb Dressing Mirror</h3>
@@ -760,8 +747,7 @@
         <!-- Card 13: Antique Bronze Engraved Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=600&q=80"
-              alt="Antique Bronze Engraved Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=400&q=70" alt="Antique Bronze Engraved Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Antique Bronze Engraved Mirror</h3>
@@ -781,8 +767,7 @@
         <!-- Card 14: Sunburst Metal Accent Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80"
-              alt="Sunburst Metal Accent Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=400&q=70" alt="Sunburst Metal Accent Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Sunburst Metal Accent Mirror</h3>
@@ -802,8 +787,7 @@
         <!-- Card 15: Hanging Leather Strap Oval Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80"
-              alt="Hanging Leather Strap Oval Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=400&q=70" alt="Hanging Leather Strap Oval Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Hanging Leather Strap Oval Mirror</h3>
@@ -824,7 +808,7 @@
         <!-- Card 16: Organic Wavy Accent Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/wavy-led-mirror.png" alt="Organic Wavy Accent Mirror" loading="lazy">
+            <img src="images/wavy-led-mirror.png" alt="Organic Wavy Accent Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Organic Wavy Accent Mirror</h3>
@@ -844,8 +828,7 @@
         <!-- Card 17: Sunburst Decorative Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80"
-              alt="Sunburst Decorative Mirror" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=400&q=70" alt="Sunburst Decorative Mirror" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Sunburst Decorative Mirror</h3>
@@ -865,7 +848,7 @@
         <!-- Card 18: Multi-Panel Mirror Set -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/multipanel-mirror.png" alt="Multi-Panel Mirror Set" loading="lazy">
+            <img src="images/multipanel-mirror.png" alt="Multi-Panel Mirror Set" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Multi-Panel Mirror Set</h3>
@@ -885,7 +868,7 @@
         <!-- Card 19: Beveled Edge Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/beveled-mirror.png" alt="Beveled Edge Mirror" loading="lazy">
+            <img src="images/beveled-mirror.png" alt="Beveled Edge Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Beveled Edge Mirror</h3>
@@ -905,7 +888,7 @@
         <!-- Card 20: Smart Touch-Sensor Mirror -->
         <div class="product-card fade-in" data-category="mirrors">
           <div class="product-card-image">
-            <img src="images/smart-touch-mirror.png" alt="Smart Touch-Sensor Mirror" loading="lazy">
+            <img src="images/smart-touch-mirror.png" alt="Smart Touch-Sensor Mirror" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Smart Touch-Sensor Mirror</h3>
@@ -927,8 +910,7 @@
         <!-- Card 21: Frameless Glass Shower Partition -->
         <div class="product-card fade-in" data-category="glass">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=600&q=80"
-              alt="Glass Shower Partition" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=400&q=70" alt="Glass Shower Partition" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Glass Shower Partition</h3>
@@ -948,8 +930,7 @@
         <!-- Card 22: Office Glass Partition -->
         <div class="product-card fade-in" data-category="glass">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=80"
-              alt="Office Glass Partition" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=400&q=70" alt="Office Glass Partition" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Office Glass Partition</h3>
@@ -969,7 +950,7 @@
         <!-- Card 23: Tempered Glass Table Top -->
         <div class="product-card fade-in" data-category="glass">
           <div class="product-card-image">
-            <img src="images/glass-table-top.png" alt="Tempered Glass Table Top" loading="lazy">
+            <img src="images/glass-table-top.png" alt="Tempered Glass Table Top" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Tempered Glass Table Top</h3>
@@ -989,8 +970,7 @@
         <!-- Card 24: Glass Kitchen Backsplash -->
         <div class="product-card fade-in" data-category="glass">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=600&q=80"
-              alt="Glass Kitchen Backsplash" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=400&q=70" alt="Glass Kitchen Backsplash" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Glass Kitchen Backsplash</h3>
@@ -1010,8 +990,7 @@
         <!-- Card 25: Glass Staircase Railing -->
         <div class="product-card fade-in" data-category="glass">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&q=80"
-              alt="Glass Staircase Railing" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=400&q=70" alt="Glass Staircase Railing" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Glass Staircase Railing</h3>
@@ -1033,8 +1012,7 @@
         <!-- Card 26: Aluminium Sliding Window -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80"
-              alt="Aluminium Sliding Window" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=400&q=70" alt="Aluminium Sliding Window" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Sliding Window</h3>
@@ -1054,7 +1032,7 @@
         <!-- Card 27: Aluminium Sliding Door -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="images/aluminium-doors.png" alt="Aluminium Sliding Door" loading="lazy">
+            <img src="images/aluminium-doors.png" alt="Aluminium Sliding Door" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Sliding Door</h3>
@@ -1074,8 +1052,7 @@
         <!-- Card 28: Aluminium Casement Window -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
-              alt="Aluminium Casement Window" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=70" alt="Aluminium Casement Window" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Casement Window</h3>
@@ -1095,7 +1072,7 @@
         <!-- Card 29: Aluminium Main Door -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="images/aluminium-doors.png" alt="Aluminium Main Door" loading="lazy">
+            <img src="images/aluminium-doors.png" alt="Aluminium Main Door" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Main Door</h3>
@@ -1115,8 +1092,7 @@
         <!-- Card 30: Aluminium Railing & Grills -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
-              alt="Aluminium Railing & Grills" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=400&q=70" alt="Aluminium Railing & Grills" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Railing & Grills</h3>
@@ -1136,7 +1112,7 @@
         <!-- Card 31: Aluminium Shopfront -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="images/shopfront-shutters.png" alt="Aluminium Shopfront" loading="lazy">
+            <img src="images/shopfront-shutters.png" alt="Aluminium Shopfront" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Shopfront</h3>
@@ -1156,7 +1132,7 @@
         <!-- Card 32: Aluminium Partition Wall -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="images/glass-partitions.png" alt="Aluminium Partition Wall" loading="lazy">
+            <img src="images/glass-partitions.png" alt="Aluminium Partition Wall" width="1024" height="1024" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Partition Wall</h3>
@@ -1176,8 +1152,7 @@
         <!-- Card 33: Aluminium Cabinet Frame -->
         <div class="product-card fade-in" data-category="aluminium">
           <div class="product-card-image">
-            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80"
-              alt="Aluminium Cabinet Frame" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=70" alt="Aluminium Cabinet Frame" width="400" height="300" loading="lazy">
           </div>
           <div class="product-card-body">
             <h3>Aluminium Cabinet Frame</h3>
@@ -1337,8 +1312,7 @@
             of time.</p>
         </div>
         <div class="about-visual fade-in-right">
-          <img src="images/Mirror dressing (3).png" alt="Premium mirror dressing room craftsmanship by Rahman"
-            loading="lazy">
+          <img src="images/Mirror dressing (3).png" alt="Premium mirror dressing room craftsmanship by Rahman" width="1024" height="1024" loading="lazy">
         </div>
       </div>
     </div>
@@ -1555,7 +1529,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>
