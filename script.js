@@ -144,24 +144,31 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
   });
 
-  // === Category Filtering Logic ===
+  // === Category Filtering Logic (Works for Products & Gallery) ===
   const filterButtons = document.querySelectorAll('.filter-btn');
-  const cards = document.querySelectorAll('.product-card');
 
   filterButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+    btn.addEventListener('click', function() {
+      const sectionContainer = this.closest('section') || this.closest('.container') || document;
+      const siblingBtns = sectionContainer.querySelectorAll('.filter-btn');
 
-      const filterValue = btn.getAttribute('data-filter');
+      siblingBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const filterValue = (this.getAttribute('data-filter') || 'all').toLowerCase().trim();
+      const cards = sectionContainer.querySelectorAll('.product-card, .gallery-card');
 
       cards.forEach(card => {
         if (filterValue === 'all') {
-          card.style.display = 'flex';
+          card.style.display = card.classList.contains('gallery-card') ? 'block' : 'flex';
         } else {
-          const cardCat = card.getAttribute('data-category');
-          if (cardCat === filterValue) {
-            card.style.display = 'flex';
+          const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
+          const categories = cardCat.split(/\s+/);
+
+          const matches = categories.some(cat => cat.includes(filterValue) || filterValue.includes(cat));
+
+          if (matches) {
+            card.style.display = card.classList.contains('gallery-card') ? 'block' : 'flex';
           } else {
             card.style.display = 'none';
           }
@@ -170,29 +177,42 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // === Active Navigation Highlighting ===
-  const sections = document.querySelectorAll('section[id]');
+  // === Multi-Page Active Navigation Highlighting ===
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  navLinks.forEach(link => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref === currentPath || (currentPath === '' && linkHref === 'index.html')) {
+      link.classList.add('active');
+    } else if (!linkHref.includes('.html') && linkHref.startsWith('#')) {
+      // Single page hash support if any
+    } else {
+      link.classList.remove('active');
+    }
+  });
 
-  const updateActiveNav = () => {
-    const scrollPosition = window.scrollY + 180;
+  // === FAQ Accordion Toggle ===
+  const faqHeaders = document.querySelectorAll('.faq-header');
+  faqHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+      const item = header.parentElement;
+      const isActive = item.classList.contains('active');
+      
+      // Close all other active items
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
 
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.offsetHeight;
-      const sectionId = section.getAttribute('id');
-
-      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-        navLinks.forEach(link => {
-          link.classList.remove('active');
-          if (link.getAttribute('href') === `#${sectionId}`) {
-            link.classList.add('active');
-          }
-        });
+      if (!isActive) {
+        item.classList.add('active');
       }
     });
-  };
+  });
 
-  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  // === hCaptcha Mock Checkbox Toggle ===
+  const captchaBox = document.querySelector('.hcaptcha-checkbox');
+  if (captchaBox) {
+    captchaBox.addEventListener('click', () => {
+      captchaBox.classList.toggle('checked');
+    });
+  }
 
   // === Scroll Reveal Animations ===
   const observerOptions = {
@@ -214,37 +234,83 @@ document.addEventListener('DOMContentLoaded', () => {
     revealObserver.observe(el);
   });
 
-  // === Form Redirects to WhatsApp ===
-  const contactForm = document.getElementById('contact-form');
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
+  // === Form Redirects & Submissions (AJAX No-Redirect) ===
+  const contactForms = document.querySelectorAll('#contact-form, .contact-form');
+  contactForms.forEach(form => {
+    form.addEventListener('submit', function(e) {
       e.preventDefault();
+      
+      const btn = this.querySelector('button[type="submit"]');
+      const originalText = btn.innerHTML;
+      
+      btn.innerHTML = 'Sending...';
+      btn.disabled = true;
 
-      const name = document.getElementById('form-name').value.trim();
-      const phone = document.getElementById('form-phone').value.trim();
-      const message = document.getElementById('form-message').value.trim();
+      const actionUrl = this.action || 'https://formspree.io/f/mlgygblb';
 
-      if (!name || !phone || !message) {
-        showToast('Please fill in all fields.', 'error');
-        return;
-      }
-
-      // WhatsApp Message Formatting
-      const waMessage = encodeURIComponent(
-        `Hello Rahman Aluminium & Glass,\n\nI would like to request an estimate:\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Details:* ${message}`
-      );
-      const waUrl = `https://wa.me/923021054485?text=${waMessage}`;
-
-      showToast('Redirecting to WhatsApp...', 'success');
-
-      setTimeout(() => {
-        window.open(waUrl, '_blank');
-      }, 800);
-
-      contactForm.reset();
+      fetch(actionUrl, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(this)
+      })
+      .then(response => {
+        if (response.ok) {
+          // Hide form
+          this.style.display = 'none';
+          
+          // Show success message
+          const success = document.createElement('div');
+          success.innerHTML = `
+            <div style="text-align:center; padding:40px 20px;">
+              <div style="font-size:48px; margin-bottom:16px;">✅</div>
+              <h3 style="color:#C9A24B; font-size:22px; 
+                         margin-bottom:12px;">
+                Message Sent Successfully!
+              </h3>
+              <p style="color:#94A3B8; margin-bottom:20px;">
+                Thank you for contacting Rahman. We will get 
+                back to you within 24 hours.
+              </p>
+              <a href="https://wa.me/923021054485" 
+                 style="background:#25D366; color:white; 
+                        padding:12px 28px; border-radius:8px; 
+                        text-decoration:none; font-weight:600;
+                        display:inline-block;">
+                💬 Chat on WhatsApp Instead
+              </a>
+            </div>
+          `;
+          this.parentNode.insertBefore(success, this.nextSibling);
+        } else {
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+          
+          // Show error message
+          let error = document.getElementById('form-error');
+          if (!error) {
+            error = document.createElement('p');
+            error.id = 'form-error';
+            error.style.cssText = 'color:#ef4444; margin-top:12px; font-size:14px;';
+            btn.parentNode.insertBefore(error, btn.nextSibling);
+          }
+          error.textContent = '❌ Something went wrong. Please try again or WhatsApp us directly.';
+        }
+      })
+      .catch(() => {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+        
+        let error = document.getElementById('form-error');
+        if (!error) {
+          error = document.createElement('p');
+          error.id = 'form-error';
+          error.style.cssText = 'color:#ef4444; margin-top:12px; font-size:14px;';
+          btn.parentNode.insertBefore(error, btn.nextSibling);
+        }
+        error.textContent = '❌ Connection error. Please WhatsApp us at +92 302 1054485';
+      });
     });
-  }
+  });
 
   // === Toast Message System ===
   function showToast(message, type = 'success') {
