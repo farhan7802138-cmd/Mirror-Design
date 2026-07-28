@@ -1442,7 +1442,7 @@ h1, h2, h3, h4, h5, h6 {
 .floating-contact-buttons {
   position: fixed;
   bottom: 24px;
-  right: 24px;
+  right: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -1461,6 +1461,30 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+/* TikTok Floating Button */
+.tiktok-float {
+  background-color: #010101;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  animation: float-btn-anim 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.tiktok-float::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-full);
+  z-index: -1;
+  pointer-events: none;
+  animation: ring-tiktok 2s infinite;
+}
+
+.tiktok-float svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
 }
 
 /* Phone Floating Button */
@@ -1493,6 +1517,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-whatsapp);
   box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
   animation: float-btn-anim 3s ease-in-out infinite;
+  animation-delay: 0s;
 }
 
 .whatsapp-float::before {
@@ -1523,10 +1548,19 @@ h1, h2, h3, h4, h5, h6 {
   100% { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); opacity: 0; }
 }
 
+@keyframes ring-tiktok {
+  0% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4); opacity: 1; }
+  100% { box-shadow: 0 0 0 16px rgba(0, 0, 0, 0); opacity: 0; }
+}
+
 /* Hover Effects */
 .float-btn:hover {
   animation-play-state: paused;
   transform: scale(1.1) !important;
+}
+
+.tiktok-float:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
 }
 
 .phone-float:hover,
