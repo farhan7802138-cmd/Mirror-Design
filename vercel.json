@@ -15,7 +15,14 @@
     { "source": "/blog/glass-partition-vs-wall-offices", "destination": "/blog/glass-partition-vs-wall-offices.html" },
     { "source": "/blog/top-5-mirror-designs-pakistani-bedrooms", "destination": "/blog/top-5-mirror-designs-pakistani-bedrooms.html" },
     { "source": "/blog/aluminium-windows-buying-guide-pakistan", "destination": "/blog/aluminium-windows-buying-guide-pakistan.html" },
-    { "source": "/blog/how-to-care-for-led-mirror-at-home", "destination": "/blog/how-to-care-for-led-mirror-at-home.html" }
+    { "source": "/blog/how-to-care-for-led-mirror-at-home", "destination": "/blog/how-to-care-for-led-mirror-at-home.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/services/aluminium-doors", "destination": "/services/aluminium-doors.html" },
+    { "source": "/services/aluminium-windows", "destination": "/services/aluminium-windows.html" },
+    { "source": "/services/glass-partitions", "destination": "/services/glass-partitions.html" },
+    { "source": "/services/shower-cabins", "destination": "/services/shower-cabins.html" },
+    { "source": "/services/led-mirrors", "destination": "/services/led-mirrors.html" },
+    { "source": "/services/shopfronts", "destination": "/services/shopfronts.html" }
   ],
   "redirects": [
     { 
@@ -71,6 +78,16 @@
     {
       "source": "/blog/:slug.html",
       "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/services/:slug.html",
+      "destination": "/services/:slug",
       "permanent": true
     }
   ]

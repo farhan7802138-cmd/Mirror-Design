@@ -39,7 +39,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     navLinks.forEach(link => {
-      link.addEventListener('click', () => {
+      link.addEventListener('click', (e) => {
+        if (link.classList.contains('dropdown-toggle') && window.innerWidth <= 992) {
+          e.preventDefault();
+          const parentDropdown = link.closest('.nav-dropdown');
+          if (parentDropdown) {
+            parentDropdown.classList.toggle('open');
+          }
+          return;
+        }
         menuToggle.classList.remove('active');
         mainNav.classList.remove('active');
         document.body.style.overflow = '';
@@ -199,7 +207,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const updateActiveNav = () => {
-    const currentPathName = cleanPath(window.location.pathname);
+    const currentPath = window.location.pathname;
+    const currentPathName = cleanPath(currentPath);
     navLinks.forEach(link => {
       const rawHref = link.getAttribute('href') || '';
       if (rawHref.startsWith('#')) {
@@ -213,6 +222,14 @@ document.addEventListener('DOMContentLoaded', () => {
         link.classList.remove('active');
       }
     });
+
+    // If on any /services page, highlight the services dropdown toggle
+    if (currentPath.includes('/services')) {
+      const dropdownToggle = document.getElementById('services-dropdown-toggle');
+      if (dropdownToggle) {
+        dropdownToggle.classList.add('active');
+      }
+    }
   };
 
   updateActiveNav();

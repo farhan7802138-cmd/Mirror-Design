@@ -32,7 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     navLinks.forEach(link => {
-      link.addEventListener('click', () => {
+      link.addEventListener('click', (e) => {
+        if (link.classList.contains('dropdown-toggle') && window.innerWidth <= 992) {
+          e.preventDefault();
+          const parentDropdown = link.closest('.nav-dropdown');
+          if (parentDropdown) {
+            parentDropdown.classList.toggle('open');
+          }
+          return;
+        }
         menuToggle.classList.remove('active');
         mainNav.classList.remove('active');
         document.body.style.overflow = '';
