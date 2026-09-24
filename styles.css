@@ -4063,6 +4063,11 @@ h1, h2, h3, h4, h5, h6 {
     gap: var(--space-lg);
   }
 
+  .about-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem !important;
+  }
+
   .service-featured-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -4258,6 +4263,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.725rem;
     flex: 1 1 calc(50% - 8px);
     text-align: center;
+  }
+
+  .about-stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
   }
 }
 

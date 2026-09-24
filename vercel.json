@@ -2,6 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
     { "source": "/aluminium", "destination": "/aluminium.html" },
     { "source": "/mirrors", "destination": "/mirrors.html" },
     { "source": "/gallery", "destination": "/gallery.html" },
@@ -25,6 +26,11 @@
     { "source": "/services/shopfronts", "destination": "/services/shopfronts.html" }
   ],
   "redirects": [
+    { 
+      "source": "/about.html", 
+      "destination": "/about", 
+      "permanent": true 
+    },
     { 
       "source": "/aluminium.html", 
       "destination": "/aluminium", 
