@@ -1,0 +1,56 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/aluminium", "destination": "/aluminium.html" },
+    { "source": "/mirrors", "destination": "/mirrors.html" },
+    { "source": "/gallery", "destination": "/gallery.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" },
+    { "source": "/product-detail", "destination": "/product-detail.html" }
+  ],
+  "redirects": [
+    { 
+      "source": "/aluminium.html", 
+      "destination": "/aluminium", 
+      "permanent": true 
+    },
+    { 
+      "source": "/mirrors.html", 
+      "destination": "/mirrors", 
+      "permanent": true 
+    },
+    { 
+      "source": "/gallery.html", 
+      "destination": "/gallery", 
+      "permanent": true 
+    },
+    { 
+      "source": "/contact.html", 
+      "destination": "/contact", 
+      "permanent": true 
+    },
+    { 
+      "source": "/blog.html", 
+      "destination": "/blog", 
+      "permanent": true 
+    },
+    { 
+      "source": "/privacy.html", 
+      "destination": "/privacy", 
+      "permanent": true 
+    },
+    { 
+      "source": "/terms.html", 
+      "destination": "/terms", 
+      "permanent": true 
+    },
+    { 
+      "source": "/product-detail.html", 
+      "destination": "/product-detail", 
+      "permanent": true 
+    }
+  ]
+}

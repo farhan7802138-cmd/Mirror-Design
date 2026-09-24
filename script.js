@@ -178,13 +178,25 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // === Multi-Page Active Navigation Highlighting ===
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  const cleanPath = (p) => {
+    if (!p) return '';
+    let path = p.split('?')[0].split('#')[0];
+    path = path.replace(/\.html$/, '');
+    path = path.replace(/^\/+|\/+$/g, '');
+    const lastSeg = path.split('/').pop() || '';
+    return lastSeg === 'index' ? '' : lastSeg;
+  };
+
+  const currentPathName = cleanPath(window.location.pathname);
   navLinks.forEach(link => {
-    const linkHref = link.getAttribute('href');
-    if (linkHref === currentPath || (currentPath === '' && linkHref === 'index.html')) {
-      link.classList.add('active');
-    } else if (!linkHref.includes('.html') && linkHref.startsWith('#')) {
+    const rawHref = link.getAttribute('href') || '';
+    if (rawHref.startsWith('#')) {
       // Single page hash support if any
+      return;
+    }
+    const linkPath = cleanPath(rawHref);
+    if (linkPath === currentPathName) {
+      link.classList.add('active');
     } else {
       link.classList.remove('active');
     }
