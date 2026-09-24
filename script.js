@@ -5,11 +5,16 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Guarantee document visibility even if critical CSS hid it
+  document.documentElement.style.visibility = 'visible';
+  document.documentElement.style.opacity = '1';
+
   // === Scroll-based Header State ===
   const header = document.getElementById('site-header');
   let lastScrollY = 0;
 
   const handleScroll = () => {
+    if (!header) return;
     const currentScrollY = window.scrollY;
     if (currentScrollY > 40) {
       header.classList.add('scrolled');
@@ -24,21 +29,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // === Mobile Menu Toggle ===
   const menuToggle = document.getElementById('mobile-menu-toggle');
   const mainNav = document.getElementById('main-nav');
-  const navLinks = mainNav.querySelectorAll('a');
+  const navLinks = mainNav ? mainNav.querySelectorAll('a') : [];
 
-  menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('active');
-    mainNav.classList.toggle('active');
-    document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
-  });
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      menuToggle.classList.remove('active');
-      mainNav.classList.remove('active');
-      document.body.style.overflow = '';
+  if (menuToggle && mainNav) {
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      mainNav.classList.toggle('active');
+      document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
     });
-  });
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        mainNav.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
+  }
 
   // === Search Modal Overlay & Logic ===
   const searchBtn = document.getElementById('search-btn');
@@ -48,101 +55,105 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchResultsContainer = document.getElementById('search-results-container');
   const searchForm = document.getElementById('search-form');
 
-  // List of searchable items (from our best sellers grid)
-  const productCards = document.querySelectorAll('.product-card');
-  const searchableProducts = Array.from(productCards).map((card, index) => {
-    const title = card.querySelector('h3').textContent;
-    const desc = card.querySelector('.product-description')?.textContent || '';
-    const img = card.querySelector('img')?.getAttribute('src') || '';
-    // Assign a unique ID or element reference
-    card.id = `product-item-${index}`;
-    return {
-      id: card.id,
-      title: title,
-      description: desc,
-      image: img
-    };
-  });
-
-  const openSearch = () => {
-    searchOverlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    setTimeout(() => searchInput.focus(), 100);
-  };
-
-  const closeSearch = () => {
-    searchOverlay.classList.remove('active');
-    document.body.style.overflow = '';
-    searchInput.value = '';
-    searchResultsContainer.innerHTML = '';
-  };
-
-  searchBtn.addEventListener('click', openSearch);
-  searchClose.addEventListener('click', closeSearch);
-
-  // Close search on clicking outside modal content
-  searchOverlay.addEventListener('click', (e) => {
-    if (e.target === searchOverlay) {
-      closeSearch();
-    }
-  });
-
-  // Handle Search Input Typing
-  searchInput.addEventListener('input', (e) => {
-    const query = e.target.value.toLowerCase().trim();
-    searchResultsContainer.innerHTML = '';
-
-    if (query.length < 2) return;
-
-    const filtered = searchableProducts.filter(item => 
-      item.title.toLowerCase().includes(query) || 
-      item.description.toLowerCase().includes(query)
-    );
-
-    if (filtered.length === 0) {
-      const noResults = document.createElement('div');
-      noResults.style.padding = '15px';
-      noResults.style.color = 'var(--color-text-secondary)';
-      noResults.style.textAlign = 'center';
-      noResults.textContent = 'No matching products found.';
-      searchResultsContainer.appendChild(noResults);
-      return;
-    }
-
-    filtered.forEach(item => {
-      const itemEl = document.createElement('a');
-      itemEl.href = `#${item.id}`;
-      itemEl.className = 'search-result-item';
-      
-      const imgHtml = item.image ? `<img src="${item.image}" alt="${item.title}" class="search-result-img">` : `
-        <div class="search-result-img" style="background:#111; display:flex; align-items:center; justify-content:center;">
-          <svg style="width:20px; height:20px; stroke:var(--color-accent);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
-        </div>`;
-
-      itemEl.innerHTML = `
-        ${imgHtml}
-        <div class="search-result-info">
-          <h4>${item.title}</h4>
-          <p>${item.description.substring(0, 60)}...</p>
-        </div>
-      `;
-
-      itemEl.addEventListener('click', (ev) => {
-        closeSearch();
-        // Reset category filter to 'all' so target card is visible before scrolling
-        const allFilterBtn = document.querySelector('.filter-btn[data-filter="all"]');
-        if (allFilterBtn) {
-          allFilterBtn.click();
-        }
-      });
-
-      searchResultsContainer.appendChild(itemEl);
+  if (searchBtn && searchOverlay && searchClose && searchInput && searchResultsContainer) {
+    // List of searchable items (from our best sellers grid)
+    const productCards = document.querySelectorAll('.product-card');
+    const searchableProducts = Array.from(productCards).map((card, index) => {
+      const title = card.querySelector('h3')?.textContent || '';
+      const desc = card.querySelector('.product-description')?.textContent || '';
+      const img = card.querySelector('img')?.getAttribute('src') || '';
+      // Assign a unique ID or element reference
+      card.id = `product-item-${index}`;
+      return {
+        id: card.id,
+        title: title,
+        description: desc,
+        image: img
+      };
     });
-  });
 
-  searchForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-  });
+    const openSearch = () => {
+      searchOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      setTimeout(() => searchInput.focus(), 100);
+    };
+
+    const closeSearch = () => {
+      searchOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+      searchInput.value = '';
+      searchResultsContainer.innerHTML = '';
+    };
+
+    searchBtn.addEventListener('click', openSearch);
+    searchClose.addEventListener('click', closeSearch);
+
+    // Close search on clicking outside modal content
+    searchOverlay.addEventListener('click', (e) => {
+      if (e.target === searchOverlay) {
+        closeSearch();
+      }
+    });
+
+    // Handle Search Input Typing
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      searchResultsContainer.innerHTML = '';
+
+      if (query.length < 2) return;
+
+      const filtered = searchableProducts.filter(item => 
+        item.title.toLowerCase().includes(query) || 
+        item.description.toLowerCase().includes(query)
+      );
+
+      if (filtered.length === 0) {
+        const noResults = document.createElement('div');
+        noResults.style.padding = '15px';
+        noResults.style.color = 'var(--color-text-secondary)';
+        noResults.style.textAlign = 'center';
+        noResults.textContent = 'No matching products found.';
+        searchResultsContainer.appendChild(noResults);
+        return;
+      }
+
+      filtered.forEach(item => {
+        const itemEl = document.createElement('a');
+        itemEl.href = `#${item.id}`;
+        itemEl.className = 'search-result-item';
+        
+        const imgHtml = item.image ? `<img src="${item.image}" alt="${item.title}" class="search-result-img">` : `
+          <div class="search-result-img" style="background:#111; display:flex; align-items:center; justify-content:center;">
+            <svg style="width:20px; height:20px; stroke:var(--color-accent);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>`;
+
+        itemEl.innerHTML = `
+          ${imgHtml}
+          <div class="search-result-info">
+            <h4>${item.title}</h4>
+            <p>${item.description.substring(0, 60)}...</p>
+          </div>
+        `;
+
+        itemEl.addEventListener('click', (ev) => {
+          closeSearch();
+          // Reset category filter to 'all' so target card is visible before scrolling
+          const allFilterBtn = document.querySelector('.filter-btn[data-filter="all"]');
+          if (allFilterBtn) {
+            allFilterBtn.click();
+          }
+        });
+
+        searchResultsContainer.appendChild(itemEl);
+      });
+    });
+
+    if (searchForm) {
+      searchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+      });
+    }
+  }
 
   // === Category Filtering Logic (Works for Products & Gallery) ===
   const filterButtons = document.querySelectorAll('.filter-btn');
@@ -187,20 +198,24 @@ document.addEventListener('DOMContentLoaded', () => {
     return lastSeg === 'index' ? '' : lastSeg;
   };
 
-  const currentPathName = cleanPath(window.location.pathname);
-  navLinks.forEach(link => {
-    const rawHref = link.getAttribute('href') || '';
-    if (rawHref.startsWith('#')) {
-      // Single page hash support if any
-      return;
-    }
-    const linkPath = cleanPath(rawHref);
-    if (linkPath === currentPathName) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
-  });
+  const updateActiveNav = () => {
+    const currentPathName = cleanPath(window.location.pathname);
+    navLinks.forEach(link => {
+      const rawHref = link.getAttribute('href') || '';
+      if (rawHref.startsWith('#')) {
+        // Single page hash support if any
+        return;
+      }
+      const linkPath = cleanPath(rawHref);
+      if (linkPath === currentPathName) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  };
+
+  updateActiveNav();
 
   // === FAQ Accordion Toggle ===
   const faqHeaders = document.querySelectorAll('.faq-header');

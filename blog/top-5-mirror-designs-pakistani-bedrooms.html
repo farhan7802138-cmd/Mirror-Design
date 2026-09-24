@@ -23,11 +23,6 @@
 
   <!-- Critical CSS -->
   <style>
-    html {
-      visibility: hidden;
-      opacity: 0;
-    }
-
     html,
     body {
       background-color: #FAF9F7;
@@ -323,6 +318,12 @@
   </footer>
 
   <script src="../script.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.documentElement.style.visibility = 'visible';
+      document.documentElement.style.opacity = '1';
+    });
+  </script>
 </body>
 
 </html>
