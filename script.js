@@ -480,4 +480,36 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+
+  // === FAQ Accordion Toggle Logic ===
+  const faqItems = document.querySelectorAll('.faq-item');
+  if (faqItems.length > 0) {
+    faqItems.forEach((item, index) => {
+      const header = item.querySelector('.faq-header');
+      const body = item.querySelector('.faq-body');
+      
+      // Default: First FAQ is open, rest closed on mobile for clean screen
+      if (index === 0) {
+        item.classList.add('active');
+        if (body) body.style.display = 'block';
+      } else {
+        item.classList.remove('active');
+        if (body) body.style.display = 'none';
+      }
+
+      if (header && body) {
+        header.addEventListener('click', () => {
+          const isOpen = item.classList.contains('active');
+          if (isOpen) {
+            item.classList.remove('active');
+            body.style.display = 'none';
+          } else {
+            item.classList.add('active');
+            body.style.display = 'block';
+          }
+        });
+      }
+    });
+  }
 });
+
