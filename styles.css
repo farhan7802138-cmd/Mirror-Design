@@ -3904,7 +3904,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .faq-item {
   background: #1C1C1C;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   margin-bottom: 1rem;
   overflow: hidden;
@@ -3913,47 +3913,84 @@ h1, h2, h3, h4, h5, h6 {
 
 .faq-item:hover,
 .faq-item.active {
-  border-color: rgba(201, 162, 75, 0.35);
+  border-color: rgba(201, 162, 75, 0.4);
 }
 
 .faq-header {
+  width: 100%;
   padding: 1.25rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: transparent;
+  border: none;
   cursor: pointer;
   user-select: none;
   gap: 1rem;
+  text-align: left;
 }
 
-.faq-header h4 {
+/* Headings inside faq-header - NEVER rotate */
+.faq-header h4,
+.faq-header > span:first-child,
+.faq-header .faq-question {
   font-size: 1.05rem;
   color: #FFFFFF;
   margin: 0;
   font-family: var(--font-display, 'Outfit', sans-serif);
+  font-weight: 600;
   line-height: 1.4;
+  text-align: left;
+  transform: none !important;
+  display: block;
 }
 
+.faq-item.active .faq-header h4,
+.faq-item.active .faq-header > span:first-child,
+.faq-item.active .faq-header .faq-question {
+  color: var(--color-gold);
+  transform: none !important;
+}
+
+/* Only the icon element rotates */
 .faq-icon,
-.faq-header span {
+.faq-toggle-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-gold);
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1;
-  transition: transform var(--transition-fast);
+  transition: transform var(--transition-base, 0.3s ease);
   flex-shrink: 0;
 }
 
-.faq-item.active .faq-header span,
-.faq-item.active .faq-icon {
-  transform: rotate(45deg);
+.faq-item.active .faq-icon,
+.faq-item.active .faq-toggle-icon {
+  transform: rotate(45deg) !important;
 }
 
-.faq-body {
-  padding: 0 1.5rem 1.25rem;
+/* Accordion body / content */
+.faq-body,
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease, opacity 0.3s ease;
+  padding: 0 1.5rem;
   color: #B8B0A5;
   font-size: 0.95rem;
   line-height: 1.65;
+  opacity: 0;
+}
+
+.faq-item.active .faq-body,
+.faq-item.active .faq-content {
+  max-height: 500px;
+  padding-bottom: 1.25rem;
+  opacity: 1;
 }
 
 /* Tablet & Medium Screens (max-width: 992px) */
@@ -4179,14 +4216,21 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem 1.15rem !important;
   }
 
-  .faq-header h4 {
+  .faq-header h4,
+  .faq-header > span:first-child {
     font-size: 0.95rem !important;
   }
 
-  .faq-body {
-    padding: 0 1.15rem 1rem !important;
+  .faq-body,
+  .faq-content {
+    padding: 0 1.15rem !important;
     font-size: 0.875rem !important;
     line-height: 1.55 !important;
+  }
+
+  .faq-item.active .faq-body,
+  .faq-item.active .faq-content {
+    padding-bottom: 1rem !important;
   }
 
   .cta-title {

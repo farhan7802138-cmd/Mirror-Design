@@ -237,12 +237,19 @@ document.addEventListener('DOMContentLoaded', () => {
   // === FAQ Accordion Toggle ===
   const faqHeaders = document.querySelectorAll('.faq-header');
   faqHeaders.forEach(header => {
-    header.addEventListener('click', () => {
-      const item = header.parentElement;
+    header.addEventListener('click', (e) => {
+      e.preventDefault();
+      const item = header.closest('.faq-item') || header.parentElement;
+      if (!item) return;
       const isActive = item.classList.contains('active');
       
-      // Close all other active items
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      // Close all other active items in this container
+      const container = item.closest('.faq-container') || item.parentElement;
+      if (container) {
+        container.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      } else {
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      }
 
       if (!isActive) {
         item.classList.add('active');
@@ -480,36 +487,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-
-  // === FAQ Accordion Toggle Logic ===
-  const faqItems = document.querySelectorAll('.faq-item');
-  if (faqItems.length > 0) {
-    faqItems.forEach((item, index) => {
-      const header = item.querySelector('.faq-header');
-      const body = item.querySelector('.faq-body');
-      
-      // Default: First FAQ is open, rest closed on mobile for clean screen
-      if (index === 0) {
-        item.classList.add('active');
-        if (body) body.style.display = 'block';
-      } else {
-        item.classList.remove('active');
-        if (body) body.style.display = 'none';
-      }
-
-      if (header && body) {
-        header.addEventListener('click', () => {
-          const isOpen = item.classList.contains('active');
-          if (isOpen) {
-            item.classList.remove('active');
-            body.style.display = 'none';
-          } else {
-            item.classList.add('active');
-            body.style.display = 'block';
-          }
-        });
-      }
-    });
-  }
 });
+
 
