@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Business Profile Content Hub — Glass &amp; Mirror Design Sialkot</title>
+  <meta name="description"
+    content="Complete copy-paste ready Google Business Profile content including business description, 5 GBP posts, 10 Q&amp;As, and 5 review response templates.">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      background-color: #121110;
+      color: #F5F0E8;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .gbp-hub-header {
+      background: #1C1C1C;
+      padding: 3rem 0;
+      border-bottom: 1px solid rgba(201, 162, 75, 0.25);
+      text-align: center;
+    }
+
+    .gbp-badge {
+      display: inline-block;
+      background: rgba(201, 162, 75, 0.15);
+      border: 1px solid #C9A24B;
+      color: #FFDE8A;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 1rem;
+    }
+
+    .gbp-hub-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.5rem;
+      color: #FFFFFF;
+      margin-bottom: 0.75rem;
+    }
+
+    .gbp-hub-subtitle {
+      color: #B8B0A5;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .gbp-nav-strip {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .gbp-nav-btn {
+      background: rgba(255, 255, 255, 0.05);
+      color: #E2DDD5;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .gbp-nav-btn:hover {
+      background: var(--color-gold);
+      color: #181614;
+      border-color: var(--color-gold);
+    }
+
+    .gbp-container {
+      max-width: 1080px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .gbp-card {
+      background: #1C1C1C;
+      border: 1px solid rgba(201, 162, 75, 0.2);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .gbp-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .gbp-card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.5rem;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .gbp-card-title span.num {
+      color: var(--color-gold);
+      font-weight: 800;
+    }
+
+    .btn-copy {
+      background: rgba(201, 162, 75, 0.15);
+      border: 1px solid var(--color-gold);
+      color: #FFDE8A;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 6px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-copy:hover {
+      background: var(--color-gold);
+      color: #181614;
+    }
+
+    .char-count {
+      font-size: 0.8rem;
+      color: #999;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .content-box {
+      background: #141312;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+      padding: 1.5rem;
+      color: #E2DDD5;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      position: relative;
+    }
+
+    .post-item, .qa-item, .review-item {
+      background: #161514;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .post-item-header, .qa-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+      gap: 1rem;
+    }
+
+    .post-item-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.2rem;
+      color: var(--color-gold);
+    }
+
+    .qa-question {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+    }
+
+    .qa-answer {
+      color: #B8B0A5;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #C9A24B;
+      color: #181614;
+      font-weight: 700;
+      padding: 12px 24px;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      transform: translateY(20px);
+      z-index: 9999;
+    }
+
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-slider">
+      <div class="announcement-track">
+        <span class="announcement-item">Google Business Profile Marketing Assets Hub</span>
+        <span class="announcement-item">🔥 Glass &amp; Mirror Design Sialkot 🔥</span>
+        <span class="announcement-item">Google Business Profile Marketing Assets Hub</span>
+        <span class="announcement-item">🔥 Glass &amp; Mirror Design Sialkot 🔥</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Strip -->
+  <div class="contact-strip">
+    <div class="container contact-strip-inner">
+      <div class="contact-strip-left">
+        <a href="mailto:rahmanaluminiumworker@gmail.com" class="contact-strip-link">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          rahmanaluminiumworker@gmail.com
+        </a>
+      </div>
+      <div class="contact-strip-right">
+        <a href="tel:+923021054485" class="contact-strip-link">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          +92 302 1054485
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" id="logo"><span>Rahman</span></a>
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="aluminium.html">Aluminium Work</a>
+        <a href="mirrors.html">Mirrors &amp; Glass</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://wa.me/923021054485" target="_blank" rel="noopener" class="header-whatsapp" aria-label="Chat on WhatsApp">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="contact.html" class="btn btn-primary header-quote-btn">Get Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hub Header Hero -->
+  <div class="gbp-hub-header">
+    <div class="container">
+      <span class="gbp-badge">Google Business Profile Marketing Suite</span>
+      <h1 class="gbp-hub-title">Google Business Content &amp; Response Kit</h1>
+      <p class="gbp-hub-subtitle">
+        Optimized, copy-paste ready assets for <strong>Glass &amp; Mirror Design Sialkot</strong> (Rahman Aluminium &amp; Glass Works). Click any "Copy" button to instantly copy to clipboard.
+      </p>
+
+      <div class="gbp-nav-strip">
+        <a href="#section-description" class="gbp-nav-btn">1. Business Description</a>
+        <a href="#section-posts" class="gbp-nav-btn">2. 5 GBP Posts</a>
+        <a href="#section-qa" class="gbp-nav-btn">3. 10 Q&amp;As</a>
+        <a href="#section-reviews" class="gbp-nav-btn">4. Review Responses</a>
+        <a href="https://www.google.com/maps/place/Glass+%26+Mirror+Design+Sialkot/data=!4m2!3m1!1s0x0:0xe006432529ce0ff?sa=X&ved=1t:2428&ictx=111" 
+           target="_blank" rel="noopener noreferrer" class="gbp-nav-btn" style="border-color: #C9A24B; color: #C9A24B;">
+          Open Google Maps Listing &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main class="gbp-container">
+
+    <!-- ==================== 1. BUSINESS DESCRIPTION ==================== -->
+    <section class="gbp-card" id="section-description">
+      <div class="gbp-card-header">
+        <div class="gbp-card-title">
+          <span class="num">01.</span>
+          <h2>Business Description (Max 750 Characters)</h2>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span class="char-count" id="desc-count">738 / 750 characters</span>
+          <button class="btn-copy" onclick="copyText('business-desc-content')">📋 Copy Description</button>
+        </div>
+      </div>
+
+      <div class="content-box" id="business-desc-content">Welcome to Glass &amp; Mirror Design Sialkot by Rahman Aluminium &amp; Glass Works. With 15+ years of master craftsmanship, we are Sialkot's premier specialist for luxury custom LED mirrors, organic wavy mirrors, smart touch vanity mirrors, aluminium entrance doors, double-glazed windows, office glass partitions, tempered shower cabins, and shopfront shutters. Located in Sialkot, Punjab, we proudly serve Sialkot Cantt, Daska, Sambrial, Pasrur, and surrounding areas. We provide 100% free on-site laser measurements, expert design consultations, and transparent estimates with zero hidden charges. Fast safe delivery, flawless installation, and guaranteed quality. Call or WhatsApp +92 302 1054485 today for your free estimate!</div>
+    </section>
+
+    <!-- ==================== 2. 5 GOOGLE BUSINESS POSTS ==================== -->
+    <section class="gbp-card" id="section-posts">
+      <div class="gbp-card-header">
+        <div class="gbp-card-title">
+          <span class="num">02.</span>
+          <h2>5 Google Business Updates &amp; Posts (~150 Words Each)</h2>
+        </div>
+      </div>
+
+      <!-- Post a -->
+      <div class="post-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px;">Post A &bull; Product Launch</span>
+            <h3 class="post-item-title">LED Mirror New Designs Available</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('post-a-content')">📋 Copy Post</button>
+        </div>
+        <div class="content-box" id="post-a-content">✨ Illuminate Your Space: Exclusive 2026 LED Mirror Designs Now in Sialkot!
+
+Looking to elevate your bedroom, bathroom, or dressing room with modern luxury? Glass &amp; Mirror Design Sialkot introduces our all-new 2026 collection of custom LED mirrors! 
+
+From statement-making organic wavy floor mirrors to smart capacitive touch-sensor vanity mirrors, each piece is custom-built right here in Sialkot. Enjoy stepless brightness dimming, 3-color tone switching (warm golden 3000K, natural daylight 4000K, and cool white 6500K), and anti-fog demister technology for steam-free morning clarity. Crafted with premium 5mm distortion-free Belgian glass and aircraft-grade aluminium frames.
+
+Whether you need a full-length arched mirror for your bridal closet or a sleek backlit bathroom mirror, we custom-manufacture any shape and size to match your interior aesthetic perfectly.
+
+👉 Call or WhatsApp us today for a free design catalog &amp; quick quote!
+📞 Phone: +92 302 1054485
+🌐 Website: mirror-design.vercel.app
+
+#LEDMirrorSialkot #MirrorDesignSialkot #WavyMirror #VanityMirror #SialkotHomes #InteriorDesignPakistan #RahmanAluminium</div>
+      </div>
+
+      <!-- Post b -->
+      <div class="post-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px;">Post B &bull; Special Offer</span>
+            <h3 class="post-item-title">Free Estimate Offer</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('post-b-content')">📋 Copy Post</button>
+        </div>
+        <div class="content-box" id="post-b-content">📐 Plan Your Home Renovation with a 100% FREE On-Site Estimate in Sialkot!
+
+Are you building a new home or upgrading your existing interior? Don't settle for guesswork on your architectural glass and aluminium fittings. Glass &amp; Mirror Design Sialkot is offering complimentary on-site measurement visits and itemized quotations across all areas of Sialkot!
+
+Our master technicians come directly to your location in Sialkot Cantt, Daska Road, Model Town, Sambrial, or Pasrur with actual profile samples. We take accurate laser measurements, evaluate structural requirements, and provide a transparent, upfront cost estimate for:
+• Custom LED &amp; decorative mirrors
+• Modern aluminium main doors &amp; sliding windows
+• Tempered glass office partitions &amp; shower cabins
+• Commercial shopfront glass &amp; safety shutters
+
+Get expert advice with zero obligations!
+
+👉 Book your free measurement appointment today:
+📞 Call / WhatsApp: +92 302 1054485
+📍 Workshop: Sialkot, Punjab, Pakistan
+🌐 mirror-design.vercel.app
+
+#FreeEstimateSialkot #AluminiumGlassWorkSialkot #HomeRenovationPakistan #SialkotConstruction #GlassFittingSialkot</div>
+      </div>
+
+      <!-- Post c -->
+      <div class="post-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px;">Post C &bull; Special Product Focus</span>
+            <h3 class="post-item-title">Aluminium Doors Special</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('post-c-content')">📋 Copy Post</button>
+        </div>
+        <div class="content-box" id="post-c-content">🚪 Modern, Heavy-Duty Aluminium Doors: Built for Security, Style &amp; Longevity in Sialkot!
+
+Transform your home’s entrance and interior passages with precision-engineered aluminium doors by Rahman Aluminium &amp; Glass Works. Traditional wooden doors warp, swell during rainy seasons, and attract termites. Our premium architectural aluminium doors offer unmatched structural strength, weather resistance, and contemporary aesthetics.
+
+Choose from our wide variety of custom configurations:
+• Heavy-gauge main entrance pivot doors
+• Smooth acoustic sliding doors with double-glazed glass
+• Frosted tempered bathroom and balcony doors
+• Powder-coated finishes in Matte Black, Champagne Bronze, Woodgrain, and Metallic Grey
+
+Every door is fitted with imported heavy-duty multi-point locksets and premium European roller bearings for effortless gliding. Manufactured locally in Sialkot for rapid delivery and seamless fitting.
+
+👉 Contact Master Rahman today for door designs and pricing:
+📞 Call / WhatsApp: +92 302 1054485
+📍 Sialkot, Punjab, Pakistan
+🌐 mirror-design.vercel.app
+
+#AluminiumDoorsSialkot #SlidingDoorsPakistan #ModernDoors #AluminiumFabricationSialkot #SialkotArchitecture</div>
+      </div>
+
+      <!-- Post d -->
+      <div class="post-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px;">Post D &bull; Commercial Focus</span>
+            <h3 class="post-item-title">Glass Partition for Offices</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('post-d-content')">📋 Copy Post</button>
+        </div>
+        <div class="content-box" id="post-d-content">🏢 Elevate Your Workplace: Modern Frameless Glass Partitions for Sialkot Offices!
+
+Create an open, collaborative, and prestigious corporate environment with architectural glass partitions from Glass &amp; Mirror Design Sialkot. Leading corporate offices, industrial exporters, banks, and medical clinics across Sialkot are replacing dark brick walls with sound-reducing glass divider systems.
+
+Why choose our office glass solutions?
+• 10mm and 12mm heavy-duty certified tempered safety glass
+• Acoustic sound reduction for private meeting rooms and executive cabins
+• Custom frosting patterns, gradient films, or company logo etching
+• Minimalist slimline aluminium profiles in matte black or satin silver
+• Frameless swing doors with hydraulic floor-spring mechanisms
+
+We execute fast, dust-free installations with minimal interruption to your day-to-day business operations.
+
+👉 Upgrade your commercial workspace today with a free site assessment:
+📞 Contact: +92 302 1054485
+📍 Sialkot, Punjab, Pakistan
+🌐 mirror-design.vercel.app
+
+#GlassPartitionSialkot #OfficeDesignSialkot #CommercialInteriorPakistan #OfficeRenovation #TemperedGlassSialkot</div>
+      </div>
+
+      <!-- Post e -->
+      <div class="post-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px;">Post E &bull; Customer Showcase</span>
+            <h3 class="post-item-title">Before/After Mirror Installation</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('post-e-content')">📋 Copy Post</button>
+        </div>
+        <div class="content-box" id="post-e-content">✨ Stunning Before &amp; After: Master Bedroom Transformation with Custom Wavy LED Mirror!
+
+Swipe to see how a plain bedroom accent wall in Sialkot Cantt was completely transformed into a luxurious, warm sanctuary! 
+
+Our client wanted a standout designer piece for their dressing area. We designed and handcrafted a 6.5ft custom organic wavy floor mirror featuring:
+• High-definition 5mm distortion-free Belgian float glass
+• Multi-layered diamond beveled edges
+• 3000K warm golden ambient backlighting that creates an enchanting wall halo
+• Dual touch sensor switch with smooth brightness dimmer
+• Heavy-gauge aluminium backing frame for safe, rock-solid wall mounting
+
+The result? The bedroom instantly feels twice as spacious, luminous, and elegant! Another happy homeowner in Sialkot.
+
+Ready to give your bedroom, salon, or powder room the luxury makeover it deserves? 
+
+👉 Send us your wall dimensions or inspirational photo on WhatsApp for instant pricing:
+📞 Call / WhatsApp: +92 302 1054485
+📍 Sialkot, Punjab, Pakistan
+🌐 mirror-design.vercel.app
+
+#BeforeAndAfter #MirrorTransformation #LEDMirrorSialkot #MirrorDesignSialkot #InteriorDecorPakistan #RahmanGlassWorks</div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. 10 Q&A FOR GOOGLE BUSINESS ==================== -->
+    <section class="gbp-card" id="section-qa">
+      <div class="gbp-card-header">
+        <div class="gbp-card-title">
+          <span class="num">03.</span>
+          <h2>10 Google Business Q&amp;As (Frequently Asked Questions)</h2>
+        </div>
+      </div>
+
+      <!-- Q1 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q1: What types of custom mirrors do you manufacture in Sialkot?</h3>
+          <button class="btn-copy" onclick="copyText('qa-1')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-1">A: We manufacture a comprehensive selection of custom mirrors, including organic wavy LED floor mirrors, smart touch bathroom mirrors, arched vanity dressing mirrors, capsule mirrors, hexagonal and beveled mirrors, Hollywood vanity bulb mirrors, and custom backlit decorative mirrors. All mirrors can be tailored to your exact custom height, width, frame finish, and lighting preferences.</p>
+      </div>
+
+      <!-- Q2 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q2: Do you provide free on-site measurements and estimates in Sialkot?</h3>
+          <button class="btn-copy" onclick="copyText('qa-2')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-2">A: Yes, absolutely! We provide 100% free on-site laser measurements and detailed cost estimates across all areas of Sialkot, including Sialkot Cantt, Model Town, Daska Road, Sambrial, and surrounding vicinities. Simply contact us via phone or WhatsApp at +92 302 1054485 to schedule a convenient appointment.</p>
+      </div>
+
+      <!-- Q3 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q3: What is the delivery and installation timeframe for custom mirrors and aluminium work?</h3>
+          <button class="btn-copy" onclick="copyText('qa-3')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-3">A: Standard custom LED mirrors are typically manufactured, tested, and delivered within 4 to 7 working days. Comprehensive architectural aluminium doors, sliding windows, and office glass partitions generally take 7 to 14 working days, depending on project scale and glass tempering requirements.</p>
+      </div>
+
+      <!-- Q4 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q4: Which areas do you serve outside of Sialkot city?</h3>
+          <button class="btn-copy" onclick="copyText('qa-4')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-4">A: In addition to Sialkot city, our installation teams regularly operate in Daska, Sambrial, Pasrur, Jamke Cheema, Wazirabad Road, and nearby districts across Punjab. Free delivery is provided within Sialkot, with reasonable transit charges applicable for extended locations.</p>
+      </div>
+
+      <!-- Q5 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q5: What gauge and quality of aluminium do you use for doors and windows?</h3>
+          <button class="btn-copy" onclick="copyText('qa-5')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-5">A: We use only premium heavy-gauge prime aluminium extrusions (1.2mm, 1.6mm, and 2.0mm structural sections) from certified Pakistani and international extrusion mills. Our aluminium doors and windows feature durable powder-coated or anodized finishes that resist corrosion, fading, and peeling.</p>
+      </div>
+
+      <!-- Q6 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q6: Are your bathroom mirrors moisture-proof and anti-fog?</h3>
+          <button class="btn-copy" onclick="copyText('qa-6')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-6">A: Yes! Our bathroom LED mirrors feature IP65 waterproof LED lighting strips, sealed aluminum electrical enclosures, and optional integrated heated demister pads that keep the glass completely fog-free even during hot, steamy showers.</p>
+      </div>
+
+      <!-- Q7 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q7: How do the smart touch sensors on your LED mirrors work?</h3>
+          <button class="btn-copy" onclick="copyText('qa-7')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-7">A: Our mirrors utilize capacitive in-glass touch sensors. A quick tap turns the illumination on or off, a long touch activates smooth brightness dimming, and on dual-tone models, a tap allows you to switch between Warm White (3000K), Neutral Daylight (4000K), and Cool White (6500K).</p>
+      </div>
+
+      <!-- Q8 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q8: What safety glass options do you provide for office partitions and shower cabins?</h3>
+          <button class="btn-copy" onclick="copyText('qa-8')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-8">A: We use certified 8mm, 10mm, and 12mm thermal tempered safety glass for all shower cabins and commercial partitions. Tempered glass is up to 5 times stronger than standard float glass and breaks into small granular blunt pieces rather than jagged shards for maximum safety.</p>
+      </div>
+
+      <!-- Q9 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q9: What warranty do you offer on your mirrors and aluminium installations?</h3>
+          <button class="btn-copy" onclick="copyText('qa-9')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-9">A: We provide a 6-month warranty on our LED mirror lighting systems, touch sensors, and power supplies. Our aluminium fabrication and door structural frames carry a 1-year warranty, and glass installation alignment carries a 3-month warranty against manufacturing and workmanship defects.</p>
+      </div>
+
+      <!-- Q10 -->
+      <div class="qa-item">
+        <div class="qa-item-header">
+          <h3 class="qa-question">Q10: What payment methods do you accept, and how do I place an order?</h3>
+          <button class="btn-copy" onclick="copyText('qa-10')">📋 Copy</button>
+        </div>
+        <p class="qa-answer" id="qa-10">A: To place an order, contact us via WhatsApp at +92 302 1054485 or through our website form. After site measurements and quotation approval, a 50% advance deposit confirms your project. We accept Cash, JazzCash (+92 302 1054485), EasyPaisa (+92 302 1054485), and direct Bank Transfer.</p>
+      </div>
+    </section>
+
+    <!-- ==================== 4. REVIEW RESPONSES ==================== -->
+    <section class="gbp-card" id="section-reviews">
+      <div class="gbp-card-header">
+        <div class="gbp-card-title">
+          <span class="num">04.</span>
+          <h2>5 Review Response Templates for Google Business Profile</h2>
+        </div>
+      </div>
+
+      <!-- Response 1 -->
+      <div class="review-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase;">Template 1</span>
+            <h3 class="post-item-title">5-Star Rating Only (No Written Review)</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('review-1')">📋 Copy</button>
+        </div>
+        <div class="content-box" id="review-1">Thank you so much for the 5-star rating, [Customer Name]! ⭐⭐⭐⭐⭐ We truly appreciate your support for Rahman Aluminium &amp; Glass Works. It was our pleasure serving you, and we look forward to assisting you with any future mirror design or aluminium glass projects in Sialkot!</div>
+      </div>
+
+      <!-- Response 2 -->
+      <div class="review-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase;">Template 2</span>
+            <h3 class="post-item-title">5-Star Review for Custom LED Mirror Project</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('review-2')">📋 Copy</button>
+        </div>
+        <div class="content-box" id="review-2">Dear [Customer Name], thank you for sharing your wonderful review! We are delighted to hear that you love your new custom LED mirror and that the lighting and glass finish exceeded your expectations. Master Rahman and our entire team take great pride in delivering flawless craftsmanship to homes across Sialkot. Enjoy your stunning new mirror, and don't hesitate to reach out if you ever need anything!</div>
+      </div>
+
+      <!-- Response 3 -->
+      <div class="review-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase;">Template 3</span>
+            <h3 class="post-item-title">5-Star Review for Aluminium Doors &amp; Windows Installation</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('review-3')">📋 Copy</button>
+        </div>
+        <div class="content-box" id="review-3">Thank you for your valuable feedback, [Customer Name]! We are thrilled that you are satisfied with the heavy-duty aluminium doors and sliding windows we installed for your home. Ensuring precise measurements, smooth operation, and long-lasting security is always our top priority. Thank you for choosing Rahman Aluminium &amp; Glass Works Sialkot!</div>
+      </div>
+
+      <!-- Response 4 -->
+      <div class="review-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase;">Template 4</span>
+            <h3 class="post-item-title">5-Star Review for Office Glass Partitions or Commercial Work</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('review-4')">📋 Copy</button>
+        </div>
+        <div class="content-box" id="review-4">Thank you for trusting Rahman Aluminium &amp; Glass Works with your commercial office glass partitions, [Customer Name]! We appreciate your compliments regarding our on-time delivery, clean installation, and professional team. We look forward to partnering with your business on future architectural projects in Sialkot!</div>
+      </div>
+
+      <!-- Response 5 -->
+      <div class="review-item">
+        <div class="post-item-header">
+          <div>
+            <span style="font-size:0.8rem; color:#888; text-transform:uppercase;">Template 5</span>
+            <h3 class="post-item-title">General Response / Inquiry or Constructive Feedback</h3>
+          </div>
+          <button class="btn-copy" onclick="copyText('review-5')">📋 Copy</button>
+        </div>
+        <div class="content-box" id="review-5">Hello [Customer Name], thank you for taking the time to share your feedback. At Rahman Aluminium &amp; Glass Works, 100% customer satisfaction is our highest commitment. Please feel free to call or WhatsApp Master Rahman directly at +92 302 1054485 so we can promptly address any questions or provide complimentary after-sales service. We are always here to help our valued Sialkot clients!</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notification element -->
+  <div id="toast">Copied to clipboard!</div>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none; padding-top:1rem;">
+        <p>&copy; 2026 Rahman Aluminium &amp; Glass Works. All Rights Reserved. Google Business Profile Asset Hub.</p>
+        <p><a href="index.html" style="color:#C9A24B; text-decoration:none;">Back to Main Website</a> &bull; <a href="blog.html" style="color:#C9A24B; text-decoration:none;">Blog</a> &bull; <a href="privacy.html" style="color:#C9A24B; text-decoration:none;">Privacy Policy</a> &bull; <a href="terms.html" style="color:#C9A24B; text-decoration:none;">Terms &amp; Conditions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function copyText(elementId) {
+      const el = document.getElementById(elementId);
+      if (!el) return;
+      const text = el.innerText || el.textContent;
+
+      navigator.clipboard.writeText(text).then(() => {
+        showToast('✓ Copied to clipboard!');
+      }).catch(err => {
+        // Fallback for older browsers
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        showToast('✓ Copied to clipboard!');
+      });
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Post Designer — Mirror Design Sialkot | Rahman</title>
+  <meta name="description"
+    content="Downloadable 1080x1080 Instagram & Facebook social post template for Rahman Mirror Design Sialkot.">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+    rel="stylesheet">
+
+  <!-- html2canvas library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0F0E0D;
+      color: #F5F0E8;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .top-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1120px;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #C9A24B;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: #F5F0E8;
+    }
+
+    .action-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-download {
+      background: linear-gradient(135deg, #C9A24B 0%, #E6C875 50%, #C9A24B 100%);
+      color: #181614;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 1.1rem;
+      padding: 0.85rem 2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 8px 25px rgba(201, 162, 75, 0.4);
+      transition: all 0.25s ease;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(201, 162, 75, 0.6);
+      filter: brightness(1.05);
+    }
+
+    .btn-download svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* Scaling Container so 1080x1080 fits cleanly on all screens */
+    .preview-viewport {
+      width: 100%;
+      max-width: 600px;
+      aspect-ratio: 1 / 1;
+      position: relative;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(201, 162, 75, 0.3);
+    }
+
+    .scale-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1080px;
+      height: 1080px;
+      transform-origin: top left;
+    }
+
+    /* ============================================================
+       EXACT 1080x1080 SOCIAL MEDIA POST CANVAS
+       ============================================================ */
+    #post {
+      width: 1080px;
+      height: 1080px;
+      background-color: #1C1C1C;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 70px 75px 65px;
+      color: #FFFFFF;
+      box-sizing: border-box;
+    }
+
+    /* Subtle Geometric Background Pattern */
+    .post-bg-pattern {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.07;
+      background-image: 
+        radial-gradient(circle at 50% 50%, #C9A24B 1.5px, transparent 1.5px),
+        linear-gradient(45deg, transparent 48%, rgba(201, 162, 75, 0.4) 49%, rgba(201, 162, 75, 0.4) 51%, transparent 52%),
+        linear-gradient(-45deg, transparent 48%, rgba(201, 162, 75, 0.4) 49%, rgba(201, 162, 75, 0.4) 51%, transparent 52%);
+      background-size: 60px 60px, 120px 120px, 120px 120px;
+      z-index: 1;
+    }
+
+    /* Golden Vignette & Radial Glow */
+    .post-radial-glow {
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 650px;
+      height: 650px;
+      background: radial-gradient(circle, rgba(201, 162, 75, 0.22) 0%, rgba(201, 162, 75, 0.05) 55%, transparent 75%);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* Luxury Gold Border Inset */
+    .post-gold-border {
+      position: absolute;
+      inset: 24px;
+      border: 1px solid rgba(201, 162, 75, 0.35);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .corner-decor {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-color: #C9A24B;
+      border-style: solid;
+      pointer-events: none;
+    }
+    .c-tl { top: -1px; left: -1px; border-width: 3px 0 0 3px; }
+    .c-tr { top: -1px; right: -1px; border-width: 3px 3px 0 0; }
+    .c-bl { bottom: -1px; left: -1px; border-width: 0 0 3px 3px; }
+    .c-br { bottom: -1px; right: -1px; border-width: 0 3px 3px 0; }
+
+    /* Top Row */
+    .post-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 5;
+    }
+
+    .post-logo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .post-logo-main {
+      font-family: 'Outfit', sans-serif;
+      font-size: 38px;
+      font-weight: 800;
+      color: #C9A24B;
+      letter-spacing: 3px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .post-logo-main span {
+      color: #FFFFFF;
+    }
+
+    .post-logo-sub {
+      font-size: 13px;
+      font-weight: 600;
+      color: #B8B0A5;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-top: 6px;
+    }
+
+    .post-badge {
+      background: linear-gradient(135deg, rgba(201, 162, 75, 0.25) 0%, rgba(201, 162, 75, 0.08) 100%);
+      border: 2px solid #C9A24B;
+      padding: 10px 24px;
+      border-radius: 40px;
+      color: #FFDE8A;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      box-shadow: 0 0 25px rgba(201, 162, 75, 0.3);
+    }
+
+    /* Center Mirror Display */
+    .post-center {
+      position: relative;
+      z-index: 4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 480px;
+    }
+
+    .mirror-aura {
+      position: absolute;
+      width: 380px;
+      height: 480px;
+      border-radius: 200px 200px 180px 180px;
+      background: radial-gradient(circle at 50% 50%, rgba(201, 162, 75, 0.45) 0%, rgba(201, 162, 75, 0.1) 60%, transparent 80%);
+      filter: blur(25px);
+      z-index: 1;
+    }
+
+    .mirror-img-container {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 25px rgba(201, 162, 75, 0.45));
+    }
+
+    .mirror-img-container img {
+      max-height: 460px;
+      max-width: 440px;
+      object-fit: contain;
+    }
+
+    /* Bottom Info & Contact */
+    .post-bottom {
+      position: relative;
+      z-index: 5;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .post-product-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 50px;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.15;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    .post-tagline {
+      font-family: 'Outfit', sans-serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: #C9A24B;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .post-features-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      font-size: 21px;
+      color: #E6E1D8;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    .post-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .post-feature-item span.check {
+      color: #C9A24B;
+      font-weight: 800;
+      font-size: 22px;
+    }
+
+    .post-divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(201, 162, 75, 0.2) 20%, #C9A24B 50%, rgba(201, 162, 75, 0.2) 80%, transparent 100%);
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .post-divider::after {
+      content: '◆';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #1C1C1C;
+      padding: 0 10px;
+      color: #C9A24B;
+      font-size: 14px;
+    }
+
+    .post-contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 36px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #C2BBB0;
+    }
+
+    .post-contact-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .post-contact-item strong {
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    /* Info note below preview */
+    .download-instructions {
+      max-width: 600px;
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #8C847A;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="top-controls">
+    <a href="index.html" class="back-link">
+      &larr; Back to Website
+    </a>
+
+    <div class="action-bar">
+      <a href="https://wa.me/923021054485" target="_blank" rel="noopener" class="back-link" style="background: #25D366; color: #FFFFFF; padding: 0.7rem 1.2rem; border-radius: 6px; font-weight: 700; text-decoration: none;">
+        WhatsApp: +92 302 1054485
+      </a>
+      <a href="tel:+923021054485" class="back-link" style="border: 1px solid #C9A24B; color: #FFDE8A; padding: 0.7rem 1.2rem; border-radius: 6px; font-weight: 700; text-decoration: none;">
+        📞 Call Us
+      </a>
+      <button class="btn-download" id="download-btn" onclick="downloadPost()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download Post (1080&times;1080)
+      </button>
+    </div>
+  </div>
+
+  <!-- Responsive Scaled Preview Area -->
+  <div class="preview-viewport" id="viewport">
+    <div class="scale-wrapper" id="scale-wrapper">
+
+      <!-- ==================== 1080x1080 CANVAS ELEMENT ==================== -->
+      <div id="post">
+        <!-- Geometric Gold Pattern Overlay -->
+        <div class="post-bg-pattern"></div>
+
+        <!-- Radial Aura Glow -->
+        <div class="post-radial-glow"></div>
+
+        <!-- Decorative Inset Border with Corners -->
+        <div class="post-gold-border">
+          <div class="corner-decor c-tl"></div>
+          <div class="corner-decor c-tr"></div>
+          <div class="corner-decor c-bl"></div>
+          <div class="corner-decor c-br"></div>
+        </div>
+
+        <!-- TOP: Logo & Badge -->
+        <div class="post-top">
+          <div class="post-logo">
+            <div class="post-logo-main">RAHMAN <span>◆</span></div>
+            <div class="post-logo-sub">Aluminium &amp; Glass Works</div>
+          </div>
+          <div class="post-badge">
+            ★ NEW ARRIVAL ★
+          </div>
+        </div>
+
+        <!-- CENTER: Mirror with Glowing Halo -->
+        <div class="post-center">
+          <div class="mirror-aura"></div>
+          <div class="mirror-img-container">
+            <img src="images/wavy-led-mirror.png" id="post-mirror-image" alt="Wavy LED Floor Mirror" crossorigin="anonymous">
+          </div>
+        </div>
+
+        <!-- BOTTOM: Product Details & Contact -->
+        <div class="post-bottom">
+          <h1 class="post-product-title">Wavy LED Floor Mirror</h1>
+          <div class="post-tagline">Premium Mirror Design Sialkot</div>
+
+          <div class="post-features-row">
+            <div class="post-feature-item">
+              <span class="check">&#10003;</span> Custom Size
+            </div>
+            <div class="post-feature-item">
+              <span class="check">&#10003;</span> LED Lighting
+            </div>
+            <div class="post-feature-item">
+              <span class="check">&#10003;</span> Free Estimate
+            </div>
+          </div>
+
+          <div class="post-divider"></div>
+
+          <div class="post-contact-row">
+            <div class="post-contact-item">
+              📞 <a href="tel:+923021054485" style="color:inherit; text-decoration:none;"><strong>+92 302 1054485</strong></a>
+            </div>
+            <div class="post-contact-item">
+              📍 <strong>Sialkot, Pakistan</strong>
+            </div>
+            <div class="post-contact-item">
+              🌐 <a href="https://mirror-design.vercel.app" style="color:inherit; text-decoration:none;"><strong>mirror-design.vercel.app</strong></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==================== END 1080x1080 CANVAS ==================== -->
+
+    </div>
+  </div>
+
+  <p class="download-instructions">
+    High-resolution 1080&times;1080 px image optimized for Instagram Feed, Facebook Posts, and WhatsApp Status updates.
+  </p>
+
+  <!-- Auto-Scale Script for Viewport Preview -->
+  <script>
+    function adjustScale() {
+      const viewport = document.getElementById('viewport');
+      const wrapper = document.getElementById('scale-wrapper');
+      if (viewport && wrapper) {
+        const viewportWidth = viewport.clientWidth;
+        const scale = viewportWidth / 1080;
+        wrapper.style.transform = `scale(${scale})`;
+      }
+    }
+
+    window.addEventListener('resize', adjustScale);
+    window.addEventListener('DOMContentLoaded', adjustScale);
+
+    // Download Function with html2canvas and fallback
+    function downloadPost() {
+      const postEl = document.getElementById('post');
+      const downloadBtn = document.getElementById('download-btn');
+      const originalText = downloadBtn.innerHTML;
+
+      downloadBtn.innerHTML = 'Generating 1080x1080 Image...';
+      downloadBtn.disabled = true;
+
+      html2canvas(postEl, {
+        width: 1080,
+        height: 1080,
+        scale: 1,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: '#1C1C1C'
+      }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = 'rahman-mirror-post.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+
+        downloadBtn.innerHTML = '&#10003; Downloaded!';
+        setTimeout(() => {
+          downloadBtn.innerHTML = originalText;
+          downloadBtn.disabled = false;
+        }, 2000);
+      }).catch(err => {
+        console.error('Download error:', err);
+        alert('Could not export image directly: ' + err.message);
+        downloadBtn.innerHTML = originalText;
+        downloadBtn.disabled = false;
+      });
+    }
+  </script>
+</body>
+
+</html>
