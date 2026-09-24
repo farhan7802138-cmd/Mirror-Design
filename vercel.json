@@ -23,9 +23,21 @@
     { "source": "/services/glass-partitions", "destination": "/services/glass-partitions.html" },
     { "source": "/services/shower-cabins", "destination": "/services/shower-cabins.html" },
     { "source": "/services/led-mirrors", "destination": "/services/led-mirrors.html" },
-    { "source": "/services/shopfronts", "destination": "/services/shopfronts.html" }
+    { "source": "/services/shopfronts", "destination": "/services/shopfronts.html" },
+    { "source": "/service-areas", "destination": "/service-areas.html" },
+    { "source": "/services-area", "destination": "/service-areas.html" }
   ],
   "redirects": [
+    { 
+      "source": "/service-areas.html", 
+      "destination": "/service-areas", 
+      "permanent": true 
+    },
+    { 
+      "source": "/services-area.html", 
+      "destination": "/service-areas", 
+      "permanent": true 
+    },
     { 
       "source": "/about.html", 
       "destination": "/about", 
