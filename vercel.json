@@ -9,7 +9,13 @@
     { "source": "/blog", "destination": "/blog.html" },
     { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/terms", "destination": "/terms.html" },
-    { "source": "/product-detail", "destination": "/product-detail.html" }
+    { "source": "/product-detail", "destination": "/product-detail.html" },
+    { "source": "/blog/led-mirror-trends-sialkot-2026", "destination": "/blog/led-mirror-trends-sialkot-2026.html" },
+    { "source": "/blog/how-to-choose-aluminium-door", "destination": "/blog/how-to-choose-aluminium-door.html" },
+    { "source": "/blog/glass-partition-vs-wall-offices", "destination": "/blog/glass-partition-vs-wall-offices.html" },
+    { "source": "/blog/top-5-mirror-designs-pakistani-bedrooms", "destination": "/blog/top-5-mirror-designs-pakistani-bedrooms.html" },
+    { "source": "/blog/aluminium-windows-buying-guide-pakistan", "destination": "/blog/aluminium-windows-buying-guide-pakistan.html" },
+    { "source": "/blog/how-to-care-for-led-mirror-at-home", "destination": "/blog/how-to-care-for-led-mirror-at-home.html" }
   ],
   "redirects": [
     { 
@@ -51,6 +57,21 @@
       "source": "/product-detail.html", 
       "destination": "/product-detail", 
       "permanent": true 
+    },
+    {
+      "source": "/led-mirror-trends-sialkot-2026",
+      "destination": "/blog/led-mirror-trends-sialkot-2026",
+      "permanent": true
+    },
+    {
+      "source": "/led-mirror-trends-sialkot-2026.html",
+      "destination": "/blog/led-mirror-trends-sialkot-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug.html",
+      "destination": "/blog/:slug",
+      "permanent": true
     }
   ]
 }
