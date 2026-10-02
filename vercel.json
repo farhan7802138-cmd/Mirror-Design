@@ -11,6 +11,7 @@
     { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/terms", "destination": "/terms.html" },
     { "source": "/product-detail", "destination": "/product-detail.html" },
+    { "source": "/blog/herringbone-geometric-led-mirrors-sialkot", "destination": "/blog/herringbone-geometric-led-mirrors-sialkot.html" },
     { "source": "/blog/custom-pattern-led-mirrors-sialkot", "destination": "/blog/custom-pattern-led-mirrors-sialkot.html" },
     { "source": "/blog/led-mirror-trends-sialkot-2026", "destination": "/blog/led-mirror-trends-sialkot-2026.html" },
     { "source": "/blog/how-to-choose-aluminium-door", "destination": "/blog/how-to-choose-aluminium-door.html" },
