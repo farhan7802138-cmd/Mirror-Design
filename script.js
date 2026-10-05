@@ -487,6 +487,46 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+
+  // === Google Analytics 4 Event Tracking ===
+  // Track WhatsApp button clicks
+  document.querySelectorAll('a[href*="wa.me"], a[href*="whatsapp"]').forEach(waBtn => {
+    waBtn.addEventListener('click', function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'whatsapp_click', {
+          event_category: 'Contact',
+          event_label: this.href,
+          transport_type: 'beacon'
+        });
+      }
+    });
+  });
+
+  // Track Phone Call button clicks
+  document.querySelectorAll('a[href^="tel:"]').forEach(callBtn => {
+    callBtn.addEventListener('click', function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'call_click', {
+          event_category: 'Contact',
+          event_label: this.href,
+          transport_type: 'beacon'
+        });
+      }
+    });
+  });
+
+  // Track Form Submissions
+  document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'form_submission', {
+          event_category: 'Lead',
+          event_label: this.id || this.action || 'generic_form'
+        });
+      }
+    });
+  });
 });
+
 
 

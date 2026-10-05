@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function getProductPageUrl(product, baseUrl = BASE_SITE_URL) {
     if (!product || !product.slug) return baseUrl;
-    return `${baseUrl}/product-detail#${product.slug}`;
+    return `${baseUrl}/products/${product.slug}`;
   }
 
   function getCustomizationText(product) {
@@ -368,7 +368,7 @@ Please provide pricing details, available customization options, and estimated d
             <div class="product-card-body">
               <h3>${rel.title}</h3>
               <p class="product-description">${rel.description.substring(0, 90)}...</p>
-              <a href="/product-detail#${rel.slug}" class="btn btn-secondary product-enquire-btn">View Detail</a>
+              <a href="/products/${rel.slug}" class="btn btn-secondary product-enquire-btn">View Detail</a>
             </div>
           </div>
         `;

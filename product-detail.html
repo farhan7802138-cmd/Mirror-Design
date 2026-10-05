@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <script>
+    // Client-side 301-equivalent redirect for legacy #hash links
+    if (window.location.hash) {
+      var rawHash = window.location.hash.substring(1);
+      var cleanSlug = rawHash.replace(/[^a-zA-Z0-9_-]/g, '');
+      if (cleanSlug) {
+        window.location.replace('/products/' + cleanSlug);
+      }
+    }
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Details — Mirror Design Sialkot | Aluminium Glass Sialkot</title>
-  <meta name="description" content="Rahman offers premium Aluminium Glass Sialkot services and custom Mirror Design Sialkot. Custom doors, windows, partitions, mirrors, shopfronts. Call: +92 302 1054485">
+  <title>Product Details | Rahman Aluminium & Glass Sialkot</title>
+  <link rel="canonical" href="https://mirror-design.vercel.app/mirrors">
+  <meta name="description" content="Product details for bespoke aluminium fabrication and mirror design by Rahman in Sialkot. Free laser estimate & quotes: +92 302 1054485.">
   <meta name="author" content="Rahman Aluminium & Glass Works">
 
   <!-- Open Graph (Social Media Preview) -->
@@ -69,6 +81,15 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="details.css">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-[GA4-ID]"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-[GA4-ID]');
+  </script>
 </head>
 <body class="theme-light">
 
@@ -164,6 +185,7 @@
   <!-- ==================== 5. PRODUCT DETAILS ==================== -->
   <section class="product-detail-section">
     <div class="container" id="product-detail-container">
+        <h1 style="display:none;">Product Details — Rahman Aluminium &amp; Glass Works Sialkot</h1>
       <!-- Content populated dynamically by details.js -->
       <div style="padding: 100px 0; text-align: center; color: var(--color-light-text-secondary);">
         <h3>Loading Product Details...</h3>
@@ -190,7 +212,7 @@
       <div class="footer-content">
         <div class="footer-brand">
           <a href="/" class="logo"><span>Rahman</span></a>
-          <p>Premium architectural aluminium fabrication and high-grade glass & custom mirror designing across Pakistan.</p>
+          <p>Premium architectural aluminium fabrication and high-grade glass & custom mirror designing serving Sialkot and surrounding areas (including Sialkot Cantt, Daska, Sambrial, Pasrur, Ugoki, and Wazirabad Road).</p>
         </div>
         <div class="footer-column">
           <h4>Quick Links</h4>
