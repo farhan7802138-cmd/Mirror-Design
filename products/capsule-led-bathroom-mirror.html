@@ -185,23 +185,23 @@
   </nav>
 
   <!-- 5. PRODUCT HERO DETAIL -->
-  <main style="padding: 3.5rem 0;">
+  <main class="product-page-main">
     <div class="container">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3.5rem; align-items: start;">
+      <div class="product-hero-grid">
         
         <!-- Left Column: Product Gallery -->
-        <div>
-          <div style="background: #181614; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
-            <img id="main-product-image" src="../images/capsule-led-mirror.webp" alt="Capsule LED Bathroom Mirror custom made in Sialkot workshop" width="800" height="600" fetchpriority="high" style="width: 100%; height: auto; max-height: 520px; object-fit: contain; display: block; background: #12100E;">
+        <div class="product-hero-gallery">
+          <div class="product-main-img-box">
+            <img id="main-product-image" src="../images/capsule-led-mirror.webp" alt="Capsule LED Bathroom Mirror custom made in Sialkot workshop" width="800" height="600" fetchpriority="high">
           </div>
-          <div style="display: flex; gap: 12px; margin-top: 1rem; overflow-x: auto; padding-bottom: 8px;">
+          <div class="product-thumbs-strip">
           <button type="button" class="gallery-thumbnail active" data-large="../images/capsule-led-mirror.webp" data-alt="Capsule LED Bathroom Mirror - View 1 crafted in Sialkot" aria-label="Thumbnail 1" style="background: none; border: 2px solid var(--color-gold); border-radius: 8px; overflow: hidden; padding: 0; cursor: pointer; aspect-ratio: 1; width: 72px;">
             <img src="../images/capsule-led-mirror.webp" alt="Capsule LED Bathroom Mirror - View 1 crafted in Sialkot" width="72" height="72" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
           </button></div>
         </div>
 
         <!-- Right Column: Product Overview & Actions -->
-        <div>
+        <div class="product-hero-info">
           <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px;">Mirrors & Glass &bull; Sialkot Workshop</span>
           <h1 style="font-family: 'Outfit', sans-serif; font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; color: #FAF9F7; line-height: 1.25; margin-bottom: 1.25rem;">Capsule LED Bathroom Mirror in Sialkot</h1>
           
@@ -211,23 +211,24 @@
             </p>
           </div>
 
-          <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
-            <a href="https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20am%20interested%20in%20inquiring%20about%20your%20product%3A%0A*Capsule%20LED%20Bathroom%20Mirror*%20(Sialkot%20Workshop)%0AURL%3A%20https%3A%2F%2Fmirror-design.vercel.app%2Fproducts%2Fcapsule-led-bathroom-mirror%0A%0APlease%20provide%20price%20estimation%2C%20customization%20options%2C%20and%20installation%20timeline%20for%20my%20location%20in%20Sialkot%20%2F%20surrounding%20areas." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="flex: 1 1 200px; justify-content: center; font-size: 1rem; padding: 0.85rem 1.5rem;">
+          <div class="product-cta-buttons">
+            <a href="https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20am%20interested%20in%20inquiring%20about%20your%20product%3A%0A*Capsule%20LED%20Bathroom%20Mirror*%20(Sialkot%20Workshop)%0AURL%3A%20https%3A%2F%2Fmirror-design.vercel.app%2Fproducts%2Fcapsule-led-bathroom-mirror%0A%0APlease%20provide%20price%20estimation%2C%20customization%20options%2C%20and%20installation%20timeline%20for%20my%20location%20in%20Sialkot%20%2F%20surrounding%20areas." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp product-btn-wa">
               💬 Enquire on WhatsApp
             </a>
-            <a href="tel:+923021054485" class="btn btn-primary" style="flex: 1 1 180px; justify-content: center; font-size: 1rem; padding: 0.85rem 1.5rem;">
+            <a href="tel:+923021054485" class="btn btn-primary product-btn-call">
               📞 Call: 0302 1054485
             </a>
           </div>
 
           <!-- Specifications Table -->
-          <div style="background: #181614; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; overflow: hidden; margin-bottom: 2rem;">
+          <div class="product-specs-box">
             <div style="background: rgba(201,162,75,0.1); padding: 12px 16px; border-bottom: 1px solid rgba(201,162,75,0.2);">
               <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--color-gold); margin: 0;">Technical Specifications</h2>
             </div>
-            <table style="width: 100%; border-collapse: collapse;">
-              <tbody>
-                
+            <div class="product-specs-table-wrap">
+              <table class="product-specs-table">
+                <tbody>
+                  
               <tr>
                 <th scope="row" class="specs-label" style="text-align: left; padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--color-gold); font-size: 0.9rem; font-weight: 600; width: 35%;">Dimensions</th>
                 <td class="specs-value" style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: #E7E5E4; font-size: 0.95rem;">36 in Height x 18 in Width</td>
@@ -244,23 +245,24 @@
                 <th scope="row" class="specs-label" style="text-align: left; padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--color-gold); font-size: 0.9rem; font-weight: 600; width: 35%;">Smart Tech</th>
                 <td class="specs-value" style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: #E7E5E4; font-size: 0.95rem;">Anti-fog heating pad built-in, IP44 rating</td>
               </tr>
-              </tbody>
-            </table>
+                </tbody>
+              </table>
+            </div>
           </div>
 
           <!-- Fast Service Badges -->
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px;">
-            <div style="background: #141210; padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center;">
+          <div class="product-fast-badges">
+            <div class="product-fast-badge-item">
               <span style="display: block; font-size: 1.1rem; margin-bottom: 4px;">📐</span>
               <span style="font-size: 0.8rem; color: #FAF9F7; font-weight: 600;">Free Measurement</span>
               <span style="display: block; font-size: 0.72rem; color: #A8A29E;">Sialkot &amp; Cantt</span>
             </div>
-            <div style="background: #141210; padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center;">
+            <div class="product-fast-badge-item">
               <span style="display: block; font-size: 1.1rem; margin-bottom: 4px;">⚡</span>
               <span style="font-size: 0.8rem; color: #FAF9F7; font-weight: 600;">Fast Fabrication</span>
               <span style="display: block; font-size: 0.72rem; color: #A8A29E;">5-7 Day Delivery</span>
             </div>
-            <div style="background: #141210; padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center;">
+            <div class="product-fast-badge-item">
               <span style="display: block; font-size: 1.1rem; margin-bottom: 4px;">🛡️</span>
               <span style="font-size: 0.8rem; color: #FAF9F7; font-weight: 600;">Quality Guarantee</span>
               <span style="display: block; font-size: 0.72rem; color: #A8A29E;">Direct Workshop Warranty</span>
@@ -271,7 +273,7 @@
       </div>
 
       <!-- Comprehensive Original Description Section (200+ Words) -->
-      <section style="margin-top: 4rem; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.08);">
+      <section class="product-overview-section">
         <div style="max-width: 900px;">
           <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px;">Detailed Overview</span>
           <h2 style="font-family: 'Outfit', sans-serif; font-size: clamp(1.4rem, 2.5vw, 1.85rem); color: #FAF9F7; margin-bottom: 1.5rem;">
@@ -284,14 +286,14 @@
       </section>
 
       <!-- Local Service Coverage Internal Links -->
-      <section style="margin-top: 3rem; padding: 2rem; background: #141210; border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;">
+      <section class="product-service-areas-box">
         <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #FAF9F7; margin-bottom: 0.75rem;">
           📍 On-Site Measurement &amp; Installation Service Areas
         </h3>
         <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1rem;">
           We provide doorstep laser measurements, delivery, and full turnkey installation for this Capsule LED Bathroom Mirror in all major sectors of Sialkot and adjacent industrial/residential belts:
         </p>
-        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <div class="product-areas-tags">
           <a href="/service-areas/sialkot" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Sialkot City</a>
           <a href="/service-areas/sialkot-cantt" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Sialkot Cantt</a>
           <a href="/service-areas/daska" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Daska</a>
@@ -304,12 +306,12 @@
       </section>
 
       <!-- 6. RELATED PRODUCTS SECTION -->
-      <section style="margin-top: 4.5rem;">
+      <section class="product-related-section">
         <div style="margin-bottom: 2rem;">
           <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 6px;">Explore More</span>
           <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: #FAF9F7; margin: 0;">Related Designs &amp; Projects</h2>
         </div>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+        <div class="product-related-grid">
           
         <div class="product-card" style="background: #181614; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
           <div class="product-card-image" style="aspect-ratio: 4/3; overflow: hidden; background: #12100E;">

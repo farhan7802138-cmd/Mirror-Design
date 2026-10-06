@@ -5667,6 +5667,509 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* ============================================================
+   RESPONSIVE ENHANCEMENTS FOR NEWLY CREATED PAGES
+   (Product Detail Pages, Service Areas, Services & Tables)
+   ============================================================ */
+
+/* Global overflow containment */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img, video, iframe, canvas, svg {
+  max-width: 100%;
+}
+
+/* 1. PRODUCT DETAIL PAGES (.product-page-main) */
+.product-page-main {
+  padding: 3.5rem 0;
+  overflow-x: hidden;
+}
+
+.product-hero-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.product-hero-gallery {
+  width: 100%;
+}
+
+.product-main-img-box {
+  background: #181614;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-main-img-box img {
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  display: block;
+  background: #12100E;
+}
+
+.product-thumbs-strip {
+  display: flex;
+  gap: 12px;
+  margin-top: 1rem;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.product-hero-info {
+  width: 100%;
+}
+
+.product-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.product-cta-buttons .btn-whatsapp,
+.product-cta-buttons .product-btn-wa {
+  flex: 1 1 200px;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0.85rem 1.5rem;
+  text-align: center;
+}
+
+.product-cta-buttons .btn-primary,
+.product-cta-buttons .product-btn-call {
+  flex: 1 1 180px;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0.85rem 1.5rem;
+  text-align: center;
+}
+
+.product-specs-box {
+  background: #181614;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.product-specs-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.product-specs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-specs-table th {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--color-gold);
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 35%;
+  vertical-align: top;
+}
+
+.product-specs-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: #E7E5E4;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.product-fast-badges {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.product-fast-badge-item {
+  background: #141210;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.product-overview-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.product-service-areas-box {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #141210;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+.product-areas-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.product-related-section {
+  margin-top: 4.5rem;
+}
+
+.product-related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+/* 2. LOCATION PAGES (.location-page-main) */
+.location-page-main {
+  padding: 3.5rem 0;
+  overflow-x: hidden;
+}
+
+.location-hero-content {
+  max-width: 860px;
+  margin-bottom: 3.5rem;
+}
+
+.location-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.location-context-box {
+  background: #141210;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.location-specialties-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.location-specialty-card {
+  background: #181614;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.location-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.location-service-link-card {
+  background: #12100E;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: block;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.location-nearby-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* 3. SPECS TABLE BASE STYLING (Services & Product Pages) */
+.specs-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 2rem 0;
+  border-radius: var(--radius-md, 8px);
+  background: #181614;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.specs-table th,
+.specs-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.specs-table th {
+  color: var(--color-gold);
+  font-weight: 600;
+  text-align: left;
+}
+
+.specs-table td {
+  color: #E7E5E4;
+}
+
+/* 4. COVERAGE TABLE & SERVICE AREAS WRAPPER */
+.coverage-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1.5rem;
+  border-radius: var(--radius-md, 8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS FOR NEWLY CREATED PAGES
+   ============================================================ */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .product-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
+  .product-main-img-box {
+    max-height: 480px;
+    margin: 0 auto;
+  }
+
+  .product-related-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .location-specialties-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .location-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .location-context-box {
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .product-page-main,
+  .location-page-main {
+    padding: 2.25rem 0 !important;
+  }
+
+  .product-hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.75rem !important;
+  }
+
+  .product-main-img-box {
+    border-radius: 12px;
+    max-height: 380px;
+  }
+
+  .product-hero-info h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .product-cta-buttons {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.75rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .product-cta-buttons .btn-whatsapp,
+  .product-cta-buttons .product-btn-wa,
+  .product-cta-buttons .btn-primary,
+  .product-cta-buttons .product-btn-call {
+    width: 100% !important;
+    flex: none !important;
+    justify-content: center !important;
+    padding: 14px 18px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .product-specs-table th {
+    padding: 10px 12px !important;
+    font-size: 0.825rem !important;
+    width: 40% !important;
+  }
+
+  .product-specs-table td {
+    padding: 10px 12px !important;
+    font-size: 0.85rem !important;
+  }
+
+  .product-fast-badges {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .product-fast-badge-item {
+    padding: 8px 6px !important;
+  }
+
+  .product-fast-badge-item span:nth-child(2) {
+    font-size: 0.75rem !important;
+  }
+
+  .product-fast-badge-item span:nth-child(3) {
+    font-size: 0.68rem !important;
+  }
+
+  .product-overview-section {
+    margin-top: 2.5rem !important;
+    padding-top: 2rem !important;
+  }
+
+  .product-service-areas-box {
+    margin-top: 2rem !important;
+    padding: 1.5rem 1.15rem !important;
+    border-radius: 10px !important;
+  }
+
+  .product-related-section {
+    margin-top: 3rem !important;
+  }
+
+  .product-related-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  /* Location Pages Mobile */
+  .location-hero-content {
+    margin-bottom: 2rem !important;
+  }
+
+  .location-hero-content h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .location-hero-content p {
+    font-size: 0.95rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .location-cta-buttons {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.75rem !important;
+  }
+
+  .location-cta-buttons .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 14px 18px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .location-context-box {
+    padding: 1.35rem 1.15rem !important;
+    margin-bottom: 2rem !important;
+    border-radius: 12px !important;
+  }
+
+  .location-context-box h2 {
+    font-size: 1.4rem !important;
+  }
+
+  .location-context-box div {
+    font-size: 0.95rem !important;
+  }
+
+  .location-specialties-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .location-services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.75rem !important;
+  }
+
+  /* Services Pages Mobile */
+  .service-hero-visual img {
+    max-height: 320px !important;
+    border-radius: 10px !important;
+  }
+
+  .specs-table th,
+  .specs-table td {
+    padding: 10px 12px !important;
+    font-size: 0.825rem !important;
+  }
+}
+
+/* Extra Small Phones (max-width: 420px) */
+@media (max-width: 420px) {
+  .product-main-img-box {
+    max-height: 290px !important;
+  }
+
+  .product-hero-info h1 {
+    font-size: 1.45rem !important;
+  }
+
+  .product-fast-badges {
+    grid-template-columns: 1fr !important;
+    gap: 6px !important;
+  }
+
+  .product-specs-table th,
+  .product-specs-table td {
+    padding: 8px 8px !important;
+    font-size: 0.78rem !important;
+  }
+
+  .product-areas-tags a,
+  .location-nearby-tags a {
+    font-size: 0.75rem !important;
+    padding: 4px 8px !important;
+  }
+
+  .location-hero-content h1 {
+    font-size: 1.45rem !important;
+  }
+}
+
+
 
 
 

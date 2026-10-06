@@ -149,7 +149,7 @@ locations.forEach(loc => {
   const fullUrl = `https://mirror-design.vercel.app/service-areas/${loc.slug}`;
 
   const specialtiesHTML = loc.specialties.map(spec => `
-        <div style="background: #181614; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1.5rem; transition: transform 0.2s ease;">
+        <div class="location-specialty-card">
           <div style="color: var(--color-gold); font-size: 1.25rem; margin-bottom: 0.5rem;">✦</div>
           <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #FAF9F7; margin-bottom: 0.5rem;">${spec.title}</h3>
           <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin: 0;">${spec.desc}</p>
@@ -350,10 +350,10 @@ Please let me know when your technical team can visit.`);
   </nav>
 
   <!-- 5. LOCATION HERO -->
-  <main style="padding: 3.5rem 0;">
+  <main class="location-page-main">
     <div class="container">
       
-      <div style="max-width: 860px; margin-bottom: 3.5rem;">
+      <div class="location-hero-content">
         <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px;">Direct Workshop Service &bull; ${loc.name}</span>
         <h1 style="font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 3.5vw, 2.75rem); font-weight: 700; color: #FAF9F7; line-height: 1.25; margin-bottom: 1.5rem;">
           ${loc.h1}
@@ -361,7 +361,7 @@ Please let me know when your technical team can visit.`);
         <p style="font-size: 1.1rem; line-height: 1.8; color: #E7E5E4; margin-bottom: 1.5rem;">
           ${loc.intro}
         </p>
-        <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+        <div class="location-cta-buttons">
           <a href="${waLink}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="font-size: 1rem; padding: 0.85rem 1.75rem;">
             💬 Book Free Site Visit in ${loc.name}
           </a>
@@ -372,7 +372,7 @@ Please let me know when your technical team can visit.`);
       </div>
 
       <!-- Local Architectural Context Section (300+ Words) -->
-      <section style="background: #141210; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2.5rem; margin-bottom: 3.5rem;">
+      <section class="location-context-box">
         <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px;">Regional Expertise</span>
         <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: #FAF9F7; margin-bottom: 1.25rem;">
           Architectural Fabrication Tailored to ${loc.name}
@@ -391,7 +391,7 @@ Please let me know when your technical team can visit.`);
             Our Specializations in ${loc.name}
           </h2>
         </div>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <div class="location-specialties-grid">
           ${specialtiesHTML}
         </div>
       </section>
@@ -404,28 +404,28 @@ Please let me know when your technical team can visit.`);
         <p style="font-size: 0.95rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.5rem;">
           Every service is backed by our master craftsman guarantee, high-grade hardware, and precision installation:
         </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
-          <a href="/services/aluminium-doors" style="background: #12100E; border: 1px solid rgba(255,255,255,0.06); padding: 1rem; border-radius: 8px; text-decoration: none; display: block;">
+        <div class="location-services-grid">
+          <a href="/services/aluminium-doors" class="location-service-link-card">
             <h4 style="color: var(--color-gold); margin: 0 0 0.25rem 0; font-size: 1rem;">Aluminium Doors &rarr;</h4>
             <p style="font-size: 0.8rem; color: #A8A29E; margin: 0;">Entrance, sliding &amp; French patio systems</p>
           </a>
-          <a href="/services/aluminium-windows" style="background: #12100E; border: 1px solid rgba(255,255,255,0.06); padding: 1rem; border-radius: 8px; text-decoration: none; display: block;">
+          <a href="/services/aluminium-windows" class="location-service-link-card">
             <h4 style="color: var(--color-gold); margin: 0 0 0.25rem 0; font-size: 1rem;">Aluminium Windows &rarr;</h4>
             <p style="font-size: 0.8rem; color: #A8A29E; margin: 0;">Double glazed &amp; acoustic sliding windows</p>
           </a>
-          <a href="/services/glass-partitions" style="background: #12100E; border: 1px solid rgba(255,255,255,0.06); padding: 1rem; border-radius: 8px; text-decoration: none; display: block;">
+          <a href="/services/glass-partitions" class="location-service-link-card">
             <h4 style="color: var(--color-gold); margin: 0 0 0.25rem 0; font-size: 1rem;">Glass Partitions &rarr;</h4>
             <p style="font-size: 0.8rem; color: #A8A29E; margin: 0;">Office enclosures &amp; tempered divider walls</p>
           </a>
-          <a href="/services/shower-cabins" style="background: #12100E; border: 1px solid rgba(255,255,255,0.06); padding: 1rem; border-radius: 8px; text-decoration: none; display: block;">
+          <a href="/services/shower-cabins" class="location-service-link-card">
             <h4 style="color: var(--color-gold); margin: 0 0 0.25rem 0; font-size: 1rem;">Shower Cabins &rarr;</h4>
             <p style="font-size: 0.8rem; color: #A8A29E; margin: 0;">Frameless 10mm glass cubicles &amp; screens</p>
           </a>
-          <a href="/services/led-mirrors" style="background: #12100E; border: 1px solid rgba(255,255,255,0.06); padding: 1rem; border-radius: 8px; text-decoration: none; display: block;">
+          <a href="/services/led-mirrors" class="location-service-link-card">
             <h4 style="color: var(--color-gold); margin: 0 0 0.25rem 0; font-size: 1rem;">LED &amp; Smart Mirrors &rarr;</h4>
             <p style="font-size: 0.8rem; color: #A8A29E; margin: 0;">Touch sensors, defoggers &amp; custom silhouettes</p>
           </a>
-          <a href="/services/shopfronts" style="background: #12100E; border: 1px solid rgba(255,255,255,0.06); padding: 1rem; border-radius: 8px; text-decoration: none; display: block;">
+          <a href="/services/shopfronts" class="location-service-link-card">
             <h4 style="color: var(--color-gold); margin: 0 0 0.25rem 0; font-size: 1rem;">Aluminium Shopfronts &rarr;</h4>
             <p style="font-size: 0.8rem; color: #A8A29E; margin: 0;">Heavy-duty retail &amp; commercial facades</p>
           </a>
@@ -437,7 +437,7 @@ Please let me know when your technical team can visit.`);
         <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #FAF9F7; margin-bottom: 1rem;">
           Other Nearby Service Areas in Sialkot District
         </h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="location-nearby-tags">
           ${otherLocations}
         </div>
       </section>
