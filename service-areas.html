@@ -66,7 +66,7 @@
   <style>
     html,
     body {
-      background-color: #FAF9F7;
+      background-color: var(--color-text);
       margin: 0;
       padding: 0;
     }
@@ -121,7 +121,7 @@
   </script>
 </head>
 
-<body>
+<body class="theme-light">
 
   <!-- ==================== 1. TOP ANNOUNCEMENT BAR ==================== -->
   <div class="announcement-bar">
@@ -231,7 +231,10 @@
 
   <!-- ==================== 5. PAGE HERO ==================== -->
   <section class="page-hero">
-    <div class="container">
+    <div class="page-hero-bg">
+      <img src="images/hero-mirror-bg.webp" alt="Aluminium and Glass Services Areas Sialkot &amp; Punjab" loading="eager">
+    </div>
+    <div class="container page-hero-content">
       <div class="hero-label">
         <span class="hero-label-badge">
           Architectural Coverage &amp; On-Site Service
@@ -265,51 +268,51 @@
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
         
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Sialkot City</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Commercial plazas, Paris Road offices, Model Town residences &amp; custom LED mirrors.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Sialkot City</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Commercial plazas, Paris Road offices, Model Town residences &amp; custom LED mirrors.</p>
           <a href="/service-areas/sialkot" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Sialkot Services &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Sialkot Cantt</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Luxury residential villas, soundproof acoustic double glazing &amp; frameless shower cubicles.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Sialkot Cantt</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Luxury residential villas, soundproof acoustic double glazing &amp; frameless shower cubicles.</p>
           <a href="/service-areas/sialkot-cantt" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Cantt Services &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Daska</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Heavy-duty sliding aluminium doors, market shopfront glazing &amp; residential windows.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Daska</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Heavy-duty sliding aluminium doors, market shopfront glazing &amp; residential windows.</p>
           <a href="/service-areas/daska" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Daska Services &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Sambrial</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Airport corridor showrooms, Dry Port corporate glass partitions &amp; warehouse glazing.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Sambrial</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Airport corridor showrooms, Dry Port corporate glass partitions &amp; warehouse glazing.</p>
           <a href="/service-areas/sambrial" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Sambrial Services &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Pasrur</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Termite-proof woodgrain entrance doors, airtight sliding windows &amp; vanity mirrors.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Pasrur</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Termite-proof woodgrain entrance doors, airtight sliding windows &amp; vanity mirrors.</p>
           <a href="/service-areas/pasrur" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Pasrur Services &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Wazirabad Road</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">High-traffic commercial curtain walls, industrial heavy sliding doors &amp; retail facades.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Wazirabad Road</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">High-traffic commercial curtain walls, industrial heavy sliding doors &amp; retail facades.</p>
           <a href="/service-areas/wazirabad-road" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Wazirabad Road &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Jamke Cheema</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Farmhouse haveli entrance systems, weatherproof patio sliders &amp; dressing mirrors.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Jamke Cheema</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Farmhouse haveli entrance systems, weatherproof patio sliders &amp; dressing mirrors.</p>
           <a href="/service-areas/jamke-cheema" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Jamke Cheema &rarr;</a>
         </div>
 
-        <div style="background: #181614; border: 1px solid rgba(201,162,75,0.25); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #FAF9F7; margin-bottom: 0.5rem;">Ugoki</h3>
-          <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Industrial modular factory office partitions, acoustic double glazing &amp; shopfronts.</p>
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--color-text); margin-bottom: 0.5rem;">Ugoki</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex-grow: 1;">Industrial modular factory office partitions, acoustic double glazing &amp; shopfronts.</p>
           <a href="/service-areas/ugoki" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem; width: 100%; justify-content: center;">View Ugoki Services &rarr;</a>
         </div>
 
@@ -342,7 +345,7 @@
   </section>
 
   <!-- ==================== 7. REGIONAL SERVICE ZONES ==================== -->
-  <section class="about-section theme-dark about-pillars-section">
+  <section class="about-section theme-light about-pillars-section">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Geographic Coverage</span>
@@ -570,7 +573,7 @@
   </section>
 
   <!-- ==================== 8. SERVICE CAPABILITY MATRIX ==================== -->
-  <section class="about-section theme-dark about-process-section">
+  <section class="about-section theme-light about-process-section">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Service Capabilities</span>
@@ -643,7 +646,7 @@
   </section>
 
   <!-- ==================== 9. WORKSHOP BASE & INTERACTIVE MAP ==================== -->
-  <section class="about-section theme-dark about-workshop-section">
+  <section class="about-section theme-light about-workshop-section">
     <div class="container">
       <div class="workshop-hub-grid">
         <div class="hub-details-card fade-in">
@@ -715,7 +718,7 @@
   </section>
 
   <!-- ==================== 10. HOW TO BOOK YOUR AREA ==================== -->
-  <section class="about-section theme-dark about-process-section">
+  <section class="about-section theme-light about-process-section">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Fast &amp; Simple</span>
@@ -754,7 +757,7 @@
   </section>
 
   <!-- ==================== 11. SERVICE AREAS FAQ ==================== -->
-  <section class="about-section theme-dark about-pillars-section">
+  <section class="about-section theme-light about-pillars-section">
     <div class="container faq-container">
       <div class="section-header fade-in">
         <span class="section-label">Common Inquiries</span>

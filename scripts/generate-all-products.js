@@ -118,8 +118,8 @@ products.forEach(p => {
     for (const [key, value] of Object.entries(p.specs)) {
       specsRows += `
               <tr>
-                <th scope="row" class="specs-label" style="text-align: left; padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--color-gold); font-size: 0.9rem; font-weight: 600; width: 35%;">${key}</th>
-                <td class="specs-value" style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); color: #E7E5E4; font-size: 0.95rem;">${value}</td>
+                <th scope="row" class="specs-label" style="text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--color-light-border); color: var(--color-gold); font-size: 0.9rem; font-weight: 600; width: 35%;">${key}</th>
+                <td class="specs-value" style="padding: 12px 16px; border-bottom: 1px solid var(--color-light-border); color: #1A1A1A; font-size: 0.95rem;">${value}</td>
               </tr>`;
     }
   }
@@ -155,13 +155,13 @@ products.forEach(p => {
     const relImg = resolveRelImage(rel.mainImage, rel.slug);
     const relDesc = rel.description.substring(0, 100) + '...';
     relatedHTML += `
-        <div class="product-card" style="background: #181614; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
-          <div class="product-card-image" style="aspect-ratio: 4/3; overflow: hidden; background: #12100E;">
+        <div class="product-card" style="background: #FFFFFF; border: 1px solid var(--color-light-border); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow-sm);">
+          <div class="product-card-image" style="aspect-ratio: 4/3; overflow: hidden; background: #F8F6F2;">
             <img src="${relImg}" alt="${rel.title} custom work in Sialkot" width="400" height="300" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;">
           </div>
           <div class="product-card-body" style="padding: 1.25rem; display: flex; flex-direction: column; flex-grow: 1;">
-            <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.1rem; color: #FAF9F7; margin-bottom: 0.5rem;">${rel.title}</h3>
-            <p style="font-size: 0.875rem; color: #A8A29E; line-height: 1.5; margin-bottom: 1rem; flex-grow: 1;">${relDesc}</p>
+            <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.1rem; color: #1A1A1A; margin-bottom: 0.5rem;">${rel.title}</h3>
+            <p style="font-size: 0.875rem; color: #5A5A5A; line-height: 1.5; margin-bottom: 1rem; flex-grow: 1;">${relDesc}</p>
             <a href="/products/${rel.slug}" class="btn btn-secondary" style="width: 100%; justify-content: center; font-size: 0.875rem; padding: 0.5rem 1rem;">View Details &rarr;</a>
           </div>
         </div>`;
@@ -281,7 +281,7 @@ Please provide price estimation, customization options, and installation timelin
   }
   </script>
 </head>
-<body class="theme-dark" style="background-color: #0E0D0C; color: #FAF9F7;">
+<body class="theme-light">
 
   <!-- 1. ANNOUNCEMENT BAR -->
   <div class="announcement-bar">
@@ -352,12 +352,12 @@ Please provide price estimation, customization options, and installation timelin
   </header>
 
   <!-- 4. BREADCRUMBS -->
-  <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding: 1.25rem 0; background: #141210; border-bottom: 1px solid rgba(255,255,255,0.06);">
+  <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding: 1.25rem 0; background: var(--color-light-bg); border-bottom: 1px solid var(--color-light-border);">
     <div class="container">
-      <div style="font-size: 0.875rem; color: #A8A29E; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-        <a href="/" style="color: #A8A29E; text-decoration: none;">Home</a>
+      <div style="font-size: 0.875rem; color: var(--color-light-text-secondary); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="/" style="color: var(--color-light-text-secondary); text-decoration: none;">Home</a>
         <span>◆</span>
-        <a href="${catLink}" style="color: #A8A29E; text-decoration: none;">${catTitle}</a>
+        <a href="${catLink}" style="color: var(--color-light-text-secondary); text-decoration: none;">${catTitle}</a>
         <span>◆</span>
         <span style="color: var(--color-gold); font-weight: 500;" aria-current="page">${p.title}</span>
       </div>
@@ -380,10 +380,10 @@ Please provide price estimation, customization options, and installation timelin
         <!-- Right Column: Product Overview & Actions -->
         <div class="product-hero-info">
           <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px;">${catTitle} &bull; Sialkot Workshop</span>
-          <h1 style="font-family: 'Outfit', sans-serif; font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; color: #FAF9F7; line-height: 1.25; margin-bottom: 1.25rem;">${p.title} in Sialkot</h1>
+          <h1 style="font-family: 'Outfit', sans-serif; font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; color: var(--color-light-text); line-height: 1.25; margin-bottom: 1.25rem;">${p.title} in Sialkot</h1>
           
-          <div style="background: #181614; border-left: 3px solid var(--color-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin-bottom: 1.5rem;">
-            <p style="margin: 0; font-size: 0.95rem; color: #E7E5E4; line-height: 1.6;">
+          <div style="background: #FFFFFF; border: 1px solid var(--color-light-border); border-left: 3px solid var(--color-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm);">
+            <p style="margin: 0; font-size: 0.95rem; color: var(--color-light-text); line-height: 1.6;">
               Custom fabrication available in customized dimensions, profile gauges, glass finishes, and hardware choices across Sialkot &amp; surrounding areas.
             </p>
           </div>
@@ -399,7 +399,7 @@ Please provide price estimation, customization options, and installation timelin
 
           <!-- Specifications Table -->
           <div class="product-specs-box">
-            <div style="background: rgba(201,162,75,0.1); padding: 12px 16px; border-bottom: 1px solid rgba(201,162,75,0.2);">
+            <div style="background: rgba(201,162,75,0.08); padding: 12px 16px; border-bottom: 1px solid rgba(201,162,75,0.2);">
               <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--color-gold); margin: 0;">Technical Specifications</h2>
             </div>
             <div class="product-specs-table-wrap">
@@ -415,18 +415,18 @@ Please provide price estimation, customization options, and installation timelin
           <div class="product-fast-badges">
             <div class="product-fast-badge-item">
               <span style="display: block; font-size: 1.1rem; margin-bottom: 4px;">📐</span>
-              <span style="font-size: 0.8rem; color: #FAF9F7; font-weight: 600;">Free Measurement</span>
-              <span style="display: block; font-size: 0.72rem; color: #A8A29E;">Sialkot &amp; Cantt</span>
+              <span style="font-size: 0.8rem; color: #1A1A1A; font-weight: 600;">Free Measurement</span>
+              <span style="display: block; font-size: 0.72rem; color: #5A5A5A;">Sialkot &amp; Cantt</span>
             </div>
             <div class="product-fast-badge-item">
               <span style="display: block; font-size: 1.1rem; margin-bottom: 4px;">⚡</span>
-              <span style="font-size: 0.8rem; color: #FAF9F7; font-weight: 600;">Fast Fabrication</span>
-              <span style="display: block; font-size: 0.72rem; color: #A8A29E;">5-7 Day Delivery</span>
+              <span style="font-size: 0.8rem; color: #1A1A1A; font-weight: 600;">Fast Fabrication</span>
+              <span style="display: block; font-size: 0.72rem; color: #5A5A5A;">5-7 Day Delivery</span>
             </div>
             <div class="product-fast-badge-item">
               <span style="display: block; font-size: 1.1rem; margin-bottom: 4px;">🛡️</span>
-              <span style="font-size: 0.8rem; color: #FAF9F7; font-weight: 600;">Quality Guarantee</span>
-              <span style="display: block; font-size: 0.72rem; color: #A8A29E;">Direct Workshop Warranty</span>
+              <span style="font-size: 0.8rem; color: #1A1A1A; font-weight: 600;">Quality Guarantee</span>
+              <span style="display: block; font-size: 0.72rem; color: #5A5A5A;">Direct Workshop Warranty</span>
             </div>
           </div>
 
@@ -437,10 +437,10 @@ Please provide price estimation, customization options, and installation timelin
       <section class="product-overview-section">
         <div style="max-width: 900px;">
           <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px;">Detailed Overview</span>
-          <h2 style="font-family: 'Outfit', sans-serif; font-size: clamp(1.4rem, 2.5vw, 1.85rem); color: #FAF9F7; margin-bottom: 1.5rem;">
+          <h2 style="font-family: 'Outfit', sans-serif; font-size: clamp(1.4rem, 2.5vw, 1.85rem); color: var(--color-light-text); margin-bottom: 1.5rem;">
             About Our ${p.title} Custom Fabrication
           </h2>
-          <div style="font-size: 1.05rem; line-height: 1.8; color: #D6D3D1;">
+          <div style="font-size: 1.05rem; line-height: 1.8; color: var(--color-light-text);">
             ${richDesc.split('\n\n').map(para => `<p style="margin-bottom: 1.25rem;">${para.trim()}</p>`).join('')}
           </div>
         </div>
@@ -448,21 +448,21 @@ Please provide price estimation, customization options, and installation timelin
 
       <!-- Local Service Coverage Internal Links -->
       <section class="product-service-areas-box">
-        <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #FAF9F7; margin-bottom: 0.75rem;">
+        <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: var(--color-light-text); margin-bottom: 0.75rem;">
           📍 On-Site Measurement &amp; Installation Service Areas
         </h3>
-        <p style="font-size: 0.9rem; color: #A8A29E; line-height: 1.6; margin-bottom: 1rem;">
+        <p style="font-size: 0.9rem; color: var(--color-light-text-secondary); line-height: 1.6; margin-bottom: 1rem;">
           We provide doorstep laser measurements, delivery, and full turnkey installation for this ${p.title} in all major sectors of Sialkot and adjacent industrial/residential belts:
         </p>
         <div class="product-areas-tags">
-          <a href="/service-areas/sialkot" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Sialkot City</a>
-          <a href="/service-areas/sialkot-cantt" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Sialkot Cantt</a>
-          <a href="/service-areas/daska" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Daska</a>
-          <a href="/service-areas/sambrial" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Sambrial</a>
-          <a href="/service-areas/pasrur" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Pasrur</a>
-          <a href="/service-areas/wazirabad-road" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Wazirabad Road</a>
-          <a href="/service-areas/jamke-cheema" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Jamke Cheema</a>
-          <a href="/service-areas/ugoki" style="background: #201D1A; color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.2);">Ugoki</a>
+          <a href="/service-areas/sialkot" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Sialkot City</a>
+          <a href="/service-areas/sialkot-cantt" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Sialkot Cantt</a>
+          <a href="/service-areas/daska" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Daska</a>
+          <a href="/service-areas/sambrial" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Sambrial</a>
+          <a href="/service-areas/pasrur" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Pasrur</a>
+          <a href="/service-areas/wazirabad-road" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Wazirabad Road</a>
+          <a href="/service-areas/jamke-cheema" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Jamke Cheema</a>
+          <a href="/service-areas/ugoki" style="background: var(--color-light-hero-bg); color: var(--color-gold); padding: 6px 12px; border-radius: 6px; font-size: 0.825rem; text-decoration: none; border: 1px solid rgba(201,162,75,0.3);">Ugoki</a>
         </div>
       </section>
 
@@ -470,7 +470,7 @@ Please provide price estimation, customization options, and installation timelin
       <section class="product-related-section">
         <div style="margin-bottom: 2rem;">
           <span style="color: var(--color-gold); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 6px;">Explore More</span>
-          <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: #FAF9F7; margin: 0;">Related Designs &amp; Projects</h2>
+          <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: var(--color-light-text); margin: 0;">Related Designs &amp; Projects</h2>
         </div>
         <div class="product-related-grid">
           ${relatedHTML}

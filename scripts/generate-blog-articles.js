@@ -333,11 +333,11 @@ articles.forEach(art => {
         }
       });
       faqHTML += `
-        <div style="background: #181614; border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; margin-bottom: 12px; overflow: hidden;">
-          <div style="padding: 16px 20px; border-bottom: 1px solid rgba(255,255,255,0.05); color: var(--color-gold); font-family: 'Outfit', sans-serif; font-size: 1.05rem; font-weight: 600;">
+        <div style="background: var(--color-light-card); border: 1px solid var(--color-border); border-radius: 10px; margin-bottom: 12px; overflow: hidden; box-shadow: var(--shadow-sm);">
+          <div style="padding: 16px 20px; border-bottom: 1px solid var(--color-border); color: var(--color-text); font-family: 'Outfit', sans-serif; font-size: 1.05rem; font-weight: 600;">
             ${f.q}
           </div>
-          <div style="padding: 16px 20px; font-size: 0.95rem; line-height: 1.6; color: #D6D3D1;">
+          <div style="padding: 16px 20px; font-size: 0.95rem; line-height: 1.6; color: var(--color-text-secondary);">
             ${f.a}
           </div>
         </div>`;
@@ -457,7 +457,7 @@ I just read your article "${art.h1}" and would like to ask some questions and re
   </script>
   ${faqSchema}
 </head>
-<body class="theme-dark" style="background-color: #0E0D0C; color: #FAF9F7;">
+<body class="theme-light">
 
   <!-- 1. ANNOUNCEMENT BAR -->
   <div class="announcement-bar">
@@ -528,12 +528,12 @@ I just read your article "${art.h1}" and would like to ask some questions and re
   </header>
 
   <!-- 4. BREADCRUMBS -->
-  <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding: 1.25rem 0; background: #141210; border-bottom: 1px solid rgba(255,255,255,0.06);">
+  <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding: 1.25rem 0; background: var(--color-light-hero-bg); border-bottom: 1px solid var(--color-border);">
     <div class="container">
-      <div style="font-size: 0.875rem; color: #A8A29E; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-        <a href="/" style="color: #A8A29E; text-decoration: none;">Home</a>
+      <div style="font-size: 0.875rem; color: var(--color-text-secondary); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="/" style="color: var(--color-text-secondary); text-decoration: none;">Home</a>
         <span>◆</span>
-        <a href="/blog" style="color: #A8A29E; text-decoration: none;">Blog</a>
+        <a href="/blog" style="color: var(--color-text-secondary); text-decoration: none;">Blog</a>
         <span>◆</span>
         <span style="color: var(--color-gold); font-weight: 500;" aria-current="page">${art.h1}</span>
       </div>
@@ -541,52 +541,52 @@ I just read your article "${art.h1}" and would like to ask some questions and re
   </nav>
 
   <!-- 5. ARTICLE CONTENT -->
-  <main style="padding: 3.5rem 0;">
+  <main style="padding: 3.5rem 0; background: var(--color-light-bg);">
     <div class="container" style="max-width: 860px;">
       
       <article>
         <header style="margin-bottom: 2.5rem;">
           <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 1rem;">
             <span style="background: rgba(201,162,75,0.15); color: var(--color-gold); padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">${art.category}</span>
-            <span style="color: #78716C; font-size: 0.85rem;">${art.readTime}</span>
-            <span style="color: #78716C; font-size: 0.85rem;">&bull; Updated Oct 2026</span>
+            <span style="color: var(--color-text-muted); font-size: 0.85rem;">${art.readTime}</span>
+            <span style="color: var(--color-text-muted); font-size: 0.85rem;">&bull; Updated Oct 2026</span>
           </div>
-          <h1 style="font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 3.5vw, 2.75rem); color: #FAF9F7; line-height: 1.25; margin-bottom: 1.5rem;">
+          <h1 style="font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 3.5vw, 2.75rem); color: var(--color-text); line-height: 1.25; margin-bottom: 1.5rem;">
             ${art.h1}
           </h1>
-          <div style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px solid rgba(255,255,255,0.08); border-bottom: 1px solid rgba(255,255,255,0.08);">
-            <div style="width: 42px; height: 42px; border-radius: 50%; background: #24201C; border: 1px solid var(--color-gold); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--color-gold);">R</div>
+          <div style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+            <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--color-light-hero-bg); border: 1px solid var(--color-gold); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--color-gold);">R</div>
             <div>
-              <div style="font-weight: 600; color: #FAF9F7; font-size: 0.95rem;">Master Rahman</div>
-              <div style="font-size: 0.8rem; color: #A8A29E;">Master Fabricator &bull; Rahman Aluminium &amp; Glass Works Sialkot</div>
+              <div style="font-weight: 600; color: var(--color-text); font-size: 0.95rem;">Master Rahman</div>
+              <div style="font-size: 0.8rem; color: var(--color-text-secondary);">Master Fabricator &bull; Rahman Aluminium &amp; Glass Works Sialkot</div>
             </div>
           </div>
         </header>
 
-        <div style="margin-bottom: 2.5rem; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08);">
+        <div style="margin-bottom: 2.5rem; border-radius: 12px; overflow: hidden; border: 1px solid var(--color-border); box-shadow: var(--shadow-sm);">
           <img src="..${art.image}" alt="${art.h1} in Sialkot" width="860" height="480" fetchpriority="high" style="width: 100%; height: auto; max-height: 480px; object-fit: cover; display: block;">
         </div>
 
         <!-- Article Body -->
-        <div class="article-body" style="font-size: 1.1rem; line-height: 1.85; color: #D6D3D1;">
+        <div class="article-body" style="font-size: 1.1rem; line-height: 1.85; color: var(--color-text-secondary);">
           ${art.content}
         </div>
 
         <!-- FAQ Section -->
         ${faqHTML ? `
-        <section style="margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08);">
-          <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: #FAF9F7; margin-bottom: 1.5rem;">
+        <section style="margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid var(--color-border);">
+          <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: var(--color-text); margin-bottom: 1.5rem;">
             Frequently Asked Questions
           </h2>
           ${faqHTML}
         </section>` : ''}
 
         <!-- CTA Box -->
-        <section style="margin-top: 3.5rem; background: #141210; border: 1px solid var(--color-gold); border-radius: 14px; padding: 2.5rem; text-align: center;">
-          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.6rem; color: #FAF9F7; margin-bottom: 0.75rem;">
+        <section style="margin-top: 3.5rem; background: var(--color-light-hero-bg); border: 1px solid var(--color-gold); border-radius: 14px; padding: 2.5rem; text-align: center;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.6rem; color: var(--color-text); margin-bottom: 0.75rem;">
             Need Expert Advice or a Free Estimate in Sialkot?
           </h3>
-          <p style="font-size: 1rem; color: #B8B0A5; line-height: 1.6; max-width: 600px; margin: 0 auto 1.5rem auto;">
+          <p style="font-size: 1rem; color: var(--color-text-secondary); line-height: 1.6; max-width: 600px; margin: 0 auto 1.5rem auto;">
             Speak directly with Master Rahman for free on-site laser measurements, customized design consultations, and transparent itemized pricing.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">

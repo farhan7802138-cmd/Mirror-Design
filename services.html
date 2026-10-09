@@ -51,7 +51,7 @@
     }
 
     .announcement-bar {
-      background: #181614;
+      background: var(--color-light-bg);
       height: 40px;
       display: flex;
       align-items: center;
@@ -83,7 +83,7 @@
   </script>
 </head>
 
-<body>
+<body class="theme-light">
 
   <!-- ==================== 1. TOP ANNOUNCEMENT BAR ==================== -->
   <div class="announcement-bar">
@@ -200,7 +200,10 @@
 
   <!-- ==================== HERO SECTION ==================== -->
   <section class="page-hero">
-    <div class="container">
+    <div class="page-hero-bg">
+      <img src="images/shopfront-shutters.webp" alt="Aluminium and Glass Fabrication Services Sialkot" loading="eager">
+    </div>
+    <div class="container page-hero-content">
       <div class="hero-label" style="display: inline-flex; margin-bottom: 1rem;">
         <span style="color: #C9A24B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.8rem;">
           Specialized Architectural Services
@@ -220,7 +223,7 @@
   </section>
 
   <!-- ==================== CORE SERVICES SHOWCASE ==================== -->
-  <section class="theme-dark" id="services-overview" style="padding: 4.5rem 0; background: #181614;">
+  <section class="theme-light" id="services-overview" style="padding: 4.5rem 0; background: var(--color-light-bg);">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Tailored Solutions</span>
@@ -371,7 +374,7 @@
   </section>
 
   <!-- ==================== ALL REMAINING PROJECTS SECTION ==================== -->
-  <section class="our-best-work" id="services-projects" style="padding: 4.5rem 0; background-color: var(--color-dark-bg);">
+  <section class="our-best-work" id="services-projects" style="padding: 4.5rem 0; background-color: var(--color-light-bg);">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Complete Project Portfolio</span>
