@@ -2676,6 +2676,11 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(0);
   }
 
+  /* Home Page Hero Overlay: Reduce darkness on mobile only */
+  .hero-bg::after {
+    opacity: 0.5;
+  }
+
   /* Page Hero Banners (All Pages) */
   .page-hero-content {
     text-align: center !important;
