@@ -134,8 +134,8 @@ products.forEach(p => {
     const activeClass = idx === 0 ? 'active' : '';
     const altText = `${p.title} - View ${idx + 1} crafted in Sialkot`;
     thumbsHTML += `
-          <button type="button" class="gallery-thumbnail ${activeClass}" data-large="${thumbRel}" data-alt="${altText}" aria-label="Thumbnail ${idx + 1}" style="background: none; border: 2px solid ${idx === 0 ? 'var(--color-gold)' : 'transparent'}; border-radius: 8px; overflow: hidden; padding: 0; cursor: pointer; aspect-ratio: 1; width: 72px;">
-            <img src="${thumbRel}" alt="${altText}" width="72" height="72" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          <button type="button" class="gallery-thumbnail ${activeClass}" data-large="${thumbRel}" data-alt="${altText}" aria-label="Thumbnail ${idx + 1}">
+            <img src="${thumbRel}" alt="${altText}" width="72" height="72" loading="lazy">
           </button>`;
   });
 
@@ -352,9 +352,9 @@ Please provide price estimation, customization options, and installation timelin
   </header>
 
   <!-- 4. BREADCRUMBS -->
-  <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding: 1.25rem 0; background: var(--color-light-bg); border-bottom: 1px solid var(--color-light-border);">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
     <div class="container">
-      <div style="font-size: 0.875rem; color: var(--color-light-text-secondary); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+      <div class="breadcrumbs-inner">
         <a href="/" style="color: var(--color-light-text-secondary); text-decoration: none;">Home</a>
         <span>◆</span>
         <a href="${catLink}" style="color: var(--color-light-text-secondary); text-decoration: none;">${catTitle}</a>
@@ -563,10 +563,8 @@ Please provide price estimation, customization options, and installation timelin
           if (alt) mainImg.alt = alt;
         }
         document.querySelectorAll('.gallery-thumbnail').forEach(b => {
-          b.style.borderColor = 'transparent';
           b.classList.remove('active');
         });
-        btn.style.borderColor = 'var(--color-gold)';
         btn.classList.add('active');
       });
     });

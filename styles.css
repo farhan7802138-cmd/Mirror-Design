@@ -737,9 +737,9 @@ h1, h2, h3, h4, h5, h6 {
   max-height: none;
   object-fit: cover;
   object-position: center;
-  opacity: 0.65;
-  filter: brightness(0.88);
-  transform: scale(1.05);
+  opacity: 0.95;
+  filter: brightness(0.96) contrast(1.04);
+  transform: scale(1.02);
 }
 
 .hero-bg::after {
@@ -747,10 +747,16 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   inset: 0;
   background: linear-gradient(
+    90deg,
+    rgba(12, 11, 10, 0.62) 0%,
+    rgba(12, 11, 10, 0.42) 45%,
+    rgba(12, 11, 10, 0.20) 100%
+  ),
+  linear-gradient(
     180deg,
-    rgba(10, 9, 8, 0.88) 0%,
-    rgba(14, 12, 10, 0.75) 45%,
-    rgba(16, 14, 12, 0.88) 100%
+    rgba(12, 11, 10, 0.35) 0%,
+    transparent 40%,
+    rgba(12, 11, 10, 0.45) 100%
   );
   z-index: 1;
 }
@@ -1565,21 +1571,44 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 600px) {
   .floating-contact-buttons {
-    bottom: 16px;
-    right: 14px;
-    gap: 10px;
+    bottom: 14px;
+    right: 12px;
+    gap: 8px;
   }
   .float-btn {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
   }
   .phone-float svg {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
   .whatsapp-float svg {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
+  }
+  .float-btn .tooltip {
+    display: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .floating-contact-buttons {
+    bottom: 12px;
+    right: 10px;
+    gap: 6px;
+  }
+  .float-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .phone-float svg {
+    width: 16px;
+    height: 16px;
+  }
+  .whatsapp-float svg {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -1952,7 +1981,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .hero-bg::after {
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65));
+    background: linear-gradient(
+      180deg,
+      rgba(12, 11, 10, 0.48) 0%,
+      rgba(12, 11, 10, 0.42) 50%,
+      rgba(12, 11, 10, 0.52) 100%
+    );
   }
 
   .hero-content {
@@ -5817,6 +5851,22 @@ img, video, iframe, canvas, svg {
   max-width: 100%;
 }
 
+/* Breadcrumbs Component */
+.breadcrumbs {
+  padding: 1.15rem 0;
+  background: var(--color-light-bg);
+  border-bottom: 1px solid var(--color-light-border);
+}
+
+.breadcrumbs-inner {
+  font-size: 0.875rem;
+  color: var(--color-light-text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
 /* 1. PRODUCT DETAIL PAGES (.product-page-main) */
 .product-page-main {
   padding: 3.5rem 0;
@@ -5864,6 +5914,40 @@ img, video, iframe, canvas, svg {
   padding-bottom: 8px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
+}
+
+.gallery-thumbnail {
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
+  aspect-ratio: 1 / 1;
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-thumbnail:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 162, 75, 0.5);
+}
+
+.gallery-thumbnail.active {
+  border-color: var(--color-gold) !important;
+  box-shadow: 0 0 0 1px var(--color-gold);
 }
 
 .product-hero-info {
@@ -6127,29 +6211,67 @@ img, video, iframe, canvas, svg {
 @media (max-width: 768px) {
   .product-page-main,
   .location-page-main {
-    padding: 2.25rem 0 !important;
+    padding: 1.5rem 0 5.5rem 0 !important;
+  }
+
+  .breadcrumbs {
+    padding: 0.65rem 0 !important;
+  }
+
+  .breadcrumbs-inner,
+  .breadcrumbs div {
+    font-size: 0.8rem !important;
+    gap: 0.35rem !important;
   }
 
   .product-hero-grid {
     grid-template-columns: 1fr !important;
-    gap: 1.75rem !important;
+    gap: 1.25rem !important;
   }
 
   .product-main-img-box {
     border-radius: 12px;
-    max-height: 380px;
+    max-height: 330px !important;
+    aspect-ratio: 4 / 3;
+    margin: 0 auto;
+  }
+
+  .product-thumbs-strip {
+    display: flex !important;
+    gap: 8px !important;
+    margin-top: 0.65rem !important;
+    padding-bottom: 8px !important;
+    padding-right: 85px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .gallery-thumbnail {
+    flex: 0 0 60px !important;
+    width: 60px !important;
+    height: 60px !important;
+    min-width: 60px !important;
+    border-radius: 8px !important;
+    scroll-snap-align: start;
+  }
+
+  .gallery-thumbnail img {
+    width: 60px !important;
+    height: 60px !important;
   }
 
   .product-hero-info h1 {
-    font-size: 1.75rem !important;
+    font-size: 1.65rem !important;
     line-height: 1.25 !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 0.85rem !important;
   }
 
   .product-cta-buttons {
     flex-direction: column !important;
     width: 100% !important;
-    gap: 0.75rem !important;
+    gap: 0.65rem !important;
     margin-bottom: 1.5rem !important;
   }
 
@@ -6160,36 +6282,49 @@ img, video, iframe, canvas, svg {
     width: 100% !important;
     flex: none !important;
     justify-content: center !important;
-    padding: 14px 18px !important;
+    padding: 13px 16px !important;
     font-size: 0.95rem !important;
+  }
+
+  .product-specs-box {
+    margin-bottom: 1.5rem !important;
   }
 
   .product-specs-table th {
     padding: 10px 12px !important;
     font-size: 0.825rem !important;
-    width: 40% !important;
+    width: 38% !important;
+    min-width: 95px !important;
   }
 
   .product-specs-table td {
     padding: 10px 12px !important;
     font-size: 0.85rem !important;
+    word-break: break-word !important;
   }
 
   .product-fast-badges {
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 8px !important;
+    gap: 6px !important;
   }
 
   .product-fast-badge-item {
-    padding: 8px 6px !important;
+    padding: 8px 4px !important;
+  }
+
+  .product-fast-badge-item span:nth-child(1) {
+    font-size: 1rem !important;
+    margin-bottom: 2px !important;
   }
 
   .product-fast-badge-item span:nth-child(2) {
-    font-size: 0.75rem !important;
+    font-size: 0.72rem !important;
+    line-height: 1.2 !important;
   }
 
   .product-fast-badge-item span:nth-child(3) {
-    font-size: 0.68rem !important;
+    font-size: 0.65rem !important;
+    line-height: 1.2 !important;
   }
 
   .product-overview-section {
@@ -6278,19 +6413,34 @@ img, video, iframe, canvas, svg {
   }
 }
 
-/* Extra Small Phones (max-width: 420px) */
-@media (max-width: 420px) {
+/* Extra Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
   .product-main-img-box {
-    max-height: 290px !important;
+    max-height: 270px !important;
+  }
+
+  .product-thumbs-strip {
+    gap: 6px !important;
+    margin-top: 0.5rem !important;
+    padding-bottom: 6px !important;
+    padding-right: 76px !important;
+  }
+
+  .gallery-thumbnail {
+    flex: 0 0 54px !important;
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    border-radius: 6px !important;
+  }
+
+  .gallery-thumbnail img {
+    width: 54px !important;
+    height: 54px !important;
   }
 
   .product-hero-info h1 {
     font-size: 1.45rem !important;
-  }
-
-  .product-fast-badges {
-    grid-template-columns: 1fr !important;
-    gap: 6px !important;
   }
 
   .product-specs-table th,
@@ -6307,6 +6457,25 @@ img, video, iframe, canvas, svg {
 
   .location-hero-content h1 {
     font-size: 1.45rem !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .gallery-thumbnail {
+    flex: 0 0 48px !important;
+    width: 48px !important;
+    height: 48px !important;
+    min-width: 48px !important;
+  }
+
+  .gallery-thumbnail img {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .product-thumbs-strip {
+    gap: 5px !important;
+    padding-right: 70px !important;
   }
 }
 
