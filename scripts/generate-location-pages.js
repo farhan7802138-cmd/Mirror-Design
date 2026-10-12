@@ -15,7 +15,7 @@ const locations = [
     metaDesc: 'Custom aluminium doors, windows, glass partitions & LED smart mirrors in Sialkot. Free on-site laser measurement visit. Call/WhatsApp: +92 302 1054485.',
     geo: { lat: '32.4945', lng: '74.5229' },
     heroImage: '../images/aluminium-doors.webp',
-    intro: `As Sialkot's dedicated architectural aluminium fabricators and bespoke glass craftsmen, Rahman Aluminium & Glass Works delivers precision manufacturing directly from our local workshop. Whether you are constructing a contemporary multi-story home on Kashmir Road, refurbishing an export executive office near Paris Road, or upgrading a commercial retail showroom in Model Town, we offer complete end-to-end service. Our master fabricators handle everything from on-site laser surveying to precision cutting, powder-coating, and dust-free on-site installation.`,
+    intro: `Rahman Aluminium & Glass Works delivers precision architectural fabrication and bespoke LED mirrors across Sialkot. From Kashmir Road to Model Town, we provide complimentary on-site laser measurements and turnkey workshop installation.`,
     localContext: `Sialkot is globally celebrated for manufacturing prowess, and local residences demand the same level of industrial precision. From bustling commercial centers around Defense Road and Paris Road to residential developments in Model Town and Shahabpura, our installations are engineered for endurance. In Sialkot's hot summers and humid monsoon seasons, standard wooden fixtures warp, swell, and require recurring repainting. Our heavy-gauge architectural aluminium doors and double-glazed windows provide permanent weather resistance, acoustic insulation from street traffic, and zero maintenance.`,
     specialties: [
       { title: 'Commercial Office Glass Partitions', desc: 'Sleek 10mm and 12mm tempered frameless glass walls with acoustic seals for Sialkot’s surgical, leather, and sports export offices.' },
@@ -33,7 +33,7 @@ const locations = [
     metaDesc: 'Architectural aluminium doors, double-glazed windows & luxury LED mirrors in Sialkot Cantt. Premium fabrication. Call/WhatsApp: +92 302 1054485.',
     geo: { lat: '32.5200', lng: '74.5450' },
     heroImage: '../images/wavy-led-mirror.webp',
-    intro: `For homeowners, architects, and estate managers across Sialkot Cantt, Rahman Aluminium & Glass Works provides top-tier architectural fabrication that complements high-end luxury residences and executive bungalows. From expansive thermal-break aluminium patio doors overlooking private lawns to frameless glass shower cabins and bespoke backlit dressing mirrors, we deliver pristine European-grade finishes with local workshop responsiveness.`,
+    intro: `Premium architectural aluminium doors, double-glazed windows, and bespoke luxury LED mirrors tailored for Sialkot Cantt residences. We provide expert on-site laser measurement and flawless installation with direct workshop quality.`,
     localContext: `Sialkot Cantt is known for its spacious residential bungalows, colonial-era estate renovations, and newly constructed executive villas along Mall Road, Garrison areas, and adjacent defense housing communities. High architectural standards require flawless alignment, superior profile gauges (1.6mm to 2.0mm heavy sections), and noiseless sliding hardware. Our acoustic double-glazed windows dramatically cut down aircraft and perimeter noise, while maintaining interior thermal comfort during peak winter and summer temperatures.`,
     specialties: [
       { title: 'Heavy Thermal-Break Entrance Doors', desc: 'Custom pivot and French patio entrance doors engineered with multi-point locking and Italian woodgrain powder coating.' },
@@ -51,7 +51,7 @@ const locations = [
     metaDesc: 'Custom aluminium windows, sliding doors, shopfronts & LED mirrors in Daska. Direct workshop prices & free site measurement. WhatsApp: +92 302 1054485.',
     geo: { lat: '32.3242', lng: '74.3503' },
     heroImage: '../images/shopfront-shutters.webp',
-    intro: `Serving residential builders, commercial plazas, and homeowners in Daska, Rahman Aluminium & Glass Works brings specialized metal fabrication and glass installation directly to your doorstep. Located just minutes down the highway from our centralized workshop, we offer Daska clients same-day site visits, laser measurements, and direct factory pricing with zero retail middlemen markup.`,
+    intro: `Serving homes, commercial plazas, and retail markets across Daska with custom aluminium doors, windows, and designer mirrors. Enjoy direct workshop rates, fast delivery, and complimentary on-site measurements.`,
     localContext: `Daska is a bustling industrial, agricultural machinery, and commercial trading center with extensive residential expansion along Nisbat Road, College Road, Gujranwala Road, and Sambrial Road. Commercial properties require heavy-duty aluminium shopfronts and tempered display glass that withstand heavy footfall. Meanwhile, newly built family homes and farmhouses across Daska benefit from modern aluminium sliding windows and elegant custom LED mirrors that elevate everyday living spaces.`,
     specialties: [
       { title: 'Commercial Plaza Shopfronts', desc: 'Durable aluminium framed shop facades and toughened 12mm glass entrances built for Daska market centers.' },
@@ -69,7 +69,7 @@ const locations = [
     metaDesc: 'Aluminium doors, windows, industrial glass partitions & shopfronts in Sambrial & Dry Port area. Free site inspection. WhatsApp: +92 302 1054485.',
     geo: { lat: '32.4764', lng: '74.3522' },
     heroImage: '../images/glass-partitions.webp',
-    intro: `Conveniently positioned along the Sialkot-Lahore Motorway (M-11) corridor and Sambrial Dry Port belt, Rahman Aluminium & Glass Works is the premier contractor for industrial, commercial, and residential glazing in Sambrial. We specialize in robust aluminium shopfronts, warehouse office partitions, acoustic soundproof windows, and custom vanity mirrors for homes.`,
+    intro: `Specialized commercial glass partitions, durable aluminium shopfronts, and custom mirrors for Sambrial and the Airport corridor. Expert fabrication and professional doorstep installation with free site inspection.`,
     localContext: `Sambrial represents a crucial economic gateway for the golden industrial triangle of Gujranwala, Sialkot, and Gujrat. With the Sialkot International Airport and the Sambrial Dry Port nearby, corporate offices, customs clearing agencies, and logistics centers continuously demand structural glass partitions and commercial aluminium doors. In residential developments across Sambrial town, homeowners trust Rahman for high-gauge aluminium windows that withstand highway traffic vibrations and environmental dust.`,
     specialties: [
       { title: 'Dry Port & Logistics Office Partitions', desc: 'Acoustic modular tempered glass divider walls designed for fast installation and modern executive privacy.' },
@@ -87,7 +87,7 @@ const locations = [
     metaDesc: 'Custom aluminium windows, security doors, glass shower cabins & vanity mirrors in Pasrur. Free laser estimate. Call/WhatsApp: +92 302 1054485.',
     geo: { lat: '32.2683', lng: '74.6675' },
     heroImage: '../images/decorative-mirrors.webp',
-    intro: `Homeowners, contractors, and retail shop owners in Pasrur can now access direct architectural aluminium fabrication and high-end mirror craftsmanship without traveling to major metropolitan centers. Rahman Aluminium & Glass Works provides scheduled on-site laser measurements, safe transit of tempered glass, and professional on-site mounting throughout Pasrur.`,
+    intro: `Custom aluminium doors, weatherproof sliding windows, and luxury vanity mirrors crafted for homes and businesses in Pasrur. Direct workshop fabrication, safe glass delivery, and free laser measurement visits.`,
     localContext: `Pasrur is experiencing significant residential construction along Pasrur-Sialkot Road and newly established housing colonies. Traditional timber doors in this region suffer from severe seasonal contraction and expansion, leading to stuck locks and drafty gaps. Our powder-coated aluminium doors and windows offer an airtight, termite-proof, and fire-resistant alternative that retains its showroom finish for decades with zero maintenance.`,
     specialties: [
       { title: 'Termite-Proof Main Entrance Doors', desc: 'Italian woodgrain finish aluminium doors that never warp, rot, or fade under intense Punjab summer heat.' },
@@ -105,7 +105,7 @@ const locations = [
     metaDesc: 'Commercial shopfronts, industrial aluminium partitions & architectural glass along Wazirabad Road Sialkot. Free estimate: +92 302 1054485.',
     geo: { lat: '32.4836', lng: '74.4300' },
     heroImage: '../images/shopfront-shutters.webp',
-    intro: `Wazirabad Road is one of Sialkot's most vital commercial and industrial arteries, lined with manufacturing plants, export showrooms, automobile dealerships, and multi-story commercial plazas. Rahman Aluminium & Glass Works is the preferred partner for heavy structural glazing, commercial entrance systems, and bespoke interior glass installations along this bustling highway corridor.`,
+    intro: `Heavy-duty commercial glass facades, aluminium entrance systems, and custom mirrors for business plazas and showrooms along Wazirabad Road. Engineered for structural strength, sound isolation, and sleek modern design.`,
     localContext: `Properties situated on Wazirabad Road face continuous heavy vehicular traffic, industrial particulate matter, and acoustic noise. Standard lightweight commercial aluminium sections quickly rattle and leak air. We deploy 1.6mm and 2.0mm heavy structural aluminium frames paired with laminated safety glass or double-glazed acoustic panels to deliver sound isolation, seismic stability, and maximum security for retail and corporate premises.`,
     specialties: [
       { title: 'Commercial Plaza Curtain Walls', desc: 'Modern structural glass facades that maximize natural light while reflecting solar heat on Wazirabad Road.' },
@@ -123,7 +123,7 @@ const locations = [
     metaDesc: 'Bespoke aluminium doors, sliding windows, shower partitions & LED mirrors in Jamke Cheema. Direct workshop delivery. WhatsApp: +92 302 1054485.',
     geo: { lat: '32.3950', lng: '74.3200' },
     heroImage: '../images/bathroom-mirrors.webp',
-    intro: `Serving the community of Jamke Cheema and neighboring rural estates between Daska and Sialkot, Rahman Aluminium & Glass Works provides personalized architectural metalwork and premium glass installations. Whether you are building a new family residence, outfitting an expansive farmhouse haveli, or modernizing bathroom vanities, we provide full on-site measurement and turnkey installation.`,
+    intro: `Bespoke aluminium entrance doors, airtight sliding windows, and illuminated vanity mirrors for homes and estates in Jamke Cheema. Built for durability, weather resistance, and elegant architectural style.`,
     localContext: `In Jamke Cheema, spacious private homes and agricultural estates require substantial, secure, and weatherproof architectural elements. Wooden exterior doors frequently rot from irrigation moisture and monsoon storms. Our woodgrain sublimated aluminium doors replicate the grandeur of traditional solid wood while guaranteeing lifetime immunity to termites, rot, and moisture damage.`,
     specialties: [
       { title: 'Farmhouse Villa Entrance Doors', desc: 'Grand double-leaf aluminium entrance doors with decorative frosted glass panels and secure multi-point locks.' },
@@ -141,7 +141,7 @@ const locations = [
     metaDesc: 'Factory glass partitions, soundproof aluminium windows & shopfronts in Ugoki industrial zone Sialkot. Free quote: +92 302 1054485.',
     geo: { lat: '32.5350', lng: '74.4500' },
     heroImage: '../images/arched-floor-mirror.webp',
-    intro: `As a central hub for Sialkot's sports goods, leather tanning, and surgical instrument manufacturing, Ugoki requires tough, industrial-strength architectural solutions. Rahman Aluminium & Glass Works engineers heavy-duty aluminium partitions, acoustic double-glazed windows, commercial entrance doors, and durable mirror fixtures tailored to factory offices and residential homes in Ugoki.`,
+    intro: `Industrial-strength office glass partitions, acoustic double-glazed windows, and commercial shopfronts engineered for Ugoki. Reliable workshop fabrication, noise insulation, and expert on-site installation.`,
     localContext: `Factory administrative blocks and quality-assurance laboratories in Ugoki need acoustic isolation from loud machinery operating nearby. Our double-glazed acoustic window units and 12mm tempered glass office partitions deliver up to 38 dB of noise reduction, creating quiet, climate-controlled corporate environments. For local homes in Ugoki, our sleek sliding windows and custom LED mirrors offer unbeatable longevity.`,
     specialties: [
       { title: 'Factory Office Modular Partitions', desc: 'Quick-assembly powder-coated aluminium frames with tempered safety glass for manufacturing management suites.' },
