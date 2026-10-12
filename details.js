@@ -419,6 +419,40 @@ Please provide pricing details, available customization options, and estimated d
     }
   }
 
+  // === Newsletter Form — Formspree AJAX Submission ===
+  const newsletterForm = document.querySelector('#newsletter-form');
+  if (newsletterForm) {
+    newsletterForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const form = this;
+      const btn = form.querySelector('button[type="submit"]');
+      const originalText = btn.textContent;
+      btn.textContent = 'Subscribing...';
+      btn.disabled = true;
+
+      fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+      .then(response => {
+        if (response.ok) {
+          form.innerHTML = '<p style="color:#C9A24B; font-size:15px; font-weight:600;">✓ Subscribed! Thank you for joining us.</p>';
+        } else {
+          btn.textContent = originalText;
+          btn.disabled = false;
+          alert('Something went wrong. Please try again.');
+        }
+      })
+      .catch(() => {
+        btn.textContent = originalText;
+        btn.disabled = false;
+        alert('Something went wrong. Please try again.');
+      });
+    });
+  }
+
   // === RENDER AND RE-RENDER ON HASH CHANGE ===
   renderProduct();
   initStaticDetailsGallery();

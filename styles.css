@@ -1403,10 +1403,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* === Footer === */
 .site-footer {
-  background-color: var(--color-dark-bg);
-  color: var(--color-dark-text-secondary);
+  background-color: var(--color-dark-bg) !important;
+  color: var(--color-dark-text-secondary) !important;
   border-top: 1px solid var(--color-dark-border);
   padding: var(--space-3xl) 0 var(--space-xl);
+}
+
+.site-footer .footer-brand p,
+.site-footer .footer-newsletter p,
+.site-footer .footer-column p,
+.site-footer .footer-column li,
+.site-footer .footer-column a,
+.site-footer .footer-bottom p {
+  color: var(--color-dark-text-secondary);
+}
+
+.site-footer .footer-column h4 {
+  color: var(--color-white) !important;
+}
+
+.site-footer .footer-column a:hover {
+  color: var(--color-gold) !important;
 }
 
 .footer-content {
@@ -1544,6 +1561,26 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 12px;
   z-index: 1005;
+}
+
+@media (max-width: 600px) {
+  .floating-contact-buttons {
+    bottom: 16px;
+    right: 14px;
+    gap: 10px;
+  }
+  .float-btn {
+    width: 48px;
+    height: 48px;
+  }
+  .phone-float svg {
+    width: 20px;
+    height: 20px;
+  }
+  .whatsapp-float svg {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .float-btn {
