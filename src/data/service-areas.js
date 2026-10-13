@@ -19,7 +19,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/daska",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -82,7 +82,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/jamke-cheema",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -145,7 +145,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/pasrur",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -208,7 +208,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/sambrial",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -271,7 +271,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/sialkot-cantt",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -334,7 +334,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/sialkot",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -397,7 +397,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/ugoki",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"
@@ -460,7 +460,7 @@ export const serviceAreas = [
         "url": "https://mirror-design.vercel.app/service-areas/wazirabad-road",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Small Industrial Estate",
+          "streetAddress": "Sialkot, Pakistan",
           "addressLocality": "Sialkot",
           "addressRegion": "Punjab",
           "addressCountry": "PK"

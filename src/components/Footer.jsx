@@ -33,66 +33,6 @@ export default function Footer({ variant = 'standard' }) {
       });
   };
 
-  if (variant === 'product') {
-    return (
-      <footer className="site-footer" id="site-footer" style={{ marginTop: '4rem', background: '#0A0908', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
-        <div className="container">
-          <div className="footer-content">
-            <div className="footer-brand">
-              <Link to="/" className="logo"><span>Rahman</span></Link>
-              <p>Premium architectural aluminium fabrication and high-grade glass &amp; custom mirror designing serving Sialkot and surrounding areas (including Sialkot Cantt, Daska, Sambrial, Pasrur, Ugoki, and Wazirabad Road).</p>
-              <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem' }}>
-                <a href="[FACEBOOK URL]" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-gold)', fontSize: '0.875rem' }}>Facebook</a>
-                <a href="[INSTAGRAM URL]" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-gold)', fontSize: '0.875rem' }}>Instagram</a>
-              </div>
-            </div>
-
-            <div className="footer-column">
-              <h4>Our Services</h4>
-              <ul>
-                <li><Link to="/services/aluminium-doors">Aluminium Doors</Link></li>
-                <li><Link to="/services/aluminium-windows">Aluminium Windows</Link></li>
-                <li><Link to="/services/glass-partitions">Glass Partitions</Link></li>
-                <li><Link to="/services/shower-cabins">Shower Cabins</Link></li>
-                <li><Link to="/services/led-mirrors">LED &amp; Smart Mirrors</Link></li>
-                <li><Link to="/services/shopfronts">Aluminium Shopfronts</Link></li>
-              </ul>
-            </div>
-
-            <div className="footer-column">
-              <h4>Service Areas</h4>
-              <ul>
-                <li><Link to="/service-areas/sialkot">Sialkot City</Link></li>
-                <li><Link to="/service-areas/sialkot-cantt">Sialkot Cantt</Link></li>
-                <li><Link to="/service-areas/daska">Daska</Link></li>
-                <li><Link to="/service-areas/sambrial">Sambrial</Link></li>
-                <li><Link to="/service-areas/pasrur">Pasrur</Link></li>
-                <li><Link to="/service-areas/wazirabad-road">Wazirabad Road</Link></li>
-                <li><Link to="/service-areas/jamke-cheema">Jamke Cheema</Link></li>
-                <li><Link to="/service-areas/ugoki">Ugoki</Link></li>
-              </ul>
-            </div>
-
-            <div className="footer-column">
-              <h4>Contact Workshop</h4>
-              <ul>
-                <li><strong style={{ color: '#FAF9F7' }}>Rahman Aluminium &amp; Glass Works</strong></li>
-                <li>Workshop: [ADD FULL ADDRESS], Sialkot, Punjab, Pakistan</li>
-                <li><a href="tel:+923021054485" className="footer-contact-link">+92 302 1054485</a></li>
-                <li><a href="mailto:rahmanaluminiumworker@gmail.com" className="footer-contact-link">rahmanaluminiumworker@gmail.com</a></li>
-                <li><span style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem' }}>Mon – Sat: 9:00 AM – 7:00 PM (Sun Closed)</span></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="footer-bottom">
-            <p>&copy; 2026 Rahman Aluminium &amp; Glass Works (Glass &amp; Mirror Design Sialkot). All Rights Reserved.</p>
-            <p>Premium Aluminium Glass Work &amp; Mirror Design — Sialkot, Punjab, Pakistan</p>
-          </div>
-        </div>
-      </footer>
-    );
-  }
 
   return (
     <footer className="site-footer" id="site-footer">
@@ -198,7 +138,7 @@ export default function Footer({ variant = 'standard' }) {
 
         <div className="footer-bottom">
           <p>&copy; 2026 Rahman. All Rights Reserved.</p>
-          <p>Premium Aluminium Glass Work &amp; Mirror Design — Sialkot, Punjab, Pakistan</p>
+          <p>Premium Aluminium Glass Work &amp; Mirror Design — Sialkot, Pakistan</p>
         </div>
       </div>
     </footer>

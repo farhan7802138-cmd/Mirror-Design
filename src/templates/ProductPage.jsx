@@ -28,7 +28,7 @@ export default function ProductPage({ product: propProduct }) {
           <p style={{ color: 'var(--color-light-text-secondary)', marginBottom: 'var(--space-lg)' }}>The product you are looking for does not exist or has been moved.</p>
           <Link to="/" className="btn btn-primary" style={{ display: 'inline-block' }}>Go Back Home</Link>
         </div>
-        <Footer variant="product" />
+        <Footer />
       </div>
     );
   }
@@ -88,7 +88,7 @@ export default function ProductPage({ product: propProduct }) {
         telephone: '+923021054485',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'Small Industrial Estate',
+          streetAddress: 'Sialkot, Pakistan',
           addressLocality: 'Sialkot',
           addressRegion: 'Punjab',
           addressCountry: 'PK'
@@ -386,7 +386,7 @@ export default function ProductPage({ product: propProduct }) {
       </main>
 
       {/* 7. FOOTER */}
-      <Footer variant="product" />
+      <Footer />
 
       {/* 8. FLOATING BUTTONS */}
       <FloatingButtons waUrl={waUrl} />

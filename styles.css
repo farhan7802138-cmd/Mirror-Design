@@ -2643,7 +2643,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 12px;
   font-size: var(--fs-xs);
-  color: var(--color-dark-text-secondary);
+  color: var(--color-text-secondary, #4B5563);
 }
 
 .hcaptcha-checkbox {
@@ -3856,7 +3856,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .article-breadcrumbs span {
-    color: var(--color-dark-text-secondary);
+    color: var(--color-text-secondary, #4B5563);
   }
 
   .article-hero .blog-category-badge {
@@ -4855,7 +4855,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-desc {
-  color: #B8B0A5;
+  color: var(--color-text-secondary, #4B5563);
   font-size: 1.05rem;
   line-height: 1.6;
   margin-bottom: 24px;
@@ -5166,7 +5166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hub-desc {
-  color: #B8B0A5;
+  color: var(--color-text-secondary, #4B5563);
   font-size: 0.95rem;
   line-height: 1.6;
 }
