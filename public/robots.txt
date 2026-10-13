@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mirror-design.vercel.app/sitemap.xml
