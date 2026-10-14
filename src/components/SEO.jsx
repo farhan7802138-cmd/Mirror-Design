@@ -5,21 +5,21 @@ export default function SEO({
   title,
   description,
   canonical,
-  ogImage = 'https://mirror-design.vercel.app/og-image.jpg',
+  ogImage = 'https://mirrordesignsialkot.com/og-image.jpg',
   ogType = 'website',
   robots = 'index, follow',
   schemas = []
 }) {
   const fullCanonical = canonical
-    ? (canonical.startsWith('http') ? canonical : `https://mirror-design.vercel.app${canonical}`)
+    ? (canonical.startsWith('http') ? canonical : `https://mirrordesignsialkot.com${canonical}`)
     : null;
-  const fullOgImage = ogImage ? (ogImage.startsWith('http') ? ogImage : `https://mirror-design.vercel.app${ogImage.startsWith('/') ? '' : '/'}${ogImage}`) : 'https://mirror-design.vercel.app/og-image.jpg';
+  const fullOgImage = ogImage ? (ogImage.startsWith('http') ? ogImage : `https://mirrordesignsialkot.com${ogImage.startsWith('/') ? '' : '/'}${ogImage}`) : 'https://mirrordesignsialkot.com/og-image.jpg';
 
   return (
     <Helmet>
       {title && <title>{title}</title>}
       {description && <meta name="description" content={description} />}
-      <meta name="author" content="Rahman Aluminium & Glass Works" />
+      <meta name="author" content="Mirror Design Sialkot" />
       <meta name="robots" content={robots} />
       {fullCanonical && <link rel="canonical" href={fullCanonical} />}
 
@@ -29,7 +29,7 @@ export default function SEO({
       {fullOgImage && <meta property="og:image" content={fullOgImage} />}
       {fullCanonical && <meta property="og:url" content={fullCanonical} />}
       <meta property="og:type" content={ogType} />
-      <meta property="og:site_name" content="Rahman Aluminium & Glass Works" />
+      <meta property="og:site_name" content="Mirror Design Sialkot" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />

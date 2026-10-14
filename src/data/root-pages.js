@@ -5,20 +5,31 @@ export const rootPages = {
     "route": "/",
     "title": "Aluminium Glass & Mirror Design Sialkot | Rahman",
     "metaDesc": "Best aluminium doors, windows, glass partitions & LED smart mirrors in Sialkot. Free laser measurement visit. Call Master Rahman: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mirror Design Sialkot",
+        "alternateName": [
+          "Mirror Design",
+          "Rahman Aluminium & Glass Works",
+          "Glass & Mirror Design Sialkot"
+        ],
+        "url": "https://mirrordesignsialkot.com/"
+      },
       {
         "@context": "https://schema.org",
         "@type": "HomeAndConstructionBusiness",
         "name": "Rahman Aluminium & Glass Works",
         "alternateName": "Glass & Mirror Design Sialkot",
         "description": "Premium Aluminium Glass Work and bespoke Mirror Design in Sialkot, Pakistan. Aluminium doors, windows, glass partitions, shower cabins, shopfronts, and LED mirrors.",
-        "url": "https://mirror-design.vercel.app",
+        "url": "https://mirrordesignsialkot.com",
         "telephone": "+923021054485",
         "email": "rahmanaluminiumworker@gmail.com",
-        "image": "https://mirror-design.vercel.app/og-image.jpg",
-        "logo": "https://mirror-design.vercel.app/og-image.jpg",
+        "image": "https://mirrordesignsialkot.com/og-image.jpg",
+        "logo": "https://mirrordesignsialkot.com/og-image.jpg",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Sialkot, Pakistan",
@@ -78,21 +89,21 @@ export const rootPages = {
     "route": "/about",
     "title": "About Rahman Aluminium & Glass Works Sialkot",
     "metaDesc": "Learn about Rahman Aluminium & Glass Works in Sialkot. 15+ years of master craftsmanship in doors, windows, partitions & mirrors. Call: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/about",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/about",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "AboutPage",
         "name": "About Rahman Aluminium & Glass Works Sialkot",
         "description": "Learn about Rahman Aluminium & Glass Works in Sialkot. 15+ years of master craftsmanship in doors, windows, partitions & mirrors.",
-        "url": "https://mirror-design.vercel.app/about",
+        "url": "https://mirrordesignsialkot.com/about",
         "mainEntity": {
           "@type": "HomeAndConstructionBusiness",
           "name": "Rahman Aluminium & Glass Works",
           "telephone": "+923021054485",
           "email": "rahmanaluminiumworker@gmail.com",
-          "image": "https://mirror-design.vercel.app/og-image.jpg",
+          "image": "https://mirrordesignsialkot.com/og-image.jpg",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Sialkot, Pakistan",
@@ -111,13 +122,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "About Us",
-            "item": "https://mirror-design.vercel.app/about"
+            "item": "https://mirrordesignsialkot.com/about"
           }
         ]
       }
@@ -132,15 +143,15 @@ export const rootPages = {
     "route": "/aluminium",
     "title": "Aluminium Work Sialkot | Doors & Windows | Rahman",
     "metaDesc": "Architectural aluminium fabrication in Sialkot. Sliding doors, double glazed windows, shopfronts & office partitions. Free quote: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/aluminium",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/aluminium",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Aluminium Work Sialkot | Doors & Windows | Rahman",
         "description": "Architectural aluminium fabrication in Sialkot. Sliding doors, double glazed windows, shopfronts & office partitions.",
-        "url": "https://mirror-design.vercel.app/aluminium"
+        "url": "https://mirrordesignsialkot.com/aluminium"
       },
       {
         "@context": "https://schema.org",
@@ -150,13 +161,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Aluminium Work",
-            "item": "https://mirror-design.vercel.app/aluminium"
+            "item": "https://mirrordesignsialkot.com/aluminium"
           }
         ]
       }
@@ -171,15 +182,15 @@ export const rootPages = {
     "route": "/mirrors",
     "title": "Custom Mirror Design Sialkot | LED Mirrors — Rahman",
     "metaDesc": "Custom mirror design in Sialkot. Smart LED backlit vanity mirrors, organic wavy floor mirrors, and antique dressing mirrors. WhatsApp: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/mirrors",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/mirrors",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Custom Mirror Design Sialkot | LED Mirrors — Rahman",
         "description": "Custom mirror design in Sialkot. Smart LED backlit vanity mirrors, organic wavy floor mirrors, and antique dressing mirrors.",
-        "url": "https://mirror-design.vercel.app/mirrors"
+        "url": "https://mirrordesignsialkot.com/mirrors"
       },
       {
         "@context": "https://schema.org",
@@ -189,13 +200,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Mirrors & Glass",
-            "item": "https://mirror-design.vercel.app/mirrors"
+            "item": "https://mirrordesignsialkot.com/mirrors"
           }
         ]
       }
@@ -210,15 +221,15 @@ export const rootPages = {
     "route": "/gallery",
     "title": "Work Gallery Sialkot | Aluminium & Glass — Rahman",
     "metaDesc": "Portfolio of custom aluminium doors, double-glazed windows, office glass partitions & illuminated LED mirrors in Sialkot. Call: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/gallery",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/gallery",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Work Gallery Sialkot | Aluminium & Glass — Rahman",
         "description": "Portfolio of custom aluminium doors, double-glazed windows, office glass partitions & illuminated LED mirrors in Sialkot.",
-        "url": "https://mirror-design.vercel.app/gallery"
+        "url": "https://mirrordesignsialkot.com/gallery"
       },
       {
         "@context": "https://schema.org",
@@ -228,13 +239,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Work Gallery",
-            "item": "https://mirror-design.vercel.app/gallery"
+            "item": "https://mirrordesignsialkot.com/gallery"
           }
         ]
       }
@@ -249,15 +260,15 @@ export const rootPages = {
     "route": "/contact",
     "title": "Contact Rahman | Aluminium & Glass Work Sialkot",
     "metaDesc": "Contact Rahman for free estimate on aluminium glass work and mirror design in Sialkot. Free laser measurement visit. Call/WhatsApp: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/contact",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/contact",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
         "name": "Contact Rahman | Aluminium & Glass Work Sialkot",
         "description": "Contact Rahman for free estimate on aluminium glass work and mirror design in Sialkot. Free laser measurement visit. Call/WhatsApp: +92 302 1054485.",
-        "url": "https://mirror-design.vercel.app/contact",
+        "url": "https://mirrordesignsialkot.com/contact",
         "mainEntity": {
           "@type": "HomeAndConstructionBusiness",
           "name": "Rahman Aluminium & Glass Works",
@@ -296,13 +307,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Contact Us",
-            "item": "https://mirror-design.vercel.app/contact"
+            "item": "https://mirrordesignsialkot.com/contact"
           }
         ]
       }
@@ -317,15 +328,15 @@ export const rootPages = {
     "route": "/blog",
     "title": "Mirror & Glass Blog Sialkot | Guides & Tips — Rahman",
     "metaDesc": "Expert guides on mirror design, aluminium doors, soundproof windows & glass shower cabins in Sialkot. 2026 pricing and trends: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/blog",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "Blog",
         "name": "Mirror & Glass Blog Sialkot | Guides & Tips — Rahman",
         "description": "Expert guides on mirror design, aluminium doors, soundproof windows & glass shower cabins in Sialkot.",
-        "url": "https://mirror-design.vercel.app/blog",
+        "url": "https://mirrordesignsialkot.com/blog",
         "publisher": {
           "@type": "HomeAndConstructionBusiness",
           "name": "Rahman Aluminium & Glass Works"
@@ -339,13 +350,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           }
         ]
       }
@@ -360,15 +371,15 @@ export const rootPages = {
     "route": "/services",
     "title": "Services & Projects | Aluminium & Glass Sialkot",
     "metaDesc": "Explore architectural services by Rahman: aluminium doors, windows, glass partitions, shower cabins, shopfronts & mirrors in Sialkot: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/services",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/services",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Services & Projects | Aluminium & Glass Sialkot",
         "description": "Explore architectural services by Rahman: aluminium doors, windows, glass partitions, shower cabins, shopfronts & mirrors in Sialkot.",
-        "url": "https://mirror-design.vercel.app/services"
+        "url": "https://mirrordesignsialkot.com/services"
       },
       {
         "@context": "https://schema.org",
@@ -378,13 +389,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://mirror-design.vercel.app/services"
+            "item": "https://mirrordesignsialkot.com/services"
           }
         ]
       }
@@ -399,17 +410,17 @@ export const rootPages = {
     "route": "/service-areas",
     "title": "Service Areas Sialkot & Punjab | Rahman Glass",
     "metaDesc": "Explore service coverage across Sialkot, Cantt, Daska, Sambrial, Pasrur, Wazirabad Road & Ugoki. Free laser estimate: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/service-areas",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/service-areas",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "HomeAndConstructionBusiness",
         "name": "Rahman Aluminium & Glass Works",
-        "image": "https://mirror-design.vercel.app/og-image.jpg",
+        "image": "https://mirrordesignsialkot.com/og-image.jpg",
         "telephone": "+923021054485",
         "email": "rahmanaluminiumworker@gmail.com",
-        "url": "https://mirror-design.vercel.app/service-areas",
+        "url": "https://mirrordesignsialkot.com/service-areas",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Sialkot, Pakistan",
@@ -475,13 +486,13 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Service Areas",
-            "item": "https://mirror-design.vercel.app/service-areas"
+            "item": "https://mirrordesignsialkot.com/service-areas"
           }
         ]
       }
@@ -496,15 +507,15 @@ export const rootPages = {
     "route": "/privacy",
     "title": "Privacy Policy | Rahman Aluminium & Glass Sialkot",
     "metaDesc": "Privacy Policy for Rahman Aluminium & Glass Works in Sialkot. Explains data protection for quotations, laser surveys, and client correspondence.",
-    "canonical": "https://mirror-design.vercel.app/privacy",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/privacy",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Privacy Policy | Rahman Aluminium & Glass Sialkot",
         "description": "Privacy Policy for Rahman Aluminium & Glass Works in Sialkot. Explains data protection for quotations, laser surveys, and client correspondence.",
-        "url": "https://mirror-design.vercel.app/privacy"
+        "url": "https://mirrordesignsialkot.com/privacy"
       },
       {
         "@context": "https://schema.org",
@@ -514,20 +525,20 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Privacy Policy",
-            "item": "https://mirror-design.vercel.app/privacy"
+            "item": "https://mirrordesignsialkot.com/privacy"
           }
         ]
       }
     ],
     "hasSearch": true,
     "hasContactStrip": true,
-    "bodyHtml": "<!-- ==================== HERO SECTION ==================== -->\r\n  <section class=\"page-hero\">\n    <div class=\"page-hero-bg\">\n      <img src=\"images/hero-banner.webp\" alt=\"Privacy Policy - Rahman Aluminium &amp; Glass\" loading=\"eager\">\n    </div>\r\n    <div class=\"container page-hero-content\">\r\n      <div class=\"hero-label\">\r\n        <span style=\"color: #C9A24B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.8rem;\">Legal Information</span>\r\n      </div>\r\n      <h1 class=\"page-hero-title\">Privacy Policy</h1>\r\n      <p class=\"page-hero-subtitle\">Last Updated: June 2026</p>\r\n    </div>\r\n  </section>\r\n\r\n  <!-- ==================== MAIN LEGAL CONTENT ==================== -->\r\n  <main class=\"legal-wrapper\">\r\n    <div class=\"container\">\r\n      <div class=\"legal-layout\">\r\n\r\n        <!-- Sticky Table of Contents Sidebar -->\r\n        <aside class=\"legal-sidebar\" aria-label=\"Table of Contents\">\r\n          <h3>Table of Contents</h3>\r\n          <ul class=\"legal-toc-list\">\r\n            <li><a href=\"#intro\">1. Introduction</a></li>\r\n            <li><a href=\"#info-collect\">2. Information We Collect</a></li>\r\n            <li><a href=\"#how-we-use\">3. How We Use Information</a></li>\r\n            <li><a href=\"#whatsapp\">4. WhatsApp Communication</a></li>\r\n            <li><a href=\"#cookies\">5. Cookies</a></li>\r\n            <li><a href=\"#security\">6. Data Security</a></li>\r\n            <li><a href=\"#rights\">7. Your Rights</a></li>\r\n            <li><a href=\"#contact-us\">8. Contact Us</a></li>\r\n            <li><a href=\"#changes\">9. Changes to Policy</a></li>\r\n          </ul>\r\n        </aside>\r\n\r\n        <!-- Main Text Article -->\r\n        <article class=\"legal-content-main\">\r\n\r\n          <!-- Section 1 -->\r\n          <section class=\"legal-section\" id=\"intro\">\r\n            <h2><span class=\"legal-section-number\">01.</span> Introduction</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0; font-weight: 500;\">\r\n                \"Rahman Aluminium &amp; Glass Works (\"we\", \"us\", \"our\") operates the website <strong>mirror-design.vercel.app</strong>. This Privacy Policy explains how we collect, use, and protect your personal information.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We are committed to maintaining the confidentiality and integrity of personal information entrusted to us by our customers, website visitors, and business partners across Sialkot and throughout Pakistan.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 2 -->\r\n          <section class=\"legal-section\" id=\"info-collect\">\r\n            <h2><span class=\"legal-section-number\">02.</span> Information We Collect</h2>\r\n            <p>We may collect and process the following categories of information when you interact with our website or contact our workshop:</p>\r\n            <ul>\r\n              <li><strong>Name and Contact Details:</strong> Full name, residential or commercial site address for measurement/delivery in Sialkot.</li>\r\n              <li><strong>Phone Number:</strong> Mobile and WhatsApp contact numbers to confirm appointments and share project updates.</li>\r\n              <li><strong>Email Address:</strong> Used for official quotations, receipts, and order correspondence.</li>\r\n              <li><strong>Message &amp; Inquiry Content:</strong> Dimensions, specifications, photos, and project briefs submitted via our contact forms.</li>\r\n              <li><strong>Browser Cookies:</strong> Standard web analytics cookies used solely to analyze website traffic patterns.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 3 -->\r\n          <section class=\"legal-section\" id=\"how-we-use\">\r\n            <h2><span class=\"legal-section-number\">03.</span> How We Use Your Information</h2>\r\n            <p>We process your personal details strictly for legitimate craftsmanship and customer service purposes:</p>\r\n            <ul>\r\n              <li>To promptly respond to your inquiries and consultation requests.</li>\r\n              <li>To calculate accurate free estimates and prepare personalized quotations.</li>\r\n              <li>To manufacture, deliver, and install custom mirrors, aluminium doors, and glass partitions.</li>\r\n              <li>To continually enhance our customer service and website experience.</li>\r\n              <li>To send occasional service updates or promotional announcements if you have subscribed to our newsletter.</li>\r\n            </ul>\r\n            <div class=\"legal-highlight-box\" style=\"border-left-color: #25D366; background: #F0FDF4;\">\r\n              <strong>🛡️ Our Strict Privacy Pledge:</strong> We NEVER sell, rent, or trade your personal information or phone numbers to third-party advertisers or telemarketers.\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 4 -->\r\n          <section class=\"legal-section\" id=\"whatsapp\">\r\n            <h2><span class=\"legal-section-number\">04.</span> WhatsApp Communication</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"When you contact us via WhatsApp (<strong>+92 302 1054485</strong>), your messages are subject to WhatsApp's Privacy Policy. We use WhatsApp only to respond to your business inquiries, share catalog photos, and confirm site measurement timings.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We recommend not sharing sensitive financial information such as banking passwords or credit card numbers through messaging applications.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 5 -->\r\n          <section class=\"legal-section\" id=\"cookies\">\r\n            <h2><span class=\"legal-section-number\">05.</span> Cookies</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"We use Google Analytics cookies to understand website traffic. These cookies do not contain personal information.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              Cookies are small data files stored on your browser that help us analyze which pages are most visited, such as our LED mirror designs or aluminium door catalog. You can easily adjust your browser settings to refuse cookies or notify you when cookies are sent.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 6 -->\r\n          <section class=\"legal-section\" id=\"security\">\r\n            <h2><span class=\"legal-section-number\">06.</span> Data Security</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"Your data is stored securely and accessed only by authorized team members.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We implement industry-standard administrative, physical, and electronic security safeguards to shield your contact details against unauthorized access, accidental loss, or unlawful disclosure.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 7 -->\r\n          <section class=\"legal-section\" id=\"rights\">\r\n            <h2><span class=\"legal-section-number\">07.</span> Your Rights</h2>\r\n            <p>Under Pakistani consumer privacy principles and our customer-first commitment, you have the right to:</p>\r\n            <ul>\r\n              <li><strong>Access Your Data:</strong> Request a summary of the contact details we retain regarding your orders.</li>\r\n              <li><strong>Request Deletion:</strong> Ask us to erase your personal contact records once your project warranty cycle concludes.</li>\r\n              <li><strong>Opt Out of Communications:</strong> Unsubscribe from marketing emails or promotional messages at any time.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 8 -->\r\n          <section class=\"legal-section\" id=\"contact-us\">\r\n            <h2><span class=\"legal-section-number\">08.</span> Contact Us</h2>\r\n            <p>For any privacy concerns, data inquiries, or questions about our policies, please contact our team directly:</p>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin-bottom: 0.5rem;\">📧 <strong>Email:</strong> <a href=\"mailto:rahmanaluminiumworker@gmail.com\" style=\"color: #C9A24B; text-decoration: none;\">rahmanaluminiumworker@gmail.com</a></p>\r\n              <p style=\"margin-bottom: 0.5rem;\">📞 <strong>Phone:</strong> <a href=\"tel:+923021054485\" style=\"color: #C9A24B; text-decoration: none;\">+92 302 1054485</a></p>\r\n              <p style=\"margin: 0;\">📍 <strong>Workshop Location:</strong> Sialkot, Pakistan</p>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 9 -->\r\n          <section class=\"legal-section\" id=\"changes\">\r\n            <h2><span class=\"legal-section-number\">09.</span> Changes to Policy</h2>\r\n            <p>\r\n              We may update this policy periodically to reflect operational, legal, or regulatory adjustments. Any revisions will be published immediately on this page.\r\n            </p>\r\n            <p style=\"color: #777; font-size: 0.9rem;\">\r\n              <strong>Last updated:</strong> June 2026\r\n            </p>\r\n          </section>\r\n\r\n        </article>\r\n      </div>\r\n    </div>\r\n  </main>\r\n\r\n  <!-- ==================== FOOTER ==================== -->\r\n    <!-- ==================== FOOTER ==================== -->"
+    "bodyHtml": "<!-- ==================== HERO SECTION ==================== -->\r\n  <section class=\"page-hero\">\n    <div class=\"page-hero-bg\">\n      <img src=\"images/hero-banner.webp\" alt=\"Privacy Policy - Rahman Aluminium &amp; Glass\" loading=\"eager\">\n    </div>\r\n    <div class=\"container page-hero-content\">\r\n      <div class=\"hero-label\">\r\n        <span style=\"color: #C9A24B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.8rem;\">Legal Information</span>\r\n      </div>\r\n      <h1 class=\"page-hero-title\">Privacy Policy</h1>\r\n      <p class=\"page-hero-subtitle\">Last Updated: June 2026</p>\r\n    </div>\r\n  </section>\r\n\r\n  <!-- ==================== MAIN LEGAL CONTENT ==================== -->\r\n  <main class=\"legal-wrapper\">\r\n    <div class=\"container\">\r\n      <div class=\"legal-layout\">\r\n\r\n        <!-- Sticky Table of Contents Sidebar -->\r\n        <aside class=\"legal-sidebar\" aria-label=\"Table of Contents\">\r\n          <h3>Table of Contents</h3>\r\n          <ul class=\"legal-toc-list\">\r\n            <li><a href=\"#intro\">1. Introduction</a></li>\r\n            <li><a href=\"#info-collect\">2. Information We Collect</a></li>\r\n            <li><a href=\"#how-we-use\">3. How We Use Information</a></li>\r\n            <li><a href=\"#whatsapp\">4. WhatsApp Communication</a></li>\r\n            <li><a href=\"#cookies\">5. Cookies</a></li>\r\n            <li><a href=\"#security\">6. Data Security</a></li>\r\n            <li><a href=\"#rights\">7. Your Rights</a></li>\r\n            <li><a href=\"#contact-us\">8. Contact Us</a></li>\r\n            <li><a href=\"#changes\">9. Changes to Policy</a></li>\r\n          </ul>\r\n        </aside>\r\n\r\n        <!-- Main Text Article -->\r\n        <article class=\"legal-content-main\">\r\n\r\n          <!-- Section 1 -->\r\n          <section class=\"legal-section\" id=\"intro\">\r\n            <h2><span class=\"legal-section-number\">01.</span> Introduction</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0; font-weight: 500;\">\r\n                \"Rahman Aluminium &amp; Glass Works (\"we\", \"us\", \"our\") operates the website <strong>mirrordesignsialkot.com</strong>. This Privacy Policy explains how we collect, use, and protect your personal information.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We are committed to maintaining the confidentiality and integrity of personal information entrusted to us by our customers, website visitors, and business partners across Sialkot and throughout Pakistan.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 2 -->\r\n          <section class=\"legal-section\" id=\"info-collect\">\r\n            <h2><span class=\"legal-section-number\">02.</span> Information We Collect</h2>\r\n            <p>We may collect and process the following categories of information when you interact with our website or contact our workshop:</p>\r\n            <ul>\r\n              <li><strong>Name and Contact Details:</strong> Full name, residential or commercial site address for measurement/delivery in Sialkot.</li>\r\n              <li><strong>Phone Number:</strong> Mobile and WhatsApp contact numbers to confirm appointments and share project updates.</li>\r\n              <li><strong>Email Address:</strong> Used for official quotations, receipts, and order correspondence.</li>\r\n              <li><strong>Message &amp; Inquiry Content:</strong> Dimensions, specifications, photos, and project briefs submitted via our contact forms.</li>\r\n              <li><strong>Browser Cookies:</strong> Standard web analytics cookies used solely to analyze website traffic patterns.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 3 -->\r\n          <section class=\"legal-section\" id=\"how-we-use\">\r\n            <h2><span class=\"legal-section-number\">03.</span> How We Use Your Information</h2>\r\n            <p>We process your personal details strictly for legitimate craftsmanship and customer service purposes:</p>\r\n            <ul>\r\n              <li>To promptly respond to your inquiries and consultation requests.</li>\r\n              <li>To calculate accurate free estimates and prepare personalized quotations.</li>\r\n              <li>To manufacture, deliver, and install custom mirrors, aluminium doors, and glass partitions.</li>\r\n              <li>To continually enhance our customer service and website experience.</li>\r\n              <li>To send occasional service updates or promotional announcements if you have subscribed to our newsletter.</li>\r\n            </ul>\r\n            <div class=\"legal-highlight-box\" style=\"border-left-color: #25D366; background: #F0FDF4;\">\r\n              <strong>🛡️ Our Strict Privacy Pledge:</strong> We NEVER sell, rent, or trade your personal information or phone numbers to third-party advertisers or telemarketers.\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 4 -->\r\n          <section class=\"legal-section\" id=\"whatsapp\">\r\n            <h2><span class=\"legal-section-number\">04.</span> WhatsApp Communication</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"When you contact us via WhatsApp (<strong>+92 302 1054485</strong>), your messages are subject to WhatsApp's Privacy Policy. We use WhatsApp only to respond to your business inquiries, share catalog photos, and confirm site measurement timings.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We recommend not sharing sensitive financial information such as banking passwords or credit card numbers through messaging applications.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 5 -->\r\n          <section class=\"legal-section\" id=\"cookies\">\r\n            <h2><span class=\"legal-section-number\">05.</span> Cookies</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"We use Google Analytics cookies to understand website traffic. These cookies do not contain personal information.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              Cookies are small data files stored on your browser that help us analyze which pages are most visited, such as our LED mirror designs or aluminium door catalog. You can easily adjust your browser settings to refuse cookies or notify you when cookies are sent.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 6 -->\r\n          <section class=\"legal-section\" id=\"security\">\r\n            <h2><span class=\"legal-section-number\">06.</span> Data Security</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"Your data is stored securely and accessed only by authorized team members.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We implement industry-standard administrative, physical, and electronic security safeguards to shield your contact details against unauthorized access, accidental loss, or unlawful disclosure.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 7 -->\r\n          <section class=\"legal-section\" id=\"rights\">\r\n            <h2><span class=\"legal-section-number\">07.</span> Your Rights</h2>\r\n            <p>Under Pakistani consumer privacy principles and our customer-first commitment, you have the right to:</p>\r\n            <ul>\r\n              <li><strong>Access Your Data:</strong> Request a summary of the contact details we retain regarding your orders.</li>\r\n              <li><strong>Request Deletion:</strong> Ask us to erase your personal contact records once your project warranty cycle concludes.</li>\r\n              <li><strong>Opt Out of Communications:</strong> Unsubscribe from marketing emails or promotional messages at any time.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 8 -->\r\n          <section class=\"legal-section\" id=\"contact-us\">\r\n            <h2><span class=\"legal-section-number\">08.</span> Contact Us</h2>\r\n            <p>For any privacy concerns, data inquiries, or questions about our policies, please contact our team directly:</p>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin-bottom: 0.5rem;\">📧 <strong>Email:</strong> <a href=\"mailto:rahmanaluminiumworker@gmail.com\" style=\"color: #C9A24B; text-decoration: none;\">rahmanaluminiumworker@gmail.com</a></p>\r\n              <p style=\"margin-bottom: 0.5rem;\">📞 <strong>Phone:</strong> <a href=\"tel:+923021054485\" style=\"color: #C9A24B; text-decoration: none;\">+92 302 1054485</a></p>\r\n              <p style=\"margin: 0;\">📍 <strong>Workshop Location:</strong> Sialkot, Pakistan</p>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 9 -->\r\n          <section class=\"legal-section\" id=\"changes\">\r\n            <h2><span class=\"legal-section-number\">09.</span> Changes to Policy</h2>\r\n            <p>\r\n              We may update this policy periodically to reflect operational, legal, or regulatory adjustments. Any revisions will be published immediately on this page.\r\n            </p>\r\n            <p style=\"color: #777; font-size: 0.9rem;\">\r\n              <strong>Last updated:</strong> June 2026\r\n            </p>\r\n          </section>\r\n\r\n        </article>\r\n      </div>\r\n    </div>\r\n  </main>\r\n\r\n  <!-- ==================== FOOTER ==================== -->\r\n    <!-- ==================== FOOTER ==================== -->"
   },
   "Terms": {
     "file": "terms.html",
@@ -535,15 +546,15 @@ export const rootPages = {
     "route": "/terms",
     "title": "Terms & Conditions | Rahman Aluminium Sialkot",
     "metaDesc": "Terms and conditions for Rahman Aluminium & Glass Works. Ordering, fabrication, on-site installation, and warranty policies in Sialkot.",
-    "canonical": "https://mirror-design.vercel.app/terms",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "canonical": "https://mirrordesignsialkot.com/terms",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Terms & Conditions | Rahman Aluminium Sialkot",
         "description": "Terms and conditions for Rahman Aluminium & Glass Works. Ordering, fabrication, on-site installation, and warranty policies in Sialkot.",
-        "url": "https://mirror-design.vercel.app/terms"
+        "url": "https://mirrordesignsialkot.com/terms"
       },
       {
         "@context": "https://schema.org",
@@ -553,20 +564,20 @@ export const rootPages = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Terms & Conditions",
-            "item": "https://mirror-design.vercel.app/terms"
+            "item": "https://mirrordesignsialkot.com/terms"
           }
         ]
       }
     ],
     "hasSearch": true,
     "hasContactStrip": true,
-    "bodyHtml": "<!-- ==================== HERO SECTION ==================== -->\r\n  <section class=\"page-hero\">\n    <div class=\"page-hero-bg\">\n      <img src=\"images/hero-banner.webp\" alt=\"Terms of Service - Rahman Aluminium &amp; Glass\" loading=\"eager\">\n    </div>\r\n    <div class=\"container page-hero-content\">\r\n      <div class=\"hero-label\">\r\n        <span style=\"color: #C9A24B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.8rem;\">Terms of Service</span>\r\n      </div>\r\n      <h1 class=\"page-hero-title\">Terms &amp; Conditions</h1>\r\n      <p class=\"page-hero-subtitle\">Please read these terms carefully before placing an order or using our services.</p>\r\n    </div>\r\n  </section>\r\n\r\n  <!-- ==================== MAIN LEGAL CONTENT ==================== -->\r\n  <main class=\"legal-wrapper\">\r\n    <div class=\"container\">\r\n      <div class=\"legal-layout\">\r\n\r\n        <!-- Sticky Table of Contents Sidebar -->\r\n        <aside class=\"legal-sidebar\" aria-label=\"Table of Contents\">\r\n          <h3>Table of Contents</h3>\r\n          <ul class=\"legal-toc-list\">\r\n            <li><a href=\"#acceptance\">1. Acceptance of Terms</a></li>\r\n            <li><a href=\"#services\">2. Our Services</a></li>\r\n            <li><a href=\"#quotations\">3. Quotations &amp; Pricing</a></li>\r\n            <li><a href=\"#order-process\">4. Order Process</a></li>\r\n            <li><a href=\"#delivery\">5. Delivery &amp; Installation</a></li>\r\n            <li><a href=\"#warranty\">6. Warranty</a></li>\r\n            <li><a href=\"#payments\">7. Payment Terms</a></li>\r\n            <li><a href=\"#cancellation\">8. Cancellation Policy</a></li>\r\n            <li><a href=\"#liability\">9. Limitation of Liability</a></li>\r\n            <li><a href=\"#law\">10. Governing Law</a></li>\r\n            <li><a href=\"#contact-terms\">11. Contact Information</a></li>\r\n          </ul>\r\n        </aside>\r\n\r\n        <!-- Main Terms Article -->\r\n        <article class=\"legal-content-main\">\r\n\r\n          <!-- Section 1 -->\r\n          <section class=\"legal-section\" id=\"acceptance\">\r\n            <h2><span class=\"legal-section-number\">01.</span> Acceptance of Terms</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0; font-weight: 500;\">\r\n                \"By using <strong>mirror-design.vercel.app</strong>, you agree to these Terms &amp; Conditions. If you disagree, please do not use our website.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              These Terms &amp; Conditions apply to all website visitors, customers, and clients who commission aluminium fabrication, glass partition installations, or custom mirror manufacturing from Rahman Aluminium &amp; Glass Works Sialkot.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 2 -->\r\n          <section class=\"legal-section\" id=\"services\">\r\n            <h2><span class=\"legal-section-number\">02.</span> Our Services</h2>\r\n            <p>Rahman Aluminium &amp; Glass Works provides professional craftsmanship in the following disciplines:</p>\r\n            <ul>\r\n              <li><strong>Custom Mirror Design &amp; Manufacturing:</strong> LED backlit mirrors, organic wavy mirrors, smart touch mirrors, vanity dressing tables, and beveled decorative wall mirrors.</li>\r\n              <li><strong>Aluminium Fabrication &amp; Installation:</strong> Modern aluminium entrance doors, sliding doors, double-glazed windows, casement windows, and shopfront shutters.</li>\r\n              <li><strong>Glass Work &amp; Partitions:</strong> Office tempered glass partitions, frameless glass shower cabins, glass balustrades, and table tops.</li>\r\n              <li><strong>Regional Scope:</strong> All services, fabrication, and installations are provided across Sialkot city, Daska, Sambrial, Pasrur, and surrounding areas in Punjab, Pakistan.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 3 -->\r\n          <section class=\"legal-section\" id=\"quotations\">\r\n            <h2><span class=\"legal-section-number\">03.</span> Quotations &amp; Pricing</h2>\r\n            <ul>\r\n              <li><strong>Validity:</strong> All quotations and estimates provided via WhatsApp, email, or written invoice are strictly valid for <strong>7 days</strong> from the date of issue due to raw material price fluctuations (aluminium extrusions and float glass).</li>\r\n              <li><strong>Customization Variance:</strong> Final prices may vary based on exact on-site laser measurements, glass thickness (8mm, 10mm, 12mm tempered), and hardware finishes.</li>\r\n              <li><strong>Advance Payment:</strong> A <strong>50% advance deposit</strong> is mandatory prior to material procurement and the commencement of fabrication.</li>\r\n              <li><strong>Final Balance:</strong> The remaining 50% balance is due immediately upon completion of installation and customer inspection.</li>\r\n              <li><strong>Currency:</strong> All prices and estimates are quoted in Pakistani Rupees (PKR).</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 4 -->\r\n          <section class=\"legal-section\" id=\"order-process\">\r\n            <h2><span class=\"legal-section-number\">04.</span> Order Process</h2>\r\n            <p>Our streamlined 6-step project workflow ensures transparency from design concept to final installation:</p>\r\n\r\n            <div class=\"legal-step-grid\">\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 1: INQUIRY</strong>\r\n                Contact us via WhatsApp (+92 302 1054485), phone call, or website quote form with your design ideas.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 2: SITE VISIT</strong>\r\n                Our master technician visits your site to verify dimensions and discuss profiles.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 3: FREE ESTIMATE</strong>\r\n                We prepare a detailed, itemized quote covering materials, hardware, and installation.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 4: 50% ADVANCE</strong>\r\n                Order is confirmed and locked upon receipt of 50% advance payment.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 5: FABRICATION</strong>\r\n                Custom glass cutting, beveling, or aluminium fabrication begins within 2–3 working days.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 6: INSTALLATION</strong>\r\n                Safe transport, precision on-site mounting, quality handover, and final payment collection.\r\n              </div>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 5 -->\r\n          <section class=\"legal-section\" id=\"delivery\">\r\n            <h2><span class=\"legal-section-number\">05.</span> Delivery &amp; Installation</h2>\r\n            <ul>\r\n              <li><strong>Sialkot City:</strong> Delivery within Sialkot municipal limits is provided <strong>free of charge</strong> for all custom mirror and aluminium installations.</li>\r\n              <li><strong>Daska &amp; Sambrial:</strong> Moderate transportation charges apply for deliveries outside Sialkot city limits.</li>\r\n              <li><strong>Installation Included:</strong> Professional fitting and wall mounting are included in all confirmed project orders.</li>\r\n              <li><strong>Production Timeline:</strong> Orders are typically manufactured and installed within <strong>7 to 14 working days</strong>, depending on order size and custom specifications.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 6 -->\r\n          <section class=\"legal-section\" id=\"warranty\">\r\n            <h2><span class=\"legal-section-number\">06.</span> Warranty</h2>\r\n            <p>We stand firmly behind the durability and craftsmanship of our installations:</p>\r\n\r\n            <div style=\"display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.25rem 0;\">\r\n              <div class=\"legal-step-card\" style=\"border-left: 3px solid #C9A24B;\">\r\n                <strong>🪞 LED MIRRORS</strong>\r\n                <p style=\"font-size:0.9rem; margin:0;\"><strong>6 Months Warranty</strong> covering the LED strip lighting system, touch sensors, and internal power adapters.</p>\r\n              </div>\r\n              <div class=\"legal-step-card\" style=\"border-left: 3px solid #C9A24B;\">\r\n                <strong>🚪 ALUMINIUM WORK</strong>\r\n                <p style=\"font-size:0.9rem; margin:0;\"><strong>1 Year Warranty</strong> covering frame structural integrity, joints, and roller hardware performance.</p>\r\n              </div>\r\n              <div class=\"legal-step-card\" style=\"border-left: 3px solid #C9A24B;\">\r\n                <strong>🏢 GLASS WORK</strong>\r\n                <p style=\"font-size:0.9rem; margin:0;\"><strong>3 Months Warranty</strong> on installation alignment, silicone weather seals, and mounting clamps.</p>\r\n              </div>\r\n            </div>\r\n\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0; font-size: 0.9rem;\">\r\n                <strong>Warranty Exclusions:</strong> Warranty strictly covers manufacturing defects and installation faults. It does not cover accidental physical glass breakage, misuse, chemical cleaners on mirror silvering, unauthorized electrical tampering, or natural disasters (earthquakes, flooding).\r\n              </p>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 7 -->\r\n          <section class=\"legal-section\" id=\"payments\">\r\n            <h2><span class=\"legal-section-number\">07.</span> Payment Terms</h2>\r\n            <p>We accept the following secure and convenient payment methods in Sialkot and surrounding areas:</p>\r\n            <ul>\r\n              <li><strong>Cash:</strong> Payable on site or at our Sialkot workshop upon receipt.</li>\r\n              <li><strong>JazzCash:</strong> Mobile account transfer to <strong>+92 302 1054485</strong> (Rahman).</li>\r\n              <li><strong>EasyPaisa:</strong> Mobile account transfer to <strong>+92 302 1054485</strong> (Rahman).</li>\r\n              <li><strong>Bank Transfer:</strong> Official commercial IBAN bank details provided upon request for corporate clients.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 8 -->\r\n          <section class=\"legal-section\" id=\"cancellation\">\r\n            <h2><span class=\"legal-section-number\">08.</span> Cancellation Policy</h2>\r\n            <ul>\r\n              <li><strong>Within 24 Hours:</strong> Orders may be cancelled within 24 hours of placement for a full refund of the deposit, provided fabrication has not commenced.</li>\r\n              <li><strong>After Work Begins:</strong> Once custom glass tempering, beveling, or aluminium profile cutting has begun, the 50% advance deposit is non-refundable.</li>\r\n              <li><strong>Mid-Work Cancellations:</strong> If an order is cancelled while in mid-production, the customer will be billed for actual raw material and labor expenses incurred up to the date of cancellation.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 9 -->\r\n          <section class=\"legal-section\" id=\"liability\">\r\n            <h2><span class=\"legal-section-number\">09.</span> Limitation of Liability</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"Rahman Aluminium &amp; Glass Works is not liable for indirect or consequential damages. Our total liability is strictly limited to the value of the services provided.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We are not responsible for delays caused by strikes, power grid outages, material shortages, or weather disruptions beyond our direct control.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 10 -->\r\n          <section class=\"legal-section\" id=\"law\">\r\n            <h2><span class=\"legal-section-number\">10.</span> Governing Law</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"These terms are governed by the laws of Pakistan. Any disputes shall be resolved in Sialkot courts.\"\r\n              </p>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 11 -->\r\n          <section class=\"legal-section\" id=\"contact-terms\">\r\n            <h2><span class=\"legal-section-number\">11.</span> Contact</h2>\r\n            <p>For any questions, clarifications, or disputes regarding these Terms &amp; Conditions, please reach out to us:</p>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin-bottom: 0.5rem;\">📧 <strong>Email:</strong> <a href=\"mailto:rahmanaluminiumworker@gmail.com\" style=\"color: #C9A24B; text-decoration: none;\">rahmanaluminiumworker@gmail.com</a></p>\r\n              <p style=\"margin-bottom: 0.5rem;\">📞 <strong>Phone:</strong> <a href=\"tel:+923021054485\" style=\"color: #C9A24B; text-decoration: none;\">+92 302 1054485</a></p>\r\n              <p style=\"margin: 0;\">📍 <strong>Workshop Address:</strong> Sialkot, Pakistan</p>\r\n            </div>\r\n          </section>\r\n\r\n        </article>\r\n      </div>\r\n    </div>\r\n  </main>\r\n\r\n  <!-- ==================== FOOTER ==================== -->\r\n    <!-- ==================== FOOTER ==================== -->"
+    "bodyHtml": "<!-- ==================== HERO SECTION ==================== -->\r\n  <section class=\"page-hero\">\n    <div class=\"page-hero-bg\">\n      <img src=\"images/hero-banner.webp\" alt=\"Terms of Service - Rahman Aluminium &amp; Glass\" loading=\"eager\">\n    </div>\r\n    <div class=\"container page-hero-content\">\r\n      <div class=\"hero-label\">\r\n        <span style=\"color: #C9A24B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.8rem;\">Terms of Service</span>\r\n      </div>\r\n      <h1 class=\"page-hero-title\">Terms &amp; Conditions</h1>\r\n      <p class=\"page-hero-subtitle\">Please read these terms carefully before placing an order or using our services.</p>\r\n    </div>\r\n  </section>\r\n\r\n  <!-- ==================== MAIN LEGAL CONTENT ==================== -->\r\n  <main class=\"legal-wrapper\">\r\n    <div class=\"container\">\r\n      <div class=\"legal-layout\">\r\n\r\n        <!-- Sticky Table of Contents Sidebar -->\r\n        <aside class=\"legal-sidebar\" aria-label=\"Table of Contents\">\r\n          <h3>Table of Contents</h3>\r\n          <ul class=\"legal-toc-list\">\r\n            <li><a href=\"#acceptance\">1. Acceptance of Terms</a></li>\r\n            <li><a href=\"#services\">2. Our Services</a></li>\r\n            <li><a href=\"#quotations\">3. Quotations &amp; Pricing</a></li>\r\n            <li><a href=\"#order-process\">4. Order Process</a></li>\r\n            <li><a href=\"#delivery\">5. Delivery &amp; Installation</a></li>\r\n            <li><a href=\"#warranty\">6. Warranty</a></li>\r\n            <li><a href=\"#payments\">7. Payment Terms</a></li>\r\n            <li><a href=\"#cancellation\">8. Cancellation Policy</a></li>\r\n            <li><a href=\"#liability\">9. Limitation of Liability</a></li>\r\n            <li><a href=\"#law\">10. Governing Law</a></li>\r\n            <li><a href=\"#contact-terms\">11. Contact Information</a></li>\r\n          </ul>\r\n        </aside>\r\n\r\n        <!-- Main Terms Article -->\r\n        <article class=\"legal-content-main\">\r\n\r\n          <!-- Section 1 -->\r\n          <section class=\"legal-section\" id=\"acceptance\">\r\n            <h2><span class=\"legal-section-number\">01.</span> Acceptance of Terms</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0; font-weight: 500;\">\r\n                \"By using <strong>mirrordesignsialkot.com</strong>, you agree to these Terms &amp; Conditions. If you disagree, please do not use our website.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              These Terms &amp; Conditions apply to all website visitors, customers, and clients who commission aluminium fabrication, glass partition installations, or custom mirror manufacturing from Rahman Aluminium &amp; Glass Works Sialkot.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 2 -->\r\n          <section class=\"legal-section\" id=\"services\">\r\n            <h2><span class=\"legal-section-number\">02.</span> Our Services</h2>\r\n            <p>Rahman Aluminium &amp; Glass Works provides professional craftsmanship in the following disciplines:</p>\r\n            <ul>\r\n              <li><strong>Custom Mirror Design &amp; Manufacturing:</strong> LED backlit mirrors, organic wavy mirrors, smart touch mirrors, vanity dressing tables, and beveled decorative wall mirrors.</li>\r\n              <li><strong>Aluminium Fabrication &amp; Installation:</strong> Modern aluminium entrance doors, sliding doors, double-glazed windows, casement windows, and shopfront shutters.</li>\r\n              <li><strong>Glass Work &amp; Partitions:</strong> Office tempered glass partitions, frameless glass shower cabins, glass balustrades, and table tops.</li>\r\n              <li><strong>Regional Scope:</strong> All services, fabrication, and installations are provided across Sialkot city, Daska, Sambrial, Pasrur, and surrounding areas in Punjab, Pakistan.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 3 -->\r\n          <section class=\"legal-section\" id=\"quotations\">\r\n            <h2><span class=\"legal-section-number\">03.</span> Quotations &amp; Pricing</h2>\r\n            <ul>\r\n              <li><strong>Validity:</strong> All quotations and estimates provided via WhatsApp, email, or written invoice are strictly valid for <strong>7 days</strong> from the date of issue due to raw material price fluctuations (aluminium extrusions and float glass).</li>\r\n              <li><strong>Customization Variance:</strong> Final prices may vary based on exact on-site laser measurements, glass thickness (8mm, 10mm, 12mm tempered), and hardware finishes.</li>\r\n              <li><strong>Advance Payment:</strong> A <strong>50% advance deposit</strong> is mandatory prior to material procurement and the commencement of fabrication.</li>\r\n              <li><strong>Final Balance:</strong> The remaining 50% balance is due immediately upon completion of installation and customer inspection.</li>\r\n              <li><strong>Currency:</strong> All prices and estimates are quoted in Pakistani Rupees (PKR).</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 4 -->\r\n          <section class=\"legal-section\" id=\"order-process\">\r\n            <h2><span class=\"legal-section-number\">04.</span> Order Process</h2>\r\n            <p>Our streamlined 6-step project workflow ensures transparency from design concept to final installation:</p>\r\n\r\n            <div class=\"legal-step-grid\">\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 1: INQUIRY</strong>\r\n                Contact us via WhatsApp (+92 302 1054485), phone call, or website quote form with your design ideas.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 2: SITE VISIT</strong>\r\n                Our master technician visits your site to verify dimensions and discuss profiles.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 3: FREE ESTIMATE</strong>\r\n                We prepare a detailed, itemized quote covering materials, hardware, and installation.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 4: 50% ADVANCE</strong>\r\n                Order is confirmed and locked upon receipt of 50% advance payment.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 5: FABRICATION</strong>\r\n                Custom glass cutting, beveling, or aluminium fabrication begins within 2–3 working days.\r\n              </div>\r\n              <div class=\"legal-step-card\">\r\n                <strong>STEP 6: INSTALLATION</strong>\r\n                Safe transport, precision on-site mounting, quality handover, and final payment collection.\r\n              </div>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 5 -->\r\n          <section class=\"legal-section\" id=\"delivery\">\r\n            <h2><span class=\"legal-section-number\">05.</span> Delivery &amp; Installation</h2>\r\n            <ul>\r\n              <li><strong>Sialkot City:</strong> Delivery within Sialkot municipal limits is provided <strong>free of charge</strong> for all custom mirror and aluminium installations.</li>\r\n              <li><strong>Daska &amp; Sambrial:</strong> Moderate transportation charges apply for deliveries outside Sialkot city limits.</li>\r\n              <li><strong>Installation Included:</strong> Professional fitting and wall mounting are included in all confirmed project orders.</li>\r\n              <li><strong>Production Timeline:</strong> Orders are typically manufactured and installed within <strong>7 to 14 working days</strong>, depending on order size and custom specifications.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 6 -->\r\n          <section class=\"legal-section\" id=\"warranty\">\r\n            <h2><span class=\"legal-section-number\">06.</span> Warranty</h2>\r\n            <p>We stand firmly behind the durability and craftsmanship of our installations:</p>\r\n\r\n            <div style=\"display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.25rem 0;\">\r\n              <div class=\"legal-step-card\" style=\"border-left: 3px solid #C9A24B;\">\r\n                <strong>🪞 LED MIRRORS</strong>\r\n                <p style=\"font-size:0.9rem; margin:0;\"><strong>6 Months Warranty</strong> covering the LED strip lighting system, touch sensors, and internal power adapters.</p>\r\n              </div>\r\n              <div class=\"legal-step-card\" style=\"border-left: 3px solid #C9A24B;\">\r\n                <strong>🚪 ALUMINIUM WORK</strong>\r\n                <p style=\"font-size:0.9rem; margin:0;\"><strong>1 Year Warranty</strong> covering frame structural integrity, joints, and roller hardware performance.</p>\r\n              </div>\r\n              <div class=\"legal-step-card\" style=\"border-left: 3px solid #C9A24B;\">\r\n                <strong>🏢 GLASS WORK</strong>\r\n                <p style=\"font-size:0.9rem; margin:0;\"><strong>3 Months Warranty</strong> on installation alignment, silicone weather seals, and mounting clamps.</p>\r\n              </div>\r\n            </div>\r\n\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0; font-size: 0.9rem;\">\r\n                <strong>Warranty Exclusions:</strong> Warranty strictly covers manufacturing defects and installation faults. It does not cover accidental physical glass breakage, misuse, chemical cleaners on mirror silvering, unauthorized electrical tampering, or natural disasters (earthquakes, flooding).\r\n              </p>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 7 -->\r\n          <section class=\"legal-section\" id=\"payments\">\r\n            <h2><span class=\"legal-section-number\">07.</span> Payment Terms</h2>\r\n            <p>We accept the following secure and convenient payment methods in Sialkot and surrounding areas:</p>\r\n            <ul>\r\n              <li><strong>Cash:</strong> Payable on site or at our Sialkot workshop upon receipt.</li>\r\n              <li><strong>JazzCash:</strong> Mobile account transfer to <strong>+92 302 1054485</strong> (Rahman).</li>\r\n              <li><strong>EasyPaisa:</strong> Mobile account transfer to <strong>+92 302 1054485</strong> (Rahman).</li>\r\n              <li><strong>Bank Transfer:</strong> Official commercial IBAN bank details provided upon request for corporate clients.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 8 -->\r\n          <section class=\"legal-section\" id=\"cancellation\">\r\n            <h2><span class=\"legal-section-number\">08.</span> Cancellation Policy</h2>\r\n            <ul>\r\n              <li><strong>Within 24 Hours:</strong> Orders may be cancelled within 24 hours of placement for a full refund of the deposit, provided fabrication has not commenced.</li>\r\n              <li><strong>After Work Begins:</strong> Once custom glass tempering, beveling, or aluminium profile cutting has begun, the 50% advance deposit is non-refundable.</li>\r\n              <li><strong>Mid-Work Cancellations:</strong> If an order is cancelled while in mid-production, the customer will be billed for actual raw material and labor expenses incurred up to the date of cancellation.</li>\r\n            </ul>\r\n          </section>\r\n\r\n          <!-- Section 9 -->\r\n          <section class=\"legal-section\" id=\"liability\">\r\n            <h2><span class=\"legal-section-number\">09.</span> Limitation of Liability</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"Rahman Aluminium &amp; Glass Works is not liable for indirect or consequential damages. Our total liability is strictly limited to the value of the services provided.\"\r\n              </p>\r\n            </div>\r\n            <p>\r\n              We are not responsible for delays caused by strikes, power grid outages, material shortages, or weather disruptions beyond our direct control.\r\n            </p>\r\n          </section>\r\n\r\n          <!-- Section 10 -->\r\n          <section class=\"legal-section\" id=\"law\">\r\n            <h2><span class=\"legal-section-number\">10.</span> Governing Law</h2>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin: 0;\">\r\n                \"These terms are governed by the laws of Pakistan. Any disputes shall be resolved in Sialkot courts.\"\r\n              </p>\r\n            </div>\r\n          </section>\r\n\r\n          <!-- Section 11 -->\r\n          <section class=\"legal-section\" id=\"contact-terms\">\r\n            <h2><span class=\"legal-section-number\">11.</span> Contact</h2>\r\n            <p>For any questions, clarifications, or disputes regarding these Terms &amp; Conditions, please reach out to us:</p>\r\n            <div class=\"legal-highlight-box\">\r\n              <p style=\"margin-bottom: 0.5rem;\">📧 <strong>Email:</strong> <a href=\"mailto:rahmanaluminiumworker@gmail.com\" style=\"color: #C9A24B; text-decoration: none;\">rahmanaluminiumworker@gmail.com</a></p>\r\n              <p style=\"margin-bottom: 0.5rem;\">📞 <strong>Phone:</strong> <a href=\"tel:+923021054485\" style=\"color: #C9A24B; text-decoration: none;\">+92 302 1054485</a></p>\r\n              <p style=\"margin: 0;\">📍 <strong>Workshop Address:</strong> Sialkot, Pakistan</p>\r\n            </div>\r\n          </section>\r\n\r\n        </article>\r\n      </div>\r\n    </div>\r\n  </main>\r\n\r\n  <!-- ==================== FOOTER ==================== -->\r\n    <!-- ==================== FOOTER ==================== -->"
   },
   "NotFound": {
     "file": "404.html",
@@ -575,7 +586,7 @@ export const rootPages = {
     "title": "Page Not Found (404) | Rahman Aluminium & Glass",
     "metaDesc": "The page you requested could not be found. Explore custom aluminium doors, windows, glass partitions & LED mirrors crafted in Sialkot by Rahman.",
     "canonical": "/404",
-    "ogImage": "https://mirror-design.vercel.app/og-image.jpg",
+    "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "schemas": [],
     "hasSearch": false,
     "hasContactStrip": false,

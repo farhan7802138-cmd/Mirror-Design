@@ -3,8 +3,8 @@ export const blogPosts = [
     "slug": "aluminium-vs-wooden-doors-windows-pakistan",
     "title": "Aluminium vs Wooden Doors & Windows in Pakistan | Rahman",
     "metaDesc": "Comparing aluminium vs wooden doors and windows for Pakistani weather. Termite resistance, monsoon durability & lifecycle cost. Call: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/aluminium-vs-wooden-doors-windows-pakistan",
-    "ogImage": "https://mirror-design.vercel.app/images/aluminium-doors.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/aluminium-vs-wooden-doors-windows-pakistan",
+    "ogImage": "https://mirrordesignsialkot.com/images/aluminium-doors.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20just%20read%20your%20article%20%22Aluminium%20vs%20Wooden%20Doors%20and%20Windows%3A%20Which%20is%20Better%20for%20Pakistani%20Weather%3F%22%20and%20would%20like%20to%20ask%20some%20questions%20and%20request%20a%20quote%20for%20my%20project.",
     "isWorkshopAnnouncement": true,
     "hasSearch": false,
@@ -15,7 +15,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "Aluminium vs Wooden Doors and Windows: Which is Better for Pakistani Weather?",
         "description": "Comparing aluminium vs wooden doors and windows for Pakistani weather. Termite resistance, monsoon durability & lifecycle cost. Call: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/aluminium-doors.webp",
+        "image": "https://mirrordesignsialkot.com/images/aluminium-doors.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -30,12 +30,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-10-05",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/aluminium-vs-wooden-doors-windows-pakistan"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/aluminium-vs-wooden-doors-windows-pakistan"
       },
       {
         "@context": "https://schema.org",
@@ -45,19 +45,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Aluminium vs Wooden Doors & Windows in Pakistan | Rahman",
-            "item": "https://mirror-design.vercel.app/blog/aluminium-vs-wooden-doors-windows-pakistan"
+            "item": "https://mirrordesignsialkot.com/blog/aluminium-vs-wooden-doors-windows-pakistan"
           }
         ]
       },
@@ -105,8 +105,8 @@ export const blogPosts = [
     "slug": "aluminium-windows-buying-guide-pakistan",
     "title": "Aluminium Windows Buying Guide Pakistan | Rahman",
     "metaDesc": "Complete guide to buying aluminium windows in Pakistan. Profile gauges, double glazing, sliding rollers and prices in Sialkot: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/aluminium-windows-buying-guide-pakistan",
-    "ogImage": "https://mirror-design.vercel.app/images/shopfront-shutters.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/aluminium-windows-buying-guide-pakistan",
+    "ogImage": "https://mirrordesignsialkot.com/images/shopfront-shutters.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%2C%20I%20saw%20your%20Aluminium%20Windows%20Guide.%20I%20need%20a%20window%20quote%20for%20my%20home.",
     "isWorkshopAnnouncement": false,
     "hasSearch": false,
@@ -117,7 +117,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "Aluminium Windows Buying Guide Pakistan",
         "description": "Complete guide to buying aluminium windows in Pakistan. Profile gauges, double glazing, sliding rollers and prices in Sialkot: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/shopfront-shutters.webp",
+        "image": "https://mirrordesignsialkot.com/images/shopfront-shutters.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -132,12 +132,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-05-20",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/aluminium-windows-buying-guide-pakistan"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/aluminium-windows-buying-guide-pakistan"
       },
       {
         "@context": "https://schema.org",
@@ -147,19 +147,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Aluminium Windows Buying Guide Pakistan",
-            "item": "https://mirror-design.vercel.app/blog/aluminium-windows-buying-guide-pakistan"
+            "item": "https://mirrordesignsialkot.com/blog/aluminium-windows-buying-guide-pakistan"
           }
         ]
       }
@@ -169,8 +169,8 @@ export const blogPosts = [
     "slug": "choose-right-mirror-design-bedroom-bathroom-salon",
     "title": "How to Choose Mirror Design: Bedroom, Bath, Salon | Rahman",
     "metaDesc": "Guide to choosing the right mirror design for bedrooms, bathrooms and commercial salons in Sialkot. Lighting, sizing & shapes. Call: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/choose-right-mirror-design-bedroom-bathroom-salon",
-    "ogImage": "https://mirror-design.vercel.app/images/products/wavy-royal-blue-velvet-floor-mirror-sialkot.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/choose-right-mirror-design-bedroom-bathroom-salon",
+    "ogImage": "https://mirrordesignsialkot.com/images/products/wavy-royal-blue-velvet-floor-mirror-sialkot.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20just%20read%20your%20article%20%22How%20to%20Choose%20the%20Right%20Mirror%20Design%20for%20Bedroom%2C%20Bathroom%20and%20Salon%22%20and%20would%20like%20to%20ask%20some%20questions%20and%20request%20a%20quote%20for%20my%20project.",
     "isWorkshopAnnouncement": true,
     "hasSearch": false,
@@ -181,7 +181,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "How to Choose the Right Mirror Design for Bedroom, Bathroom and Salon",
         "description": "Guide to choosing the right mirror design for bedrooms, bathrooms and commercial salons in Sialkot. Lighting, sizing & shapes. Call: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/products/wavy-royal-blue-velvet-floor-mirror-sialkot.webp",
+        "image": "https://mirrordesignsialkot.com/images/products/wavy-royal-blue-velvet-floor-mirror-sialkot.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -196,12 +196,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-10-05",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/choose-right-mirror-design-bedroom-bathroom-salon"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/choose-right-mirror-design-bedroom-bathroom-salon"
       },
       {
         "@context": "https://schema.org",
@@ -211,19 +211,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "How to Choose Mirror Design: Bedroom, Bath, Salon | Rahman",
-            "item": "https://mirror-design.vercel.app/blog/choose-right-mirror-design-bedroom-bathroom-salon"
+            "item": "https://mirrordesignsialkot.com/blog/choose-right-mirror-design-bedroom-bathroom-salon"
           }
         ]
       },
@@ -271,8 +271,8 @@ export const blogPosts = [
     "slug": "custom-pattern-led-mirrors-sialkot",
     "title": "Custom Pattern LED Mirrors Sialkot | Rahman Glass",
     "metaDesc": "Custom pattern LED mirrors in Sialkot. Handcrafted Greek Key, floral, and geometric backlit frosted mirrors with touch sensors: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/custom-pattern-led-mirrors-sialkot",
-    "ogImage": "https://mirror-design.vercel.app/images/greek-key-dual-lit-led-mirror-sialkot.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/custom-pattern-led-mirrors-sialkot",
+    "ogImage": "https://mirrordesignsialkot.com/images/greek-key-dual-lit-led-mirror-sialkot.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%2C%20I%20am%20interested%20in%20a%20Custom%20Pattern%20LED%20Mirror%20(Greek%20Key%20%2F%20Floral%20Border)%20in%20Sialkot.%20Please%20share%20pricing%20and%20sizes.",
     "isWorkshopAnnouncement": false,
     "hasSearch": true,
@@ -283,20 +283,20 @@ export const blogPosts = [
         "@graph": [
           {
             "@type": "BlogPosting",
-            "@id": "https://mirror-design.vercel.app/blog/custom-pattern-led-mirrors-sialkot#article",
+            "@id": "https://mirrordesignsialkot.com/blog/custom-pattern-led-mirrors-sialkot#article",
             "isPartOf": {
               "@type": "WebSite",
-              "@id": "https://mirror-design.vercel.app/#website",
+              "@id": "https://mirrordesignsialkot.com/#website",
               "name": "Rahman Aluminium & Glass Works",
-              "url": "https://mirror-design.vercel.app/"
+              "url": "https://mirrordesignsialkot.com/"
             },
             "headline": "Custom Pattern LED Mirrors in Sialkot: Greek Key, Floral & Designer Backlit Borders",
             "description": "Discover custom pattern LED mirrors in Sialkot by Rahman Aluminium & Glass Works. Handcrafted Greek Key, floral, and geometric backlit frosted mirrors with smart touch sensors.",
-            "image": "https://mirror-design.vercel.app/images/greek-key-dual-lit-led-mirror-sialkot.webp",
+            "image": "https://mirrordesignsialkot.com/images/greek-key-dual-lit-led-mirror-sialkot.webp",
             "datePublished": "2026-09-29T12:00:00+05:00",
             "dateModified": "2026-09-29T12:00:00+05:00",
             "inLanguage": "en-US",
-            "mainEntityOfPage": "https://mirror-design.vercel.app/blog/custom-pattern-led-mirrors-sialkot",
+            "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/custom-pattern-led-mirrors-sialkot",
             "author": {
               "@type": "Person",
               "name": "Master Rahman",
@@ -305,10 +305,10 @@ export const blogPosts = [
             "publisher": {
               "@type": "Organization",
               "name": "Rahman Aluminium & Glass Works",
-              "url": "https://mirror-design.vercel.app/",
+              "url": "https://mirrordesignsialkot.com/",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://mirror-design.vercel.app/og-image.jpg"
+                "url": "https://mirrordesignsialkot.com/og-image.jpg"
               }
             },
             "keywords": [
@@ -322,31 +322,31 @@ export const blogPosts = [
           },
           {
             "@type": "BreadcrumbList",
-            "@id": "https://mirror-design.vercel.app/blog/custom-pattern-led-mirrors-sialkot#breadcrumbs",
+            "@id": "https://mirrordesignsialkot.com/blog/custom-pattern-led-mirrors-sialkot#breadcrumbs",
             "itemListElement": [
               {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://mirror-design.vercel.app/"
+                "item": "https://mirrordesignsialkot.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://mirror-design.vercel.app/blog"
+                "item": "https://mirrordesignsialkot.com/blog"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Custom Pattern LED Mirrors Sialkot",
-                "item": "https://mirror-design.vercel.app/blog/custom-pattern-led-mirrors-sialkot"
+                "item": "https://mirrordesignsialkot.com/blog/custom-pattern-led-mirrors-sialkot"
               }
             ]
           },
           {
             "@type": "FAQPage",
-            "@id": "https://mirror-design.vercel.app/blog/custom-pattern-led-mirrors-sialkot#faq",
+            "@id": "https://mirrordesignsialkot.com/blog/custom-pattern-led-mirrors-sialkot#faq",
             "mainEntity": [
               {
                 "@type": "Question",
@@ -398,8 +398,8 @@ export const blogPosts = [
     "slug": "double-glazed-aluminium-windows-benefits-pakistan",
     "title": "Double-Glazed Aluminium Windows in Pakistan | Rahman",
     "metaDesc": "Benefits of double-glazed aluminium windows in Pakistan. Noise reduction, heat insulation, electricity bill savings in Sialkot. Call: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/double-glazed-aluminium-windows-benefits-pakistan",
-    "ogImage": "https://mirror-design.vercel.app/images/placeholders/aluminium-sliding-window-sialkot.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/double-glazed-aluminium-windows-benefits-pakistan",
+    "ogImage": "https://mirrordesignsialkot.com/images/placeholders/aluminium-sliding-window-sialkot.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20just%20read%20your%20article%20%22Double-Glazed%20Aluminium%20Windows%3A%20Benefits%20for%20Noise%20and%20Heat%20in%20Pakistan%22%20and%20would%20like%20to%20ask%20some%20questions%20and%20request%20a%20quote%20for%20my%20project.",
     "isWorkshopAnnouncement": true,
     "hasSearch": false,
@@ -410,7 +410,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "Double-Glazed Aluminium Windows: Benefits for Noise and Heat in Pakistan",
         "description": "Benefits of double-glazed aluminium windows in Pakistan. Noise reduction, heat insulation, electricity bill savings in Sialkot. Call: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/placeholders/aluminium-sliding-window-sialkot.webp",
+        "image": "https://mirrordesignsialkot.com/images/placeholders/aluminium-sliding-window-sialkot.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -425,12 +425,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-10-05",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/double-glazed-aluminium-windows-benefits-pakistan"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/double-glazed-aluminium-windows-benefits-pakistan"
       },
       {
         "@context": "https://schema.org",
@@ -440,19 +440,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Double-Glazed Aluminium Windows in Pakistan | Rahman",
-            "item": "https://mirror-design.vercel.app/blog/double-glazed-aluminium-windows-benefits-pakistan"
+            "item": "https://mirrordesignsialkot.com/blog/double-glazed-aluminium-windows-benefits-pakistan"
           }
         ]
       },
@@ -500,8 +500,8 @@ export const blogPosts = [
     "slug": "glass-partition-shower-cabin-cost-sialkot",
     "title": "Glass Partition & Shower Cabin Cost Sialkot | Rahman",
     "metaDesc": "Cost guide for glass partitions and shower cabins in Sialkot. Pricing per sq ft for 8mm, 10mm & 12mm tempered glass & hardware. WhatsApp: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/glass-partition-shower-cabin-cost-sialkot",
-    "ogImage": "https://mirror-design.vercel.app/images/placeholders/glass-shower-partition-sialkot.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/glass-partition-shower-cabin-cost-sialkot",
+    "ogImage": "https://mirrordesignsialkot.com/images/placeholders/glass-shower-partition-sialkot.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20just%20read%20your%20article%20%22How%20Much%20Does%20a%20Glass%20Partition%20or%20Shower%20Cabin%20Cost%20in%20Sialkot%3F%22%20and%20would%20like%20to%20ask%20some%20questions%20and%20request%20a%20quote%20for%20my%20project.",
     "isWorkshopAnnouncement": true,
     "hasSearch": false,
@@ -512,7 +512,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "How Much Does a Glass Partition or Shower Cabin Cost in Sialkot?",
         "description": "Cost guide for glass partitions and shower cabins in Sialkot. Pricing per sq ft for 8mm, 10mm & 12mm tempered glass & hardware. WhatsApp: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/placeholders/glass-shower-partition-sialkot.webp",
+        "image": "https://mirrordesignsialkot.com/images/placeholders/glass-shower-partition-sialkot.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -527,12 +527,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-10-05",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/glass-partition-shower-cabin-cost-sialkot"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/glass-partition-shower-cabin-cost-sialkot"
       },
       {
         "@context": "https://schema.org",
@@ -542,19 +542,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Glass Partition & Shower Cabin Cost Sialkot | Rahman",
-            "item": "https://mirror-design.vercel.app/blog/glass-partition-shower-cabin-cost-sialkot"
+            "item": "https://mirrordesignsialkot.com/blog/glass-partition-shower-cabin-cost-sialkot"
           }
         ]
       },
@@ -602,8 +602,8 @@ export const blogPosts = [
     "slug": "glass-partition-vs-wall-offices",
     "title": "Glass Partition vs Wall for Offices | Rahman Sialkot",
     "metaDesc": "Glass partitions vs brick walls for corporate offices in Sialkot. Compare acoustics, natural lighting, and installation speed: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/glass-partition-vs-wall-offices",
-    "ogImage": "https://mirror-design.vercel.app/images/glass-partitions.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/glass-partition-vs-wall-offices",
+    "ogImage": "https://mirrordesignsialkot.com/images/glass-partitions.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%2C%20I%20saw%20your%20Glass%20Partition%20article.%20I%20need%20an%20office%20glass%20partition%20quote%20in%20Sialkot.",
     "isWorkshopAnnouncement": false,
     "hasSearch": false,
@@ -614,7 +614,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "Glass Partition vs Wall for Offices",
         "description": "Glass partitions vs brick walls for corporate offices in Sialkot. Compare acoustics, natural lighting, and installation speed: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/glass-partitions.webp",
+        "image": "https://mirrordesignsialkot.com/images/glass-partitions.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -629,12 +629,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-06-05",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/glass-partition-vs-wall-offices"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/glass-partition-vs-wall-offices"
       },
       {
         "@context": "https://schema.org",
@@ -644,19 +644,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Glass Partition vs Wall for Offices",
-            "item": "https://mirror-design.vercel.app/blog/glass-partition-vs-wall-offices"
+            "item": "https://mirrordesignsialkot.com/blog/glass-partition-vs-wall-offices"
           }
         ]
       }
@@ -666,8 +666,8 @@ export const blogPosts = [
     "slug": "herringbone-geometric-led-mirrors-sialkot",
     "title": "Herringbone Pattern LED Mirrors Sialkot | Rahman",
     "metaDesc": "Herringbone and geometric pattern LED mirrors in Sialkot by Rahman. Precision braided border lighting, touch dimmers, and custom sizing.",
-    "canonical": "https://mirror-design.vercel.app/blog/herringbone-geometric-led-mirrors-sialkot",
-    "ogImage": "https:https://mirror-design.vercel.app/images/herringbone-braided-led-mirror-sialkot.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/herringbone-geometric-led-mirrors-sialkot",
+    "ogImage": "https:https://mirrordesignsialkot.com/images/herringbone-braided-led-mirror-sialkot.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%2C%20I%20am%20interested%20in%20a%20Custom%20Herringbone%20%2F%20Geometric%20LED%20Mirror%20in%20Sialkot.%20Please%20share%20sizes%20and%20pricing.",
     "isWorkshopAnnouncement": false,
     "hasSearch": true,
@@ -678,20 +678,20 @@ export const blogPosts = [
         "@graph": [
           {
             "@type": "BlogPosting",
-            "@id": "https://mirror-design.vercel.app/blog/herringbone-geometric-led-mirrors-sialkot#article",
+            "@id": "https://mirrordesignsialkot.com/blog/herringbone-geometric-led-mirrors-sialkot#article",
             "isPartOf": {
               "@type": "WebSite",
-              "@id": "https://mirror-design.vercel.app/#website",
+              "@id": "https://mirrordesignsialkot.com/#website",
               "name": "Rahman Aluminium & Glass Works",
-              "url": "https://mirror-design.vercel.app/"
+              "url": "https://mirrordesignsialkot.com/"
             },
             "headline": "Herringbone & Geometric Pattern LED Mirrors in Sialkot: Modern Textured Border Lighting Guide",
             "description": "Explore handcrafted herringbone and geometric pattern LED mirrors in Sialkot by Rahman Aluminium & Glass Works. Precision braided borders, smart touch dimmers, and bespoke sizing.",
-            "image": "https://mirror-design.vercel.app/images/herringbone-braided-led-mirror-sialkot.webp",
+            "image": "https://mirrordesignsialkot.com/images/herringbone-braided-led-mirror-sialkot.webp",
             "datePublished": "2026-10-02T12:00:00+05:00",
             "dateModified": "2026-10-02T12:00:00+05:00",
             "inLanguage": "en-US",
-            "mainEntityOfPage": "https://mirror-design.vercel.app/blog/herringbone-geometric-led-mirrors-sialkot",
+            "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/herringbone-geometric-led-mirrors-sialkot",
             "author": {
               "@type": "Person",
               "name": "Master Rahman",
@@ -700,10 +700,10 @@ export const blogPosts = [
             "publisher": {
               "@type": "Organization",
               "name": "Rahman Aluminium & Glass Works",
-              "url": "https://mirror-design.vercel.app/",
+              "url": "https://mirrordesignsialkot.com/",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://mirror-design.vercel.app/og-image.jpg"
+                "url": "https://mirrordesignsialkot.com/og-image.jpg"
               }
             },
             "keywords": [
@@ -720,31 +720,31 @@ export const blogPosts = [
           },
           {
             "@type": "BreadcrumbList",
-            "@id": "https://mirror-design.vercel.app/blog/herringbone-geometric-led-mirrors-sialkot#breadcrumbs",
+            "@id": "https://mirrordesignsialkot.com/blog/herringbone-geometric-led-mirrors-sialkot#breadcrumbs",
             "itemListElement": [
               {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://mirror-design.vercel.app/"
+                "item": "https://mirrordesignsialkot.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://mirror-design.vercel.app/blog"
+                "item": "https://mirrordesignsialkot.com/blog"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Herringbone & Geometric LED Mirrors Sialkot",
-                "item": "https://mirror-design.vercel.app/blog/herringbone-geometric-led-mirrors-sialkot"
+                "item": "https://mirrordesignsialkot.com/blog/herringbone-geometric-led-mirrors-sialkot"
               }
             ]
           },
           {
             "@type": "FAQPage",
-            "@id": "https://mirror-design.vercel.app/blog/herringbone-geometric-led-mirrors-sialkot#faq",
+            "@id": "https://mirrordesignsialkot.com/blog/herringbone-geometric-led-mirrors-sialkot#faq",
             "mainEntity": [
               {
                 "@type": "Question",
@@ -796,8 +796,8 @@ export const blogPosts = [
     "slug": "how-to-care-for-led-mirror-at-home",
     "title": "How to Care for LED Mirror at Home | Rahman Sialkot",
     "metaDesc": "Guide to cleaning and maintaining LED mirrors. Clean glass without scratching, protect touch sensors, and stop black edge corrosion.",
-    "canonical": "https://mirror-design.vercel.app/blog/how-to-care-for-led-mirror-at-home",
-    "ogImage": "https://mirror-design.vercel.app/images/smart-touch-mirror.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/how-to-care-for-led-mirror-at-home",
+    "ogImage": "https://mirrordesignsialkot.com/images/smart-touch-mirror.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%2C%20I%20saw%20your%20LED%20Mirror%20Care%20Guide.%20I%20have%20a%20question%20about%20mirror%20maintenance.",
     "isWorkshopAnnouncement": false,
     "hasSearch": false,
@@ -808,7 +808,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "How to Care for LED Mirror at Home",
         "description": "Guide to cleaning and maintaining LED mirrors. Clean glass without scratching, protect touch sensors, and stop black edge corrosion.",
-        "image": "https://mirror-design.vercel.app/images/smart-touch-mirror.webp",
+        "image": "https://mirrordesignsialkot.com/images/smart-touch-mirror.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -823,12 +823,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-05-15",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/how-to-care-for-led-mirror-at-home"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/how-to-care-for-led-mirror-at-home"
       },
       {
         "@context": "https://schema.org",
@@ -838,19 +838,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "How to Care for LED Mirror at Home",
-            "item": "https://mirror-design.vercel.app/blog/how-to-care-for-led-mirror-at-home"
+            "item": "https://mirrordesignsialkot.com/blog/how-to-care-for-led-mirror-at-home"
           }
         ]
       }
@@ -860,8 +860,8 @@ export const blogPosts = [
     "slug": "how-to-choose-aluminium-door",
     "title": "How to Choose Aluminium Door for Home | Rahman",
     "metaDesc": "How to select the right aluminium door for your home in Sialkot. Sizing, lock security, woodgrain finishes, and powder coating.",
-    "canonical": "https://mirror-design.vercel.app/blog/how-to-choose-aluminium-door",
-    "ogImage": "https://mirror-design.vercel.app/images/aluminium-doors.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/how-to-choose-aluminium-door",
+    "ogImage": "https://mirrordesignsialkot.com/images/aluminium-doors.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%2C%20I%20read%20your%20Aluminium%20Door%20Guide.%20I%20would%20like%20a%20quote%20for%20aluminium%20doors%20in%20Sialkot.",
     "isWorkshopAnnouncement": false,
     "hasSearch": false,
@@ -872,7 +872,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "How to Choose Aluminium Door for Home",
         "description": "How to select the right aluminium door for your home in Sialkot. Sizing, lock security, woodgrain finishes, and powder coating.",
-        "image": "https://mirror-design.vercel.app/images/aluminium-doors.webp",
+        "image": "https://mirrordesignsialkot.com/images/aluminium-doors.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -887,12 +887,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-06-10",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/how-to-choose-aluminium-door"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/how-to-choose-aluminium-door"
       },
       {
         "@context": "https://schema.org",
@@ -902,19 +902,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "How to Choose Aluminium Door for Home",
-            "item": "https://mirror-design.vercel.app/blog/how-to-choose-aluminium-door"
+            "item": "https://mirrordesignsialkot.com/blog/how-to-choose-aluminium-door"
           }
         ]
       }
@@ -924,8 +924,8 @@ export const blogPosts = [
     "slug": "led-mirror-price-in-sialkot",
     "title": "LED Mirror Price in Sialkot: Cost Guide 2026 | Rahman",
     "metaDesc": "Complete 2026 LED mirror price guide in Sialkot. Learn costs of touch sensors, backlighting, anti-fog pads & custom sizing. WhatsApp: +92 302 1054485.",
-    "canonical": "https://mirror-design.vercel.app/blog/led-mirror-price-in-sialkot",
-    "ogImage": "https://mirror-design.vercel.app/images/products/octagonal-dual-tone-led-smart-mirror-sialkot.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/led-mirror-price-in-sialkot",
+    "ogImage": "https://mirrordesignsialkot.com/images/products/octagonal-dual-tone-led-smart-mirror-sialkot.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%20Rahman%20Aluminium%20%26%20Glass%20Works%2C%0A%0AI%20just%20read%20your%20article%20%22LED%20Mirror%20Price%20in%20Sialkot%3A%20What%20Affects%20the%20Cost%20(2026%20Guide)%22%20and%20would%20like%20to%20ask%20some%20questions%20and%20request%20a%20quote%20for%20my%20project.",
     "isWorkshopAnnouncement": true,
     "hasSearch": false,
@@ -936,7 +936,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "LED Mirror Price in Sialkot: What Affects the Cost (2026 Guide)",
         "description": "Complete 2026 LED mirror price guide in Sialkot. Learn costs of touch sensors, backlighting, anti-fog pads & custom sizing. WhatsApp: +92 302 1054485.",
-        "image": "https://mirror-design.vercel.app/images/products/octagonal-dual-tone-led-smart-mirror-sialkot.webp",
+        "image": "https://mirrordesignsialkot.com/images/products/octagonal-dual-tone-led-smart-mirror-sialkot.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -951,12 +951,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-10-05",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/led-mirror-price-in-sialkot"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/led-mirror-price-in-sialkot"
       },
       {
         "@context": "https://schema.org",
@@ -966,19 +966,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "LED Mirror Price in Sialkot: Cost Guide 2026 | Rahman",
-            "item": "https://mirror-design.vercel.app/blog/led-mirror-price-in-sialkot"
+            "item": "https://mirrordesignsialkot.com/blog/led-mirror-price-in-sialkot"
           }
         ]
       },
@@ -1026,8 +1026,8 @@ export const blogPosts = [
     "slug": "led-mirror-trends-sialkot-2026",
     "title": "LED Mirror Trends in Sialkot 2026 | Rahman Glass",
     "metaDesc": "Latest LED mirror design trends in Sialkot for 2026. Organic wavy mirrors, smart touch mirrors, bathroom anti-fog mirrors & RGB halos.",
-    "canonical": "https://mirror-design.vercel.app/blog/led-mirror-trends-sialkot-2026",
-    "ogImage": "https://mirror-design.vercel.app/images/wavy-led-mirror.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/led-mirror-trends-sialkot-2026",
+    "ogImage": "https://mirrordesignsialkot.com/images/wavy-led-mirror.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%2C%20I%20saw%20your%20LED%20Mirror%20Trends%20article.%20I%20want%20a%20custom%20mirror%20quote%20in%20Sialkot.",
     "isWorkshopAnnouncement": false,
     "hasSearch": true,
@@ -1038,7 +1038,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "LED Mirror Trends in Sialkot 2026",
         "description": "Latest LED mirror design trends in Sialkot for 2026. Organic wavy mirrors, smart touch mirrors, bathroom anti-fog mirrors & RGB halos.",
-        "image": "https://mirror-design.vercel.app/images/wavy-led-mirror.webp",
+        "image": "https://mirrordesignsialkot.com/images/wavy-led-mirror.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -1053,12 +1053,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-06-15",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/led-mirror-trends-sialkot-2026"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/led-mirror-trends-sialkot-2026"
       },
       {
         "@context": "https://schema.org",
@@ -1068,19 +1068,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "LED Mirror Trends in Sialkot 2026",
-            "item": "https://mirror-design.vercel.app/blog/led-mirror-trends-sialkot-2026"
+            "item": "https://mirrordesignsialkot.com/blog/led-mirror-trends-sialkot-2026"
           }
         ]
       }
@@ -1090,8 +1090,8 @@ export const blogPosts = [
     "slug": "top-5-mirror-designs-pakistani-bedrooms",
     "title": "Top 5 Mirror Designs for Pakistani Bedrooms | Rahman",
     "metaDesc": "Top 5 mirror designs for Pakistani bedrooms in 2026. Full-length velvet floor mirrors, backlit vanity arches & classic dressing tables.",
-    "canonical": "https://mirror-design.vercel.app/blog/top-5-mirror-designs-pakistani-bedrooms",
-    "ogImage": "https://mirror-design.vercel.app/images/bathroom-mirrors.webp",
+    "canonical": "https://mirrordesignsialkot.com/blog/top-5-mirror-designs-pakistani-bedrooms",
+    "ogImage": "https://mirrordesignsialkot.com/images/bathroom-mirrors.webp",
     "waUrl": "https://wa.me/923021054485?text=Hello%2C%20I%20saw%20your%20Top%205%20Bedroom%20Mirror%20Designs%20article.%20I%20want%20a%20bedroom%20mirror%20quote.",
     "isWorkshopAnnouncement": false,
     "hasSearch": false,
@@ -1102,7 +1102,7 @@ export const blogPosts = [
         "@type": "Article",
         "headline": "Top 5 Mirror Designs for Pakistani Bedrooms",
         "description": "Top 5 mirror designs for Pakistani bedrooms in 2026. Full-length velvet floor mirrors, backlit vanity arches & classic dressing tables.",
-        "image": "https://mirror-design.vercel.app/images/bathroom-mirrors.webp",
+        "image": "https://mirrordesignsialkot.com/images/bathroom-mirrors.webp",
         "author": {
           "@type": "Person",
           "name": "Master Rahman",
@@ -1117,12 +1117,12 @@ export const blogPosts = [
           "name": "Rahman Aluminium & Glass Works",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mirror-design.vercel.app/og-image.jpg"
+            "url": "https://mirrordesignsialkot.com/og-image.jpg"
           }
         },
         "datePublished": "2026-05-28",
         "dateModified": "2026-10-05",
-        "mainEntityOfPage": "https://mirror-design.vercel.app/blog/top-5-mirror-designs-pakistani-bedrooms"
+        "mainEntityOfPage": "https://mirrordesignsialkot.com/blog/top-5-mirror-designs-pakistani-bedrooms"
       },
       {
         "@context": "https://schema.org",
@@ -1132,19 +1132,19 @@ export const blogPosts = [
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://mirror-design.vercel.app/"
+            "item": "https://mirrordesignsialkot.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://mirror-design.vercel.app/blog"
+            "item": "https://mirrordesignsialkot.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Top 5 Mirror Designs for Pakistani Bedrooms",
-            "item": "https://mirror-design.vercel.app/blog/top-5-mirror-designs-pakistani-bedrooms"
+            "item": "https://mirrordesignsialkot.com/blog/top-5-mirror-designs-pakistani-bedrooms"
           }
         ]
       }

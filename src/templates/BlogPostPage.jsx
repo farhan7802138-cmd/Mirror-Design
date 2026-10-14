@@ -38,7 +38,7 @@ export default function BlogPostPage({ post: propPost }) {
         title={post.title}
         description={post.metaDesc}
         canonical={post.canonical || `/blog/${post.slug}`}
-        ogImage={post.ogImage || 'https://mirror-design.vercel.app/og-image.jpg'}
+        ogImage={post.ogImage || 'https://mirrordesignsialkot.com/og-image.jpg'}
         ogType="article"
         schemas={post.schemas || []}
       />

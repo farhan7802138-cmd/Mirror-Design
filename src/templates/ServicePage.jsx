@@ -36,7 +36,7 @@ export default function ServicePage({ service: propService }) {
         title={service.title}
         description={service.metaDesc}
         canonical={service.canonical || `/services/${service.slug}`}
-        ogImage={service.ogImage || 'https://mirror-design.vercel.app/og-image.jpg'}
+        ogImage={service.ogImage || 'https://mirrordesignsialkot.com/og-image.jpg'}
         ogType="website"
         schemas={service.schemas || []}
       />

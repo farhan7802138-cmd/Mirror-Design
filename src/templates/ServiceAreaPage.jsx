@@ -36,7 +36,7 @@ export default function ServiceAreaPage({ area: propArea }) {
         title={area.title}
         description={area.metaDesc}
         canonical={area.canonical || `/service-areas/${area.slug}`}
-        ogImage={area.ogImage || 'https://mirror-design.vercel.app/og-image.jpg'}
+        ogImage={area.ogImage || 'https://mirrordesignsialkot.com/og-image.jpg'}
         ogType="website"
         schemas={area.schemas || []}
       />

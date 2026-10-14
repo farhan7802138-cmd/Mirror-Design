@@ -50,7 +50,7 @@ export default function ProductPage({ product: propProduct }) {
   };
 
   // WhatsApp Message
-  const waRawMessage = `Hello Rahman Aluminium & Glass Works,\n\nI am interested in inquiring about your product:\n*${product.title}* (Sialkot Workshop)\nURL: https://mirror-design.vercel.app/products/${product.slug}\n\nPlease provide price estimation, customization options, and installation timeline for my location in Sialkot / surrounding areas.`;
+  const waRawMessage = `Hello Rahman Aluminium & Glass Works,\n\nI am interested in inquiring about your product:\n*${product.title}* (Sialkot Workshop)\nURL: https://mirrordesignsialkot.com/products/${product.slug}\n\nPlease provide price estimation, customization options, and installation timeline for my location in Sialkot / surrounding areas.`;
   const waUrl = `https://wa.me/923021054485?text=${encodeURIComponent(waRawMessage)}`;
 
   // Related products (4 items in same category or adjacent)
@@ -69,7 +69,7 @@ export default function ProductPage({ product: propProduct }) {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.title,
-    image: `https://mirror-design.vercel.app${resolveImgSrc(product.mainImage)}`,
+    image: `https://mirrordesignsialkot.com${resolveImgSrc(product.mainImage)}`,
     description: product.metaDesc || `Custom ${product.title} in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.`,
     brand: {
       '@type': 'Brand',
@@ -81,7 +81,7 @@ export default function ProductPage({ product: propProduct }) {
       priceCurrency: 'PKR',
       price: 'Enquire for price',
       availability: 'https://schema.org/InStock',
-      url: `https://mirror-design.vercel.app/products/${product.slug}`,
+      url: `https://mirrordesignsialkot.com/products/${product.slug}`,
       seller: {
         '@type': 'HomeAndConstructionBusiness',
         name: 'Rahman Aluminium & Glass Works',
@@ -115,19 +115,19 @@ export default function ProductPage({ product: propProduct }) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://mirror-design.vercel.app/'
+        item: 'https://mirrordesignsialkot.com/'
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: breadcrumbCategoryName,
-        item: `https://mirror-design.vercel.app${breadcrumbCategoryLink}`
+        item: `https://mirrordesignsialkot.com${breadcrumbCategoryLink}`
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: product.title,
-        item: `https://mirror-design.vercel.app/products/${product.slug}`
+        item: `https://mirrordesignsialkot.com/products/${product.slug}`
       }
     ]
   };
