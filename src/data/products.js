@@ -1077,7 +1077,7 @@ export const products = [
     "categoryLabel": "Aluminium Work",
     "categoryLink": "aluminium-work",
     "categoryTitle": "Aluminium Work",
-    "mainImage": "images/aluminium-doors.webp",
+    "mainImage": "images/products/aluminium-sliding-patio-door-sialkot.webp",
     "description": "Heavy-duty sliding patio doors with thermal insulation profiles and heavy smooth-glide rollers. Designed to support wide panorama views and withstand high wind pressures on balconies and terraces.\n\nFabricated in our dedicated architectural workshop in Sialkot, this Aluminium Sliding Door is designed specifically to withstand the extreme seasonal temperature swings, monsoons, and dust conditions of Punjab, Pakistan. We exclusively use heavy-gauge virgin architectural aluminium profiles (available in 1.2mm, 1.6mm, and 2.0mm structural sections) treated with electrostatically applied powder coating or high-grade anodized finishes that resist corrosion, fading, and peeling.\n\nEquipped with heavy-duty double-bearing nylon rollers, multi-point security locking mechanisms, weatherstripping wool piles, and premium EPDM rubber gaskets, our aluminium systems deliver exceptional acoustic noise attenuation and thermal insulation. Available with single glazing, tinted safety glass, or double-glazed acoustic glass units with argon gas cavity for superior soundproofing against street noise.\n\nServing residential bungalows, multi-story commercial plazas, industrial factories, and retail shops across Sialkot, Sialkot Cantt, Ugoki, Daska, and Sambrial. Master Rahman and our master craftsmen provide complimentary site measurements, structural consultation, customized CAD shop drawings, and turnkey on-site installation with zero disruption.\n\nFabricated in our dedicated architectural workshop in Sialkot, this Aluminium Sliding Door is designed specifically to withstand the extreme seasonal temperature swings, monsoons, and dust conditions of Punjab, Pakistan. We exclusively use heavy-gauge virgin architectural aluminium profiles (available in 1.2mm, 1.6mm, and 2.0mm structural sections) treated with electrostatically applied powder coating or high-grade anodized finishes that resist corrosion, fading, and peeling.\n\nEquipped with heavy-duty double-bearing nylon rollers, multi-point security locking mechanisms, weatherstripping wool piles, and premium EPDM rubber gaskets, our aluminium systems deliver exceptional acoustic noise attenuation and thermal insulation. Available with single glazing, tinted safety glass, or double-glazed acoustic glass units with argon gas cavity for superior soundproofing against street noise.\n\nServing residential bungalows, multi-story commercial plazas, industrial factories, and retail shops across Sialkot, Sialkot Cantt, Ugoki, Daska, and Sambrial. Master Rahman and our master craftsmen provide complimentary site measurements, structural consultation, customized CAD shop drawings, and turnkey on-site installation with zero disruption.",
     "specs": {
       "Track Configuration": "Double track or Triple track (includes integrated screen doors)",
@@ -1090,7 +1090,7 @@ export const products = [
     "wordCount": 335,
     "images": [
       {
-        "src": "images/aluminium-doors.webp",
+        "src": "images/products/aluminium-sliding-patio-door-sialkot.webp",
         "alt": "Aluminium Sliding Door in Sialkot"
       }
     ]
@@ -1129,7 +1129,7 @@ export const products = [
     "categoryLabel": "Aluminium Work",
     "categoryLink": "aluminium-work",
     "categoryTitle": "Aluminium Work",
-    "mainImage": "images/aluminium-doors.webp",
+    "mainImage": "images/products/heavy-gauge-main-entrance-door-sialkot.webp",
     "description": "Premium secure entry door framed in heavy-gauge powder coated aluminium panels with custom glass details. Resistance to moisture swelling and rust makes it a highly durable alternative to solid wood entry gates.\n\nFabricated in our dedicated architectural workshop in Sialkot, this Aluminium Main Door is designed specifically to withstand the extreme seasonal temperature swings, monsoons, and dust conditions of Punjab, Pakistan. We exclusively use heavy-gauge virgin architectural aluminium profiles (available in 1.2mm, 1.6mm, and 2.0mm structural sections) treated with electrostatically applied powder coating or high-grade anodized finishes that resist corrosion, fading, and peeling.\n\nEquipped with heavy-duty double-bearing nylon rollers, multi-point security locking mechanisms, weatherstripping wool piles, and premium EPDM rubber gaskets, our aluminium systems deliver exceptional acoustic noise attenuation and thermal insulation. Available with single glazing, tinted safety glass, or double-glazed acoustic glass units with argon gas cavity for superior soundproofing against street noise.\n\nServing residential bungalows, multi-story commercial plazas, industrial factories, and retail shops across Sialkot, Sialkot Cantt, Ugoki, Daska, and Sambrial. Master Rahman and our master craftsmen provide complimentary site measurements, structural consultation, customized CAD shop drawings, and turnkey on-site installation with zero disruption.\n\nFabricated in our dedicated architectural workshop in Sialkot, this Aluminium Main Door is designed specifically to withstand the extreme seasonal temperature swings, monsoons, and dust conditions of Punjab, Pakistan. We exclusively use heavy-gauge virgin architectural aluminium profiles (available in 1.2mm, 1.6mm, and 2.0mm structural sections) treated with electrostatically applied powder coating or high-grade anodized finishes that resist corrosion, fading, and peeling.\n\nEquipped with heavy-duty double-bearing nylon rollers, multi-point security locking mechanisms, weatherstripping wool piles, and premium EPDM rubber gaskets, our aluminium systems deliver exceptional acoustic noise attenuation and thermal insulation. Available with single glazing, tinted safety glass, or double-glazed acoustic glass units with argon gas cavity for superior soundproofing against street noise.\n\nServing residential bungalows, multi-story commercial plazas, industrial factories, and retail shops across Sialkot, Sialkot Cantt, Ugoki, Daska, and Sambrial. Master Rahman and our master craftsmen provide complimentary site measurements, structural consultation, customized CAD shop drawings, and turnkey on-site installation with zero disruption.",
     "specs": {
       "Design": "Heavy-gauge flush metal panel with vertical decorative frosted glass slits",
@@ -1142,7 +1142,7 @@ export const products = [
     "wordCount": 340,
     "images": [
       {
-        "src": "images/aluminium-doors.webp",
+        "src": "images/products/heavy-gauge-main-entrance-door-sialkot.webp",
         "alt": "Aluminium Main Door in Sialkot"
       }
     ]
