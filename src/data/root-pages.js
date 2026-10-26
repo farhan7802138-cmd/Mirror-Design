@@ -22,8 +22,12 @@ export const rootPages = {
       {
         "@context": "https://schema.org",
         "@type": "HomeAndConstructionBusiness",
-        "name": "Rahman Aluminium & Glass Works",
-        "alternateName": "Glass & Mirror Design Sialkot",
+        "name": "Rahman Aluminium & Glass Works - Mirror Design Sialkot",
+        "alternateName": [
+          "Rahman Aluminium & Glass Works",
+          "Mirror Design Sialkot",
+          "Glass & Mirror Design Sialkot"
+        ],
         "description": "Premium Aluminium Glass Work and bespoke Mirror Design in Sialkot, Pakistan. Aluminium doors, windows, glass partitions, shower cabins, shopfronts, and LED mirrors.",
         "url": "https://mirrordesignsialkot.com",
         "telephone": "+923021054485",

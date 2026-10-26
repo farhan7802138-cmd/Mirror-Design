@@ -137,7 +137,7 @@ export default function Footer({ variant = 'standard' }) {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2026 Rahman. All Rights Reserved.</p>
+          <p>&copy; 2026 Rahman Aluminium &amp; Glass Works. All Rights Reserved.</p>
           <p>Premium Aluminium Glass Work &amp; Mirror Design — Sialkot, Pakistan</p>
         </div>
       </div>
