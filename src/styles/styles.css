@@ -1766,6 +1766,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(0);
 }
 
+.service-hero-visual.fade-in {
+  opacity: 1;
+  transform: none;
+}
+
 .fade-in-left {
   opacity: 0;
   transform: translateX(-20px);

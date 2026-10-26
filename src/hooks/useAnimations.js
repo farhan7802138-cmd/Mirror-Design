@@ -1,12 +1,30 @@
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export function usePageInteractive() {
+  const location = useLocation();
+
   useEffect(() => {
-    // 1. Scroll Reveal Animations
+    if (typeof window === 'undefined') return;
+
+    // Helper: Reveal elements that are already within or near the initial viewport
+    const revealVisibleElements = () => {
+      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const elements = document.querySelectorAll('.fade-in:not(.visible), .fade-in-left:not(.visible), .fade-in-right:not(.visible)');
+      elements.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        // If element is inside the viewport or near the top
+        if (rect.top <= windowHeight + 100) {
+          el.classList.add('visible');
+        }
+      });
+    };
+
+    // 1. Scroll Reveal Animations with IntersectionObserver
     const observerOptions = {
       root: null,
-      rootMargin: '0px 0px -60px 0px',
-      threshold: 0.1
+      rootMargin: '0px 0px 50px 0px',
+      threshold: 0.05
     };
 
     const revealObserver = new IntersectionObserver((entries) => {
@@ -19,11 +37,27 @@ export function usePageInteractive() {
     }, observerOptions);
 
     const fadeElements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right');
-    fadeElements.forEach((el) => revealObserver.observe(el));
+    fadeElements.forEach((el) => {
+      if (el.classList.contains('visible')) return;
+      revealObserver.observe(el);
+    });
+
+    // Run immediate check for above-the-fold content
+    revealVisibleElements();
+
+    // Secondary checks to handle newly injected HTML or delayed image layout
+    const frameId = requestAnimationFrame(() => {
+      revealVisibleElements();
+    });
+    const timerId = setTimeout(() => {
+      revealVisibleElements();
+    }, 150);
 
     // 2. Stat Counter Animation
     const statNumbers = document.querySelectorAll('.stat-number');
     function animateCounter(element) {
+      if (element.getAttribute('data-animated') === 'true') return;
+      element.setAttribute('data-animated', 'true');
       const target = parseInt(element.getAttribute('data-count'), 10);
       if (isNaN(target)) return;
       const suffix = element.getAttribute('data-suffix') || '';
@@ -52,7 +86,15 @@ export function usePageInteractive() {
       });
     }, { threshold: 0.5 });
 
-    statNumbers.forEach((el) => counterObserver.observe(el));
+    statNumbers.forEach((el) => {
+      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const rect = el.getBoundingClientRect();
+      if (rect.top <= windowHeight && rect.bottom >= 0) {
+        animateCounter(el);
+      } else {
+        counterObserver.observe(el);
+      }
+    });
 
     // 3. Category Filter Buttons
     const filterButtons = document.querySelectorAll('.filter-btn');
@@ -97,7 +139,10 @@ export function usePageInteractive() {
         item.classList.add('active');
       }
     };
-    faqHeaders.forEach((h) => h.addEventListener('click', handleFaqClick));
+    faqHeaders.forEach((h) => {
+      h.removeEventListener('click', handleFaqClick);
+      h.addEventListener('click', handleFaqClick);
+    });
 
     // 5. Hero Parallax
     const heroBg = document.querySelector('.hero-bg img');
@@ -182,9 +227,14 @@ export function usePageInteractive() {
           if (error) error.textContent = '❌ Connection error. Please WhatsApp us at +92 302 1054485';
         });
     };
-    contactForms.forEach((f) => f.addEventListener('submit', handleFormSubmit));
+    contactForms.forEach((f) => {
+      f.removeEventListener('submit', handleFormSubmit);
+      f.addEventListener('submit', handleFormSubmit);
+    });
 
     return () => {
+      cancelAnimationFrame(frameId);
+      clearTimeout(timerId);
       fadeElements.forEach((el) => revealObserver.unobserve(el));
       statNumbers.forEach((el) => counterObserver.unobserve(el));
       filterButtons.forEach((btn) => btn.removeEventListener('click', handleFilterClick));
@@ -193,7 +243,7 @@ export function usePageInteractive() {
       if (captchaBox) captchaBox.removeEventListener('click', handleCaptchaClick);
       contactForms.forEach((f) => f.removeEventListener('submit', handleFormSubmit));
     };
-  }, []);
+  }, [location.pathname, location.search]);
 }
 
 export { usePageInteractive as useScrollReveal };
