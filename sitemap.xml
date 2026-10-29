@@ -97,6 +97,8 @@
     <priority>0.85</priority>
   </url>
   <url>
+
+  
     <loc>https://mirrordesignsialkot.com/services/shower-cabins</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -423,6 +425,18 @@
   <url>
     <loc>https://mirrordesignsialkot.com/products/wavy-royal-blue-velvet-floor-mirror</loc>
     <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mirrordesignsialkot.com/products/luxury-tempered-glass-staircase-railing</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mirrordesignsialkot.com/products/stainless-steel-glass-balustrade</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

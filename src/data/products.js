@@ -1250,6 +1250,68 @@ export const products = [
         "alt": "Aluminium Cabinet Frame in Sialkot"
       }
     ]
+  },
+  {
+    "id": 47,
+    "slug": "luxury-tempered-glass-staircase-railing",
+    "title": "Luxury 12mm Tempered Glass Staircase Railing",
+    "category": "glass",
+    "categoryLabel": "Glass Work",
+    "categoryLink": "mirrors-glass",
+    "categoryTitle": "Mirrors & Glass",
+    "mainImage": "images/products/luxury-tempered-glass-staircase-railing-sialkot.webp",
+    "description": "Architectural 12mm heavy toughened tempered safety glass balustrade engineered for modern luxury staircases, cantilevered floating steps, and interior mezzanine openings. Featuring continuous matte black anodized aluminium/steel safety handrails and solid floor spigot clamp standoffs anchored seamlessly into Italian marble or solid wood treads.\n\nCustom engineered and fabricated by Rahman Aluminium & Glass Works in Sialkot, this Luxury 12mm Tempered Glass Staircase Railing combines unmatched architectural elegance, uncompromised structural safety, and high-end visual transparency. We exclusively use certified Grade-A 12mm monolithic toughened safety glass with CNC waterjet-cut precision and diamond polished beveled edges, tested to withstand high lateral impact forces and dynamic building loads.\n\nFitted with heavy-duty Grade 304/316 stainless steel spigot clamps in durable electrostatically coated matte black finish, vibration-damping EPDM pressure gaskets, and high-tensile structural concrete anchors. Each panel is aligned with laser precision to guarantee continuous straight-edge sightlines without rattling, flexing, or hardware fatigue. The top profile can be fitted with an ultra-slim slotted black handrail or left as a sleek semi-frameless safety edge.\n\nIdeal for contemporary villas, multi-story duplexes, executive corporate head offices, and flagship commercial showrooms across Sialkot Cantt, Model Town, Kashmir Road, Daska, and Sambrial. Master Rahman and our master installation specialists conduct complimentary on-site laser level surveys, custom CAD layout planning, and complete turnkey installation with structural warranty.",
+    "specs": {
+      "Glass Specification": "12mm High-Clarity Toughened Tempered Safety Glass (Diamond Polished Edges)",
+      "Handrail Profile": "Matte Black Anodized Aluminium / Stainless Steel Slotted Handrail (40x40mm)",
+      "Mounting Hardware": "Heavy-Duty Floor Spigot Clamps (Grade 304 Stainless Steel, Matte Black Finish)",
+      "Safety Rating": "Certified High-Impact & Lateral Load Architectural Safety Compliance",
+      "Lead Time": "5 to 7 Working Days (Measurement to Turnkey Installation)"
+    },
+    "seoTitle": "Luxury 12mm Tempered Glass Staircase Railing Sialkot | Rahman Glass",
+    "metaDesc": "Custom Luxury 12mm Tempered Glass Staircase Railing in Sialkot. Matte black handrail, heavy spigot clamps, free measurement & professional installation. WhatsApp: +92 302 1054485.",
+    "wordCount": 350,
+    "images": [
+      {
+        "src": "images/products/luxury-tempered-glass-staircase-railing-sialkot.webp",
+        "alt": "Luxury 12mm Tempered Glass Staircase Railing in Sialkot"
+      },
+      {
+        "src": "images/products/luxury-glass-staircase-spigot-clamp-sialkot.webp",
+        "alt": "Heavy Duty Matte Black Glass Spigot Clamp Detail Sialkot"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "stainless-steel-glass-balustrade",
+    "title": "Stainless Steel & Tempered Glass Balustrade",
+    "category": "glass",
+    "categoryLabel": "Glass Work",
+    "categoryLink": "mirrors-glass",
+    "categoryTitle": "Mirrors & Glass",
+    "mainImage": "images/products/stainless-steel-glass-balustrade-sialkot.webp",
+    "description": "Premium Grade 304 stainless steel post and tempered glass balustrade railing system designed for open interior staircases, mezzanine landings, and exterior terrace balconies. Delivers modern transparency with solid structural rigidity and lifetime rust immunity.\n\nFabricated in our dedicated architectural workshop in Sialkot, this Stainless Steel & Tempered Glass Balustrade is engineered specifically to withstand heavy residential and commercial foot-traffic while adding contemporary openness to stairs and galleries. We combine heavy-wall Grade 304 brushed satin stainless steel tubular baluster posts with 10mm or 12mm crystal-clear toughened safety glass panels.\n\nEquipped with solid stainless steel glass D-clamps, internal EPDM rubber safety gaskets, and heavy welded base flange plates with decorative cover caps. The continuous top handrail (50.8mm round or 50x25mm rectangular) provides ergonomic support and firm stability across the full stair flight. The glass can be configured in ultra-clear float, frosted privacy bands, or bronze/smoke tinting to complement your interior palette.\n\nServing luxury homes, commercial plazas, hospitals, schools, and boutique hotels across Sialkot City, Sialkot Cantt, Ugoki, Pasrur, and Wazirabad Road. Master Rahman provides complimentary site measurements, structural anchoring checks, customized shop drawings, and clean on-site installation with zero disruption.",
+    "specs": {
+      "Glass Specification": "10mm or 12mm Toughened Tempered Safety Glass (EN 12150 Certified)",
+      "Post & Baluster": "Grade 304 Brushed Satin Stainless Steel Posts (50mm diameter / 2.0mm wall thickness)",
+      "Handrail": "Continuous Round Stainless Steel Safety Handrail (50.8mm diameter)",
+      "Mounting Clamps": "Solid Cast Stainless Steel D-Type Glass Clamps with EPDM Gaskets",
+      "Application": "Interior Staircases, Mezzanine Openings, Balconies & Outdoor Terraces"
+    },
+    "seoTitle": "Stainless Steel & Tempered Glass Balustrade Sialkot | Rahman Glass",
+    "metaDesc": "Architectural Stainless Steel & Tempered Glass Balustrade in Sialkot. Rust-proof SS 304 posts with clear safety glass. Free site visit. WhatsApp +92 302 1054485.",
+    "wordCount": 345,
+    "images": [
+      {
+        "src": "images/products/stainless-steel-glass-balustrade-sialkot.webp",
+        "alt": "Stainless Steel & Tempered Glass Balustrade in Sialkot"
+      },
+      {
+        "src": "images/products/stainless-steel-glass-clamp-post-sialkot.webp",
+        "alt": "Stainless Steel Baluster Post and Glass Clamp Detail Sialkot"
+      }
+    ]
   }
 ];
 export default products;
