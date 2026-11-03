@@ -35,6 +35,7 @@ export default function ServiceAreaPage({ area: propArea }) {
       <SEO
         title={area.title}
         description={area.metaDesc}
+        keywords={area.keywords}
         canonical={area.canonical || `/service-areas/${area.slug}`}
         ogImage={area.ogImage || 'https://mirrordesignsialkot.com/og-image.jpg'}
         ogType="website"

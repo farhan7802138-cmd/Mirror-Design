@@ -19,6 +19,7 @@ export default function NotFound() {
       <SEO
         title={pageData.title}
         description={pageData.metaDesc}
+        keywords={pageData.keywords}
         canonical={null}
         robots="noindex, follow"
         ogImage={pageData.ogImage}

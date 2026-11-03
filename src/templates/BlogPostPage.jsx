@@ -37,6 +37,7 @@ export default function BlogPostPage({ post: propPost }) {
       <SEO
         title={post.title}
         description={post.metaDesc}
+        keywords={post.keywords}
         canonical={post.canonical || `/blog/${post.slug}`}
         ogImage={post.ogImage || 'https://mirrordesignsialkot.com/og-image.jpg'}
         ogType="article"

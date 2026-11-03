@@ -3,6 +3,14 @@ export const serviceAreas = [
     "slug": "daska",
     "title": "Aluminium & Glass Works Daska | Rahman Workshop",
     "metaDesc": "Custom aluminium windows, sliding doors, shopfronts & LED mirrors in Daska. Direct workshop prices & free site measurement. WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium doors daska",
+          "aluminium windows price daska",
+          "glass workshop daska",
+          "led mirrors daska punjab",
+          "glass partition daska",
+          "aluminium fabricator daska sialkot"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/daska",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Daska",
@@ -66,6 +74,12 @@ export const serviceAreas = [
     "slug": "jamke-cheema",
     "title": "Aluminium & Glass Work Jamke Cheema | Rahman",
     "metaDesc": "Bespoke aluminium doors, sliding windows, shower partitions & LED mirrors in Jamke Cheema. Direct workshop delivery. WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium doors windows jamke cheema",
+          "home mirror designs jamke cheema",
+          "glass fitting jamke cheema",
+          "aluminium worker jamke cheema sialkot"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/jamke-cheema",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Jamke Cheema",
@@ -129,6 +143,13 @@ export const serviceAreas = [
     "slug": "pasrur",
     "title": "Aluminium & Glass Works Pasrur | Rahman Workshop",
     "metaDesc": "Custom aluminium windows, security doors, glass shower cabins & vanity mirrors in Pasrur. Free laser estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium windows pasrur",
+          "glass work pasrur",
+          "led mirrors pasrur",
+          "main entrance doors pasrur sialkot",
+          "aluminium shop pasrur"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/pasrur",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Pasrur",
@@ -192,6 +213,13 @@ export const serviceAreas = [
     "slug": "sambrial",
     "title": "Aluminium & Glass Work Sambrial | Rahman Workshop",
     "metaDesc": "Aluminium doors, windows, industrial glass partitions & shopfronts in Sambrial & Dry Port area. Free site inspection. WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium work sambrial",
+          "industrial glass partition sambrial",
+          "dry port sambrial aluminium fabrication",
+          "shopfront glass sambrial",
+          "sliding windows sambrial"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/sambrial",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Sambrial",
@@ -255,6 +283,15 @@ export const serviceAreas = [
     "slug": "sialkot-cantt",
     "title": "Aluminium & Glass Work Sialkot Cantt | Rahman",
     "metaDesc": "Architectural aluminium doors, double-glazed windows & luxury LED mirrors in Sialkot Cantt. Premium fabrication. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium glass work sialkot cantt",
+          "aluminium doors sialkot cantt",
+          "double glazed windows sialkot cantt",
+          "luxury led mirrors cantt sialkot",
+          "modern glass balcony railing sialkot cantt",
+          "defense road sialkot glass work",
+          "model town sialkot aluminium"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/sialkot-cantt",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Sialkot Cantt",
@@ -318,6 +355,14 @@ export const serviceAreas = [
     "slug": "sialkot",
     "title": "Aluminium Glass Work & Mirrors Sialkot | Rahman",
     "metaDesc": "Custom aluminium doors, windows, glass partitions & LED smart mirrors in Sialkot. Free on-site laser measurement visit. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium glass work sialkot",
+          "mirror design sialkot city",
+          "led mirrors sialkot",
+          "window fabrication sialkot",
+          "glass partition contractor sialkot",
+          "aluminium door price sialkot"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/sialkot",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Sialkot",
@@ -381,6 +426,12 @@ export const serviceAreas = [
     "slug": "ugoki",
     "title": "Aluminium & Glass Fabrication Ugoki | Rahman Workshop",
     "metaDesc": "Factory glass partitions, soundproof aluminium windows & shopfronts in Ugoki industrial zone Sialkot. Free quote: +92 302 1054485.",
+    "keywords": [
+          "aluminium work ugoki",
+          "glass fabrication ugoki sialkot",
+          "industrial estate glass partition ugoki",
+          "aluminium doors windows ugoki"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/ugoki",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Ugoki",
@@ -444,6 +495,12 @@ export const serviceAreas = [
     "slug": "wazirabad-road",
     "title": "Aluminium & Glass Wazirabad Road Sialkot | Rahman",
     "metaDesc": "Commercial shopfronts, industrial aluminium partitions & architectural glass along Wazirabad Road Sialkot. Free estimate: +92 302 1054485.",
+    "keywords": [
+          "commercial aluminium shopfronts wazirabad road",
+          "factory glass partitions wazirabad road sialkot",
+          "heavy aluminium windows wazirabad road",
+          "glass work wazirabad road"
+    ],
     "canonical": "https://mirrordesignsialkot.com/service-areas/wazirabad-road",
     "ogImage": "https://mirrordesignsialkot.com/og-image.jpg",
     "city": "Wazirabad Road",

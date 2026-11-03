@@ -34,6 +34,15 @@ export const products = [
     ],
     "seoTitle": "Wavy Royal Blue Velvet Floor Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Wavy Royal Blue Velvet Floor Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "wavy royal blue velvet floor mirror sialkot",
+          "wavy royal blue velvet floor mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 236
   },
   {
@@ -70,6 +79,15 @@ export const products = [
     },
     "seoTitle": "Octagonal Dual-Tone LED Smart Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Octagonal Dual-Tone LED Smart Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "octagonal dual-tone led smart mirror sialkot",
+          "octagonal dual-tone led smart mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 224
   },
   {
@@ -105,6 +123,15 @@ export const products = [
     },
     "seoTitle": "Wavy Backlit Velvet Floor Mirrors Sialkot | Rahman Glass",
     "metaDesc": "Custom Wavy Backlit Velvet Floor Mirrors (Showroom Trio) in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "wavy backlit velvet floor mirrors (showroom trio) sialkot",
+          "wavy backlit velvet floor mirrors (showroom trio)",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 233
   },
   {
@@ -148,6 +175,15 @@ export const products = [
     },
     "seoTitle": "Arched Backlit Vanity Mirrors with Cabinets — Rahman",
     "metaDesc": "Custom Arched Backlit Vanity Mirrors with Cabinets in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "arched backlit vanity mirrors with cabinets sialkot",
+          "arched backlit vanity mirrors with cabinets",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 236
   },
   {
@@ -169,6 +205,15 @@ export const products = [
     },
     "seoTitle": "Organic Velvet Pebble Wall Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Organic Velvet Pebble Wall Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "organic velvet pebble wall mirror sialkot",
+          "organic velvet pebble wall mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 222,
     "images": [
       {
@@ -196,6 +241,15 @@ export const products = [
     },
     "seoTitle": "Custom Wavy LED Floor Mirrors (Pentad) | Rahman Sialkot",
     "metaDesc": "Custom Custom Wavy LED Floor Mirrors (Pentad Showcase) in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "custom wavy led floor mirrors (pentad showcase) sialkot",
+          "custom wavy led floor mirrors (pentad showcase)",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 238,
     "images": [
       {
@@ -223,6 +277,15 @@ export const products = [
     },
     "seoTitle": "Spiral Frosted LED Smart Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Spiral Frosted LED Smart Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "spiral frosted led smart mirror sialkot",
+          "spiral frosted led smart mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 227,
     "images": [
       {
@@ -250,6 +313,15 @@ export const products = [
     },
     "seoTitle": "Greek Key Backlit Smart Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Greek Key Backlit Smart Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "greek key backlit smart mirror sialkot",
+          "greek key backlit smart mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 228,
     "images": [
       {
@@ -277,6 +349,15 @@ export const products = [
     },
     "seoTitle": "RGB Neon Arched Floor Mirrors Sialkot | Rahman Glass",
     "metaDesc": "Custom RGB Neon Arched Floor Mirrors in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "rgb neon arched floor mirrors sialkot",
+          "rgb neon arched floor mirrors",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 224,
     "images": [
       {
@@ -304,6 +385,15 @@ export const products = [
     },
     "seoTitle": "Oval Sunburst Backlit Smart Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Oval Sunburst Backlit Smart Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "oval sunburst backlit smart mirror sialkot",
+          "oval sunburst backlit smart mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 222,
     "images": [
       {
@@ -331,6 +421,15 @@ export const products = [
     },
     "seoTitle": "Ornate Floral Neon Wavy Floor Mirror (Magenta Edition) —...",
     "metaDesc": "Custom Ornate Floral Neon Wavy Floor Mirror (Magenta Edition) in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "ornate floral neon wavy floor mirror (magenta edition) sialkot",
+          "ornate floral neon wavy floor mirror (magenta edition)",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 225,
     "images": [
       {
@@ -358,6 +457,15 @@ export const products = [
     },
     "seoTitle": "Braided Rope LED Round Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Braided Rope LED Round Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "braided rope led round mirror sialkot",
+          "braided rope led round mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 223,
     "images": [
       {
@@ -385,6 +493,15 @@ export const products = [
     },
     "seoTitle": "Ornate Floral Neon Wavy Floor Mirror (Cyan Edition) — Ra...",
     "metaDesc": "Custom Ornate Floral Neon Wavy Floor Mirror (Cyan Edition) in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "ornate floral neon wavy floor mirror (cyan edition) sialkot",
+          "ornate floral neon wavy floor mirror (cyan edition)",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 231,
     "images": [
       {
@@ -411,6 +528,15 @@ export const products = [
     },
     "seoTitle": "Organic Wavy Backlit Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Organic Wavy Backlit Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "organic wavy backlit mirror sialkot",
+          "organic wavy backlit mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 215,
     "images": [
       {
@@ -437,6 +563,15 @@ export const products = [
     },
     "seoTitle": "Arched Metal Frame Floor Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Arched Metal Frame Floor Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "arched metal frame floor mirror sialkot",
+          "arched metal frame floor mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 210,
     "images": [
       {
@@ -463,6 +598,15 @@ export const products = [
     },
     "seoTitle": "Pebble Backlit Accent Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Pebble Backlit Accent Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "pebble backlit accent mirror sialkot",
+          "pebble backlit accent mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 208,
     "images": [
       {
@@ -489,6 +633,15 @@ export const products = [
     },
     "seoTitle": "Vines Decorated Round Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Vines Decorated Round Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "vines decorated round mirror sialkot",
+          "vines decorated round mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 211,
     "images": [
       {
@@ -515,6 +668,15 @@ export const products = [
     },
     "seoTitle": "Capsule LED Bathroom Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Capsule LED Bathroom Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "capsule led bathroom mirror sialkot",
+          "capsule led bathroom mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 209,
     "images": [
       {
@@ -541,6 +703,15 @@ export const products = [
     },
     "seoTitle": "Smart Backlit Bathroom Vanity Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Smart Backlit Bathroom Vanity Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "smart backlit bathroom vanity mirror sialkot",
+          "smart backlit bathroom vanity mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 206,
     "images": [
       {
@@ -567,6 +738,15 @@ export const products = [
     },
     "seoTitle": "Gilded Baroque Mansion Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Gilded Baroque Mansion Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "gilded baroque mansion mirror sialkot",
+          "gilded baroque mansion mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 205,
     "images": [
       {
@@ -593,6 +773,15 @@ export const products = [
     },
     "seoTitle": "Minimalist Anodized Hexagon Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Minimalist Anodized Hexagon Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "minimalist anodized hexagon mirror sialkot",
+          "minimalist anodized hexagon mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 374,
     "images": [
       {
@@ -619,6 +808,15 @@ export const products = [
     },
     "seoTitle": "Round Anodized Bronze Trim Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Round Anodized Bronze Trim Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "round anodized bronze trim mirror sialkot",
+          "round anodized bronze trim mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 209,
     "images": [
       {
@@ -645,6 +843,15 @@ export const products = [
     },
     "seoTitle": "Rectangular Frameless Beveled Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Rectangular Frameless Beveled Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "rectangular frameless beveled mirror sialkot",
+          "rectangular frameless beveled mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 204,
     "images": [
       {
@@ -671,6 +878,15 @@ export const products = [
     },
     "seoTitle": "Arched Entryway Console Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Arched Entryway Console Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "arched entryway console mirror sialkot",
+          "arched entryway console mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 205,
     "images": [
       {
@@ -697,6 +913,15 @@ export const products = [
     },
     "seoTitle": "Hollywood Bulb Dressing Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Hollywood Bulb Dressing Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "hollywood bulb dressing mirror sialkot",
+          "hollywood bulb dressing mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 200,
     "images": [
       {
@@ -723,6 +948,15 @@ export const products = [
     },
     "seoTitle": "Antique Bronze Engraved Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Antique Bronze Engraved Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "antique bronze engraved mirror sialkot",
+          "antique bronze engraved mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 203,
     "images": [
       {
@@ -749,6 +983,15 @@ export const products = [
     },
     "seoTitle": "Sunburst Metal Accent Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Sunburst Metal Accent Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "sunburst metal accent mirror sialkot",
+          "sunburst metal accent mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 206,
     "images": [
       {
@@ -775,6 +1018,15 @@ export const products = [
     },
     "seoTitle": "Hanging Leather Strap Oval Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Hanging Leather Strap Oval Mirror in Sialkot. Premium mirror, custom sizes, free estimate. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "hanging leather strap oval mirror sialkot",
+          "hanging leather strap oval mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 207,
     "images": [
       {
@@ -801,6 +1053,15 @@ export const products = [
     },
     "seoTitle": "Organic Wavy Accent Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Organic Wavy Accent Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "organic wavy accent mirror sialkot",
+          "organic wavy accent mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 206,
     "images": [
       {
@@ -827,6 +1088,15 @@ export const products = [
     },
     "seoTitle": "Sunburst Decorative Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Sunburst Decorative Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "sunburst decorative mirror sialkot",
+          "sunburst decorative mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 204,
     "images": [
       {
@@ -853,6 +1123,15 @@ export const products = [
     },
     "seoTitle": "Multi-Panel Mirror Set Sialkot | Rahman Glass",
     "metaDesc": "Custom Multi-Panel Mirror Set in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "multi-panel mirror set sialkot",
+          "multi-panel mirror set",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 203,
     "images": [
       {
@@ -879,6 +1158,15 @@ export const products = [
     },
     "seoTitle": "Beveled Edge Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Beveled Edge Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "beveled edge mirror sialkot",
+          "beveled edge mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 203,
     "images": [
       {
@@ -905,6 +1193,15 @@ export const products = [
     },
     "seoTitle": "Smart Touch-Sensor Mirror Sialkot | Rahman Glass",
     "metaDesc": "Custom Smart Touch-Sensor Mirror in Sialkot. Premium mirror, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "smart touch-sensor mirror sialkot",
+          "smart touch-sensor mirror",
+          "rahman aluminium and glass works",
+          "custom led mirror sialkot",
+          "smart touch mirror sialkot",
+          "vanity mirror price sialkot",
+          "mirror design sialkot"
+    ],
     "wordCount": 201,
     "images": [
       {
@@ -931,6 +1228,15 @@ export const products = [
     },
     "seoTitle": "Glass Shower Partition Sialkot | Rahman Glass",
     "metaDesc": "Custom Glass Shower Partition in Sialkot. Premium glass work, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "glass shower partition sialkot",
+          "glass shower partition",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot"
+    ],
     "wordCount": 341,
     "images": [
       {
@@ -957,6 +1263,15 @@ export const products = [
     },
     "seoTitle": "Office Glass Partition Sialkot | Rahman Glass",
     "metaDesc": "Custom Office Glass Partition in Sialkot. Premium glass work, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "office glass partition sialkot",
+          "office glass partition",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot"
+    ],
     "wordCount": 345,
     "images": [
       {
@@ -983,6 +1298,15 @@ export const products = [
     },
     "seoTitle": "Tempered Glass Table Top Sialkot | Rahman Glass",
     "metaDesc": "Custom Tempered Glass Table Top in Sialkot. Premium glass work, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "tempered glass table top sialkot",
+          "tempered glass table top",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot"
+    ],
     "wordCount": 344,
     "images": [
       {
@@ -1009,6 +1333,15 @@ export const products = [
     },
     "seoTitle": "Glass Kitchen Backsplash Sialkot | Rahman Glass",
     "metaDesc": "Custom Glass Kitchen Backsplash in Sialkot. Premium glass work, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "glass kitchen backsplash sialkot",
+          "glass kitchen backsplash",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot"
+    ],
     "wordCount": 339,
     "images": [
       {
@@ -1035,6 +1368,17 @@ export const products = [
     },
     "seoTitle": "Glass Staircase Railing Sialkot | Rahman Glass",
     "metaDesc": "Custom Glass Staircase Railing in Sialkot. Premium glass work, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "glass staircase railing sialkot",
+          "glass staircase railing",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot",
+          "staircase glass railing sialkot",
+          "glass balustrade sialkot"
+    ],
     "wordCount": 340,
     "images": [
       {
@@ -1061,6 +1405,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Sliding Window Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Sliding Window in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium sliding window sialkot",
+          "aluminium sliding window",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 331,
     "images": [
       {
@@ -1087,6 +1440,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Sliding Door Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Sliding Door in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium sliding door sialkot",
+          "aluminium sliding door",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 335,
     "images": [
       {
@@ -1113,6 +1475,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Casement Window Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Casement Window in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium casement window sialkot",
+          "aluminium casement window",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 335,
     "images": [
       {
@@ -1139,6 +1510,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Main Door Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Main Door in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium main door sialkot",
+          "aluminium main door",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 340,
     "images": [
       {
@@ -1165,6 +1545,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Railing & Grills Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Railing & Grills in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium railing & grills sialkot",
+          "aluminium railing & grills",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 337,
     "images": [
       {
@@ -1191,6 +1580,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Shopfront Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Shopfront in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium shopfront sialkot",
+          "aluminium shopfront",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 330,
     "images": [
       {
@@ -1217,6 +1615,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Partition Wall Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Partition Wall in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium partition wall sialkot",
+          "aluminium partition wall",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 332,
     "images": [
       {
@@ -1243,6 +1650,15 @@ export const products = [
     },
     "seoTitle": "Aluminium Cabinet Frame Sialkot | Rahman Glass",
     "metaDesc": "Custom Aluminium Cabinet Frame in Sialkot. Premium aluminium, bespoke sizing, free measurement & professional installation. Call/WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "aluminium cabinet frame sialkot",
+          "aluminium cabinet frame",
+          "rahman aluminium and glass works",
+          "aluminium doors and windows sialkot",
+          "heavy gauge aluminium sialkot",
+          "aluminium section price sialkot",
+          "aluminium fabrication sialkot"
+    ],
     "wordCount": 330,
     "images": [
       {
@@ -1270,6 +1686,17 @@ export const products = [
     },
     "seoTitle": "Luxury 12mm Tempered Glass Staircase Railing Sialkot | Rahman Glass",
     "metaDesc": "Custom Luxury 12mm Tempered Glass Staircase Railing in Sialkot. Matte black handrail, heavy spigot clamps, free measurement & professional installation. WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "luxury 12mm tempered glass staircase railing sialkot",
+          "luxury 12mm tempered glass staircase railing",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot",
+          "staircase glass railing sialkot",
+          "glass balustrade sialkot"
+    ],
     "wordCount": 350,
     "images": [
       {
@@ -1301,6 +1728,15 @@ export const products = [
     },
     "seoTitle": "Stainless Steel & Tempered Glass Balustrade Sialkot | Rahman Glass",
     "metaDesc": "Architectural Stainless Steel & Tempered Glass Balustrade in Sialkot. Rust-proof SS 304 posts with clear safety glass. Free site visit. WhatsApp +92 302 1054485.",
+    "keywords": [
+          "stainless steel & tempered glass balustrade sialkot",
+          "stainless steel & tempered glass balustrade",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot"
+    ],
     "wordCount": 345,
     "images": [
       {
@@ -1310,6 +1746,96 @@ export const products = [
       {
         "src": "images/products/stainless-steel-glass-clamp-post-sialkot.webp",
         "alt": "Stainless Steel Baluster Post and Glass Clamp Detail Sialkot"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "toughened-aluminium-glass-balcony-railing",
+    "title": "Toughened Aluminium Glass Balcony Railing",
+    "category": "glass",
+    "categoryLabel": "Glass Work",
+    "categoryLink": "mirrors-glass",
+    "categoryTitle": "Mirrors & Glass",
+    "mainImage": "images/products/toughened-aluminium-glass-balcony-railing-sialkot.webp",
+    "description": "Architectural Toughened Aluminium Glass Balcony Railing designed specifically for modern residential houses, luxury villas, front elevations, and terrace balconies in Sialkot. Engineered using heavy-gauge 6063-T6 architectural aluminium posts, ergonomic safety top handrails, and certified 12mm high-impact toughened tempered safety glass panels that provide panoramic outdoor views while ensuring absolute structural security.\n\nFabricated with master craftsmanship by Rahman Aluminium & Glass Works in Sialkot, this Toughened Aluminium Glass Balcony Railing delivers a sleek contemporary aesthetic that elevates your property's exterior curb appeal. Unlike traditional iron grills that rust during Punjab's monsoon rains or require frequent repainting, our marine-grade anodized and powder-coated aluminium profiles offer lifetime rust resistance, zero weather degradation, and effortless wipe-clean maintenance.\n\nEvery glass panel is fabricated from certified Grade-A monolithic 12mm tempered safety glass with computer-precision CNC waterjet cutting and beveled diamond-polished edges. The glass is held securely with heavy-duty structural aluminium baluster posts, heavy glass clamp brackets, high-tensile stainless steel anchor bolts, and dual-layer UV-resistant EPDM rubber pressure gaskets. These shock-absorbing gaskets prevent glass-to-metal contact, eliminate wind vibrations, and ensure complete stability even during severe windstorms and seasonal squalls in Sialkot.\n\nWidely chosen by homeowners, architects, and building contractors across Sialkot Cantt, Model Town, Kashmir Road, Paris Road, Daska Road, Sambrial, and Defense Homes. Master Rahman and our experienced installation crew provide complimentary on-site laser measurements, customized elevation drawings, competitive per-square-foot pricing estimates, and swift turnkey installation completed with zero disruption to your home.",
+    "specs": {
+      "Glass Specification": "12mm Heavy Toughened Tempered Safety Glass (Grade-A Architectural Clear / Diamond Polished Edges)",
+      "Aluminium Alloy": "Grade 6063-T6 Prime Virgin Architectural Alloy (1.6mm - 2.0mm Heavy Structural Gauge)",
+      "Baluster & Handrail": "Silver Anodized / Powder Coated Heavy Aluminium Posts with Ergonomic Slotted Top Handrail",
+      "Mounting Hardware": "Heavy-Duty Glass Clamp Brackets, EPDM Vibration Gaskets & High-Tensile Anchor Fasteners",
+      "Application": "Front Elevation Balconies, First Floor Terraces, Verandas & Rooftop Balustrades",
+      "Lead Time": "5 to 7 Working Days (Measurement to Turnkey Installation)"
+    },
+    "seoTitle": "Toughened Aluminium Glass Balcony Railing Sialkot | Rahman Glass",
+    "metaDesc": "Custom Toughened Aluminium Glass Balcony Railing in Sialkot. 12mm tempered safety glass, 6063-T6 alloy posts & handrail. Free laser estimate & fitting. WhatsApp: +92 302 1054485.",
+    "keywords": [
+          "toughened aluminium glass balcony railing sialkot",
+          "toughened aluminium glass balcony railing",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot",
+          "balcony glass railing sialkot",
+          "toughened glass balcony railing sialkot",
+          "aluminium glass railing price sialkot",
+          "terrace glass railing sialkot"
+    ],
+    "wordCount": 360,
+    "images": [
+      {
+        "src": "images/products/toughened-aluminium-glass-balcony-railing-sialkot.webp",
+        "alt": "Toughened Aluminium Glass Balcony Railing for Homes in Sialkot"
+      },
+      {
+        "src": "images/products/aluminium-balcony-post-bracket-detail-sialkot.webp",
+        "alt": "Heavy Duty Aluminium Baluster Post and Glass Clamp Detail Sialkot"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "modern-aluminium-base-channel-glass-balcony-railing",
+    "title": "Modern Aluminium Base Channel Glass Balcony Railing",
+    "category": "glass",
+    "categoryLabel": "Glass Work",
+    "categoryLink": "mirrors-glass",
+    "categoryTitle": "Mirrors & Glass",
+    "mainImage": "images/products/modern-base-channel-glass-balcony-railing-sialkot.webp",
+    "description": "Ultra-modern continuous aluminium base U-channel glass balcony railing system engineered for high-end luxury residences, corner balconies, penthouses, and open rooftop terraces in Sialkot. Featuring heavy-duty extruded aluminium base shoe profiles that conceal all mounting anchors beneath the floor line, creating an unobstructed frameless glass barrier with crystal-clear panoramic sightlines.\n\nCustom engineered by Rahman Aluminium & Glass Works in Sialkot, this Modern Aluminium Base Channel Glass Balcony Railing embodies minimalist luxury and architectural sophistication. We utilize heavy 12mm or 13.52mm laminated toughened safety glass engineered to withstand extreme horizontal push loads and high wind pressures without flexing or rattling. The system is crowned with an ultra-slim slotted top protective handrail in matching anodized silver or matte black aluminium for added tactile safety and aesthetic definition.\n\nThe continuous floor channel is extruded from heavy architectural structural aluminium alloy, securely anchored directly into reinforced concrete balcony slabs using high-grade stainless steel wedge expansion bolts. Precision internal clamping wedges and continuous EPDM rubber seals grip the glass panels evenly along the entire balcony perimeter, creating a 100% watertight seal that prevents water accumulation and protects your balcony flooring against moisture seepage.\n\nIdeal for modern residential elevations, contemporary bungalows, boutique offices, and banquet halls throughout Sialkot City, Sialkot Cantt, Ugoki, Jamke Cheema, Pasrur, and Wazirabad Road. Master Rahman provides personalized site inspections, free laser level measurements, transparent square-foot rate quotations, and turnkey installation backed by our comprehensive structural warranty.",
+    "specs": {
+      "Glass Specification": "12mm Monolithic Toughened Glass or 13.52mm Tempered Laminated Safety Glass (EN 12150 Certified)",
+      "Base Channel Profile": "Heavy Structural Floor-Mounted Continuous Aluminium U-Channel Shoe (Concealed or Surface Finish)",
+      "Top Safety Handrail": "Ultra-Slimline Slotted Aluminium Top Cap Rail (30x30mm Minimalist Profile, Matte Silver/Black)",
+      "Anchoring & Gaskets": "High-Tensile Stainless Steel Slab Anchor Fasteners with Continuous EPDM Rubber Compression Gaskets",
+      "Application": "Modern House Corner Balconies, Open Terrace Lounges, Mezzanine Landings & Villa Elevations",
+      "Lead Time": "5 to 7 Working Days (Measurement to Turnkey Installation)"
+    },
+    "seoTitle": "Modern Aluminium Base Channel Glass Balcony Railing Sialkot | Rahman Glass",
+    "metaDesc": "Modern Frameless Aluminium Base Channel Glass Balcony Railing in Sialkot. 12mm laminated tempered glass, concealed shoe profile. Free estimate: +92 302 1054485.",
+    "keywords": [
+          "modern aluminium base channel glass balcony railing sialkot",
+          "modern aluminium base channel glass balcony railing",
+          "rahman aluminium and glass works",
+          "toughened safety glass sialkot",
+          "12mm tempered glass sialkot",
+          "glass railing sialkot",
+          "architectural glass work sialkot",
+          "balcony glass railing sialkot",
+          "toughened glass balcony railing sialkot",
+          "aluminium glass railing price sialkot",
+          "terrace glass railing sialkot"
+    ],
+    "wordCount": 365,
+    "images": [
+      {
+        "src": "images/products/modern-base-channel-glass-balcony-railing-sialkot.webp",
+        "alt": "Modern Aluminium Base Channel Glass Balcony Railing in Sialkot"
+      },
+      {
+        "src": "images/products/aluminium-base-u-channel-shoe-detail-sialkot.webp",
+        "alt": "Heavy Continuous Aluminium Base Channel Glass Shoe Detail Sialkot"
       }
     ]
   }

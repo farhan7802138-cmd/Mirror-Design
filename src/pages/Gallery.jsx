@@ -19,6 +19,7 @@ export default function Gallery() {
       <SEO
         title={pageData.title}
         description={pageData.metaDesc}
+        keywords={pageData.keywords}
         canonical={pageData.canonical}
         ogImage={pageData.ogImage}
         schemas={pageData.schemas}

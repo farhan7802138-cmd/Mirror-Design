@@ -35,6 +35,7 @@ export default function ServicePage({ service: propService }) {
       <SEO
         title={service.title}
         description={service.metaDesc}
+        keywords={service.keywords}
         canonical={service.canonical || `/services/${service.slug}`}
         ogImage={service.ogImage || 'https://mirrordesignsialkot.com/og-image.jpg'}
         ogType="website"

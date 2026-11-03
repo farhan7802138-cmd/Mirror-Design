@@ -152,6 +152,7 @@ export default function ProductPage({ product: propProduct }) {
       <SEO
         title={seoTitle}
         description={metaDesc}
+        keywords={product.keywords}
         canonical={`/products/${product.slug}`}
         ogImage={resolveImgSrc(product.mainImage)}
         ogType="product"
