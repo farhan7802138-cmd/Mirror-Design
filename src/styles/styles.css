@@ -249,20 +249,36 @@ h1, h2, h3, h4, h5, h6 {
 /* Alternating Section Background System */
 .section-white,
 .our-best-work,
-.features,
-.about {
+.gallery-section,
+.store-info,
+.contact {
   background-color: var(--color-bg-white) !important;
 }
 
 .section-alt,
-.store-info,
 .stats-line,
+.about,
+.features,
 .testimonials-section,
 .cta-banner,
 .bottom-cta {
   background-color: var(--color-bg-alt) !important;
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
+}
+
+.features .feature-item {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.features .feature-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
 }
 
 .about-pillars-section {
